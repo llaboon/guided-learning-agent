@@ -9,3 +9,4 @@ results/*.json
 .venv/
 .env
 _shots*/
+tools/shots/

@@ -49,6 +49,20 @@ practice-heavy increments). It needs `annotations[*].drawn_correct`, which
 every resubmission trace logs; the original 171 released traces predate this
 field and are skipped.
 
+### Cross-family annotation agreement
+
+`results/resub/analysis/reannotation.json` holds a second annotation of all
+2,424 tutor turns of the main run by gemma-4-31B-it, using the same prompt
+as the in-experiment Qwen annotator. It reports per-field agreement and
+Cohen's kappa (skill 90.6% / 0.89, act 69.2% / 0.53, leakage 92.6% / 0.30)
+and per-condition leakage under both annotators. Rerunning it needs an
+endpoint for the second annotator:
+
+```bash
+GLA_REANN_URL=http://localhost:8103/v1 python experiments/reannotate.py \
+  "results/resub/main/exp_*.json" --out /tmp/reannotation.json
+```
+
 ## 3. Model-based rerun
 
 ### Serve the models

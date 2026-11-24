@@ -1,4 +1,4 @@
-import { h, getJSON, condLabel, COND_ORDER, fmt, signed, actPill, utterance, masteryBars } from "./common.js";
+import { h, icon, refreshIcons, getJSON, condLabel, condName, COND_ORDER, fmt, signed, chatTurn, childOpening, masteryBars } from "./common.js";
 
 const $ = (id) => document.getElementById(id);
 const COLORS = ["#0f766e", "#2c5fa8", "#b45309", "#7c3aed", "#be185d", "#4d7c0f", "#0e7490",
@@ -25,11 +25,11 @@ function fillFilters() {
 function fillList() {
   const g = $("ex-group").value, c = $("ex-cond").value, p = $("ex-prof").value;
   const rows = index.sessions.filter((s) => s.group === g && (!c || s.condition === c) && (!p || s.profile === p));
-  const head = h("tr", {}, h("th", {}, "Session"), h("th", {}, "Gain"), h("th", {}, "Learned"));
+  const head = h("tr", {}, h("th", {}, "Session"), h("th", {}, "Gain"), h("th", {}, "Mastered"));
   const body = rows.map((r) => {
     const tr = h("tr", { class: r.file ? "click" : "", title: r.file ? "" : "Trace not released" },
-      h("td", {}, `${condLabel(r.condition)} · ${r.profile} · s${r.seed}`),
-      h("td", {}, signed(r.norm_gain)), h("td", {}, r.n_learned ?? "–"));
+      h("td", {}, condName(r.condition), h("span", { class: "small muted", style: "margin-left:6px" }, `${r.profile} · s${r.seed}`)),
+      h("td", { class: "num" }, signed(r.norm_gain)), h("td", { class: "num" }, r.n_learned ?? "–"));
     if (r.file) tr.addEventListener("click", () => {
       $("ex-list").querySelectorAll("tr.sel").forEach((x) => x.classList.remove("sel"));
       tr.classList.add("sel");
@@ -69,11 +69,11 @@ function timelineSvg(trace, dom) {
   svg.setAttribute("role", "img");
   svg.setAttribute("aria-label", "True mastery per skill over tutor turns");
   const add = (tag, attrs) => { const e = document.createElementNS(ns, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); svg.append(e); return e; };
-  for (const t of blocked) add("rect", { x: x(t), y: T, width: Math.max(1, x(t + 1) - x(t)), height: H - T - B, fill: "#fdf1e3" });
-  for (const v of [0, 0.5, 1]) add("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), stroke: "#e5e7ea" });
-  add("line", { x1: L, x2: W - R, y1: y(0.8), y2: y(0.8), stroke: "#7b858f", "stroke-dasharray": "3 3" });
-  for (const v of [0, 0.8, 1]) { const tx = add("text", { x: L - 4, y: y(v) + 4, "text-anchor": "end", "font-size": 10, fill: "#5d6670" }); tx.textContent = v; }
-  for (let t = 0; t <= n; t += Math.max(1, Math.ceil(n / 8))) { const tx = add("text", { x: x(t), y: H - 6, "text-anchor": "middle", "font-size": 10, fill: "#5d6670" }); tx.textContent = t; }
+  for (const t of blocked) add("rect", { x: x(t), y: T, width: Math.max(1, x(t + 1) - x(t)), height: H - T - B, fill: "var(--child-soft)" });
+  for (const v of [0, 0.5, 1]) add("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), stroke: "var(--line-2)" });
+  add("line", { x1: L, x2: W - R, y1: y(0.8), y2: y(0.8), stroke: "var(--muted)", "stroke-dasharray": "3 3" });
+  for (const v of [0, 0.8, 1]) { const tx = add("text", { x: L - 4, y: y(v) + 4, "text-anchor": "end", "font-size": 10 }); tx.textContent = v; }
+  for (let t = 0; t <= n; t += Math.max(1, Math.ceil(n / 8))) { const tx = add("text", { x: x(t), y: H - 6, "text-anchor": "middle", "font-size": 10 }); tx.textContent = t; }
   const legend = [];
   order.forEach((sid, i) => {
     const s = series[sid];
@@ -81,46 +81,65 @@ function timelineSvg(trace, dom) {
     add("polyline", { points: s.map((v, t) => `${x(t)},${y(v)}`).join(" "), fill: "none", stroke: COLORS[i % COLORS.length], "stroke-width": 1.6 });
     legend.push(h("span", {}, h("i", { style: `background:${COLORS[i % COLORS.length]}` }), dom.skills[i].name));
   });
-  return h("div", {}, svg, h("div", { class: "legend" }, legend.length ? legend : h("span", {}, "No skill moved during this session."),
-    blocked.size ? h("span", {}, h("i", { style: "background:#f3d9b8;height:8px" }), "turn blocked by prerequisite gate") : null));
+  const cursor = add("line", { x1: x(0), x2: x(0), y1: T, y2: H - B, stroke: "var(--agent)", "stroke-width": 1.5 });
+  svg.setCursor = (t) => { cursor.setAttribute("x1", x(t)); cursor.setAttribute("x2", x(t)); };
+  const wrap = h("div", {}, svg, h("div", { class: "legend" }, legend.length ? legend : h("span", {}, "No skill moved during this session."),
+    blocked.size ? h("span", {}, h("i", { style: "background:var(--child-soft);height:8px;border:1px solid var(--child)" }), "turn blocked by prerequisite gate") : null));
+  wrap.svg = svg;
+  return wrap;
 }
 
 async function showTrace(row) {
   const box = $("ex-detail");
   box.replaceChildren(h("div", { class: "empty" }, "Loading…"));
-  const [trace, index2] = await Promise.all([getJSON(row.file), Promise.resolve(index)]);
-  const domId = index2.groups.find((g) => g.id === row.group).domain;
+  const trace = await getJSON(row.file);
+  const domId = index.groups.find((g) => g.id === row.group).domain;
   const dom = domains[domId] || (domains[domId] = await getJSON(`data/domains/${domId}.json`));
   const skills = Object.fromEntries(dom.skills.map((s) => [s.id, s]));
   const order = dom.skills.map((s) => s.id);
   const anns = trace.annotations || [];
   const dirs = trace.directives || [];
-  const turns = [];
-  let ti = 0;
   const tr = trace.transcript || [];
-  turns.push(h("div", { class: "turn" }, utterance("child", tr[0] ? tr[0].text : "")));
-  for (let i = 1; i < tr.length; i += 2) {
-    turns.push(h("div", { class: "turn" },
-      h("div", { class: "meta" }, h("span", {}, `#${ti + 1}`), ...actPill(anns[ti], dirs[ti])),
-      utterance("tutor", tr[i].text), tr[i + 1] ? utterance("child", tr[i + 1].text) : null));
-    ti += 1;
-  }
+  const n = Math.floor((tr.length - 1) / 2);
+  const { series } = trajectory(trace, order);
+  const tl = timelineSvg(trace, dom);
+  const chat = h("div", { class: "chat", style: "max-height:520px" });
+  const bars = h("div");
+  const label = h("span", { class: "turn-label" });
+  const slider = h("input", { type: "range", min: 0, max: n, value: n, "aria-label": "Turn" });
+  const render = (t) => {
+    const items = [childOpening(tr[0] ? tr[0].text : "")];
+    for (let k = 0; k < t; k++) items.push(...chatTurn(k + 1, tr[1 + 2 * k].text, tr[2 + 2 * k] ? tr[2 + 2 * k].text : null, anns[k], dirs[k]));
+    chat.replaceChildren(...items);
+    chat.scrollTop = chat.scrollHeight;
+    const m = Object.fromEntries(order.map((s) => [s, series[s][Math.min(t, series[s].length - 1)]]));
+    const belief = t === n ? trace.final_belief : null;
+    bars.replaceChildren(masteryBars(order, skills, m, belief));
+    label.textContent = `turn ${t} / ${n}`;
+    if (tl.svg.setCursor) tl.svg.setCursor(t);
+  };
+  slider.addEventListener("input", () => render(Number(slider.value)));
   const g = trace.gain || {};
+  const metric = (v, l) => h("div", { class: "metric" }, h("b", {}, v), h("span", {}, l));
   box.replaceChildren(
-    h("div", { class: "session-head" }, h("h3", {}, `${condLabel(row.condition)} · ${row.profile} · seed ${row.seed}`),
-      h("a", { href: row.file, download: "", class: "btn", style: "margin-left:auto" }, "Download JSON")),
-    h("div", { class: "metrics" },
-      h("div", { class: "metric" }, h("b", {}, signed(g.norm_gain)), h("span", {}, "normalized gain")),
-      h("div", { class: "metric" }, h("b", {}, `${fmt(g.pre, 2)} → ${fmt(g.post, 2)}`), h("span", {}, "pre → post")),
-      h("div", { class: "metric" }, h("b", {}, (trace.learned_skills || []).length), h("span", {}, "skills learned")),
-      h("div", { class: "metric" }, h("b", {}, fmt(row.blocked_rate, 2)), h("span", {}, "blocked rate"))),
-    h("h3", {}, "True mastery over turns"), timelineSvg(trace, dom),
-    h("div", { class: "cols-2", style: "margin-top:10px" },
-      h("div", {}, h("h3", {}, "Final true state and tutor belief"),
-        masteryBars(order, skills, trace.final_state ? trace.final_state.m : {}, trace.final_belief)),
-      h("div", {}, h("h3", {}, "Transcript"), h("div", { class: "transcript" }, turns))));
+    h("div", { class: "session-head", style: "padding:0 0 12px;margin-bottom:12px" },
+      condName(row.condition),
+      h("span", { class: "small muted" }, `${row.profile} profile · seed ${row.seed}`),
+      h("a", { href: row.file, download: "", class: "btn", style: "margin-left:auto" }, icon("download"), "JSON")),
+    h("div", { class: "metrics", style: "margin-bottom:14px" },
+      metric(signed(g.norm_gain), "normalized gain"),
+      metric(`${fmt(g.pre, 2)} → ${fmt(g.post, 2)}`, "pre → post"),
+      metric((trace.learned_skills || []).length, "skills mastered"),
+      metric(fmt(row.blocked_rate, 2), "blocked turns")),
+    h("div", { class: "panel-title" }, icon("activity"), "Child's true mastery over turns"), tl,
+    h("div", { class: "scrub" }, icon("history"), slider, label),
+    h("div", { class: "cols-2", style: "margin-top:8px" },
+      h("div", {}, h("div", { class: "panel-title" }, icon("gauge"), "State at this turn"), bars,
+        h("p", { class: "note" }, "Tutor belief is shown at the final turn.")),
+      h("div", {}, h("div", { class: "panel-title" }, icon("messages-square"), "Transcript"), chat)));
+  render(n);
+  refreshIcons();
 }
-
 export function initExplore(idx) {
   index = idx;
   $("ex-group").replaceChildren(...idx.groups.filter((g) => g.with_trace).map((g) => opt(g.id, `${g.label} (${g.with_trace})`)));

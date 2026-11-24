@@ -68,12 +68,22 @@ export function sd(xs) {
   return Math.sqrt(xs.reduce((a, b) => a + (b - m) ** 2, 0) / (xs.length - 1));
 }
 
+export const COND_COLORS = {
+  vanilla: "#8a939c", socratic: "#a08a6a", informed: "#c7771a", gla_fixed: "#3567c4",
+  gla_reactive: "#8a55c9", gla_full: "#0d8a7f", gla_single_probe: "#4fae9f", gla_full_validated: "#116d63",
+};
+
+export function condName(c) {
+  return h("span", { class: "cname" },
+    h("span", { class: "cond-mark", style: `background:${COND_COLORS[c] || "#999"}` }), condLabel(c));
+}
+
 export function actPill(ann, directive) {
   const out = [];
-  if (directive) out.push(h("span", { class: `pill ${directive.activity}` }, directive.activity));
+  if (directive) out.push(h("span", { class: `pill ${directive.activity}`, title: "Planner directive" }, directive.activity));
   if (ann) {
-    out.push(h("span", { class: `pill ${ann.act}`, title: "Blind judge annotation" }, ann.act));
-    if (ann.skill) out.push(h("span", { class: "pill" }, ann.skill));
+    if (!directive) out.push(h("span", { class: `pill ${ann.act}`, title: "Blind annotation" }, ann.act));
+    if (ann.skill) out.push(h("span", { class: "pill skill", title: "Annotated skill" }, ann.skill));
     if (ann.leaked) out.push(h("span", { class: "pill leak" }, "leaked"));
     if (ann.drawn_correct === true) out.push(h("span", { class: "pill ok" }, "correct"));
     if (ann.drawn_correct === false) out.push(h("span", { class: "pill no" }, "wrong"));
@@ -81,23 +91,59 @@ export function actPill(ann, directive) {
   return out;
 }
 
-export function utterance(who, text) {
-  return h("div", { class: `utt ${who}` },
-    h("span", { class: "who" }, who === "tutor" ? "Tutor" : "Child"),
-    h("span", { class: "txt" }, text));
+/* One tutor turn plus the child's reply, as chat bubbles. */
+export function chatTurn(n, tutorText, childText, ann, directive, fresh = false) {
+  const act = directive ? directive.activity : (ann ? ann.act : "");
+  const frag = [
+    h("div", { class: `msg tutor ${act}${fresh ? " new" : ""}` },
+      h("div", { class: "meta" }, h("span", { class: "turn-no" }, `T${n}`), ...actPill(ann, directive)),
+      h("div", { class: "bubble" }, tutorText)),
+  ];
+  if (childText !== undefined && childText !== null) {
+    frag.push(h("div", { class: `msg child${fresh ? " new" : ""}` },
+      h("div", { class: "meta" }, "child"), h("div", { class: "bubble" }, childText)));
+  }
+  return frag;
 }
 
-/* Mastery bars: true state m (fill), tutor belief (orange tick), 0.8 line. */
+export function childOpening(text) {
+  return h("div", { class: "msg child" }, h("div", { class: "meta" }, "child"), h("div", { class: "bubble" }, text));
+}
+
+/* Paired bars per skill: child's true mastery (amber) and tutor belief (teal), 0.8 line. */
 export function masteryBars(order, skills, m, belief, threshold = 0.8) {
-  return h("div", { class: "mastery" }, order.map((sid) => {
+  const rows = order.map((sid) => {
     const v = (m && m[sid]) || 0;
     const b = belief ? belief[sid] : null;
-    const bar = h("div", { class: "bar", title: `true ${fmt(v, 2)}` + (b != null ? `, belief ${fmt(b, 2)}` : "") },
-      h("i", { style: `width:${Math.round(v * 100)}%` }),
-      b != null ? h("i", { class: "belief", style: `width:${Math.round(b * 100)}%` }) : null,
+    const name = skills[sid] ? skills[sid].name : sid;
+    const track = (cls, val) => h("div", { class: "track" },
+      h("div", { class: `fill ${cls}`, style: `width:${Math.round(val * 100)}%` }),
       h("span", { class: "thr", style: `left:${threshold * 100}%` }));
-    return h("div", { class: "mrow" },
-      h("span", { class: "nm", title: skills[sid] ? skills[sid].name : sid }, skills[sid] ? skills[sid].name : sid),
-      bar, h("span", { class: "v" }, fmt(v, 2)));
-  }));
+    return h("div", { class: `mrow${v >= threshold ? " done" : ""}`, title: `${name}: true ${fmt(v, 2)}` + (b != null ? `, belief ${fmt(b, 2)}` : "") },
+      h("span", { class: "nm" }, name),
+      h("div", { class: "pbar" }, track("true", v), b != null ? track("belief", b) : null),
+      h("span", { class: "v" }, fmt(v, 2)));
+  });
+  return h("div", {},
+    h("div", { class: "mastery-legend", style: "margin-bottom:6px" },
+      h("span", {}, h("i", { style: "background:var(--child)" }), "child's true mastery"),
+      belief ? h("span", {}, h("i", { style: "background:var(--agent)" }), "tutor belief") : null,
+      h("span", {}, h("i", { style: "background:var(--ink-2);width:2px;height:10px;opacity:.5" }), "mastery line 0.8")),
+    h("div", { class: "mastery" }, rows));
+}
+
+/* Copy buttons for every pre.code inside root. */
+export function addCopyButtons(root = document) {
+  root.querySelectorAll(".code-wrap").forEach((w) => {
+    if (w.querySelector(".copy")) return;
+    const pre = w.querySelector("pre");
+    const b = h("button", { class: "copy", type: "button", "aria-label": "Copy", "data-tip": "Copy" }, icon("copy"));
+    b.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(pre.innerText); } catch (e) { /* ignore */ }
+      b.replaceChildren(icon("check")); refreshIcons();
+      setTimeout(() => { b.replaceChildren(icon("copy")); refreshIcons(); }, 1400);
+    });
+    w.append(b);
+  });
+  refreshIcons();
 }

@@ -44,7 +44,7 @@ def main() -> int:
                     timeout=args.live_timeout * 1000)
                 status = page.inner_text("#live-status")
                 n_cards = page.locator(".session-card").count()
-                n_turns = page.locator(".session-card .turn").count()
+                n_turns = page.locator(".session-card .chat .msg.tutor").count()
                 print(f"[live] status={status!r} cards={n_cards} turns={n_turns}")
                 if "Finished" not in status or n_cards < 1 or n_turns < 1:
                     errors.append(f"live session failed: {status}")
@@ -59,8 +59,8 @@ def main() -> int:
             page.click("nav.tabs button[data-view=explore]")
             page.wait_for_selector("#ex-list tbody tr.click")
             page.locator("#ex-list tbody tr.click").first.click()
-            page.wait_for_selector("#ex-detail .transcript .turn")
-            turns = page.locator("#ex-detail .transcript .turn").count()
+            page.wait_for_selector("#ex-detail .chat .msg")
+            turns = page.locator("#ex-detail .chat .msg").count()
             print(f"[explore] {name}: {turns} transcript rows")
             if shots:
                 page.screenshot(path=str(shots / f"{name}_explore.png"), full_page=False)
@@ -85,7 +85,7 @@ def main() -> int:
                 " || document.querySelector('#live-status .notice.bad')",
                 timeout=args.live_timeout * 1000)
             status = page.inner_text("#live-status")
-            turns = page.locator(".session-card .turn").count()
+            turns = page.locator(".session-card .chat .msg.tutor").count()
             print(f"[endpoint] status={status!r} turns={turns}")
             if "Finished" not in status or turns < 1:
                 errors.append(f"endpoint session failed: {status}")

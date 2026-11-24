@@ -1,4 +1,5 @@
-import { h, getJSON, refreshIcons, REPO } from "./common.js";
+import { h, icon, getJSON, refreshIcons, addCopyButtons, REPO } from "./common.js";
+import { renderLoop } from "./loop.js";
 import { initLive } from "./live.js";
 import { initResults } from "./results.js";
 import { initExplore } from "./explore.js";
@@ -18,7 +19,7 @@ async function initView(v) {
   if (v === "live") initLive();
   if (v === "results") await initResults(await getIndex());
   if (v === "explore") initExplore(await getIndex());
-  if (v === "repro") await initRepro();
+  if (v === "repro") { await initRepro(); addCopyButtons(); }
   refreshIcons();
 }
 
@@ -34,8 +35,8 @@ async function initRepro() {
   let manifest = {};
   try { manifest = await getJSON("data/manifest.json"); } catch (e) { /* optional */ }
   const head = h("tr", {}, h("th", {}, "Group"), h("th", {}, "Sessions"), h("th", {}, "Traces"), h("th", {}, "Status"));
-  const body = idx.groups.map((g) => h("tr", {}, h("td", {}, g.label), h("td", {}, g.n), h("td", {}, g.with_trace),
-    h("td", {}, g.status === "new" ? "resubmission run" : "released")));
+  const body = idx.groups.map((g) => h("tr", {}, h("td", {}, g.label), h("td", { class: "num" }, g.n), h("td", { class: "num" }, g.with_trace),
+    h("td", {}, h("span", { class: `pill ${g.status === "new" ? "practice" : ""}` }, g.status === "new" ? "resubmission" : "original"))));
   document.getElementById("artifact-table").replaceChildren(h("thead", {}, head), h("tbody", {}, body));
   document.getElementById("artifact-note").textContent =
     `${Object.keys(manifest).length} site files with SHA-256 digests in data/manifest.json.`;
@@ -50,6 +51,26 @@ document.addEventListener("DOMContentLoaded", () => {
     history.replaceState(null, "", `#${b.dataset.view}`);
     show(b.dataset.view);
   }));
+  document.querySelectorAll("[data-goto]").forEach((b) => b.addEventListener("click", () => {
+    const v = b.dataset.goto;
+    history.replaceState(null, "", `#${v}`);
+    show(v);
+    document.querySelector("main").scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+  const themeBtn = document.getElementById("theme-btn");
+  const syncTheme = () => {
+    const dark = document.documentElement.dataset.theme === "dark";
+    themeBtn.replaceChildren(icon(dark ? "sun" : "moon"));
+    refreshIcons();
+  };
+  themeBtn.addEventListener("click", () => {
+    const t = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    localStorage.setItem("gla-theme", t);
+    syncTheme();
+  });
+  syncTheme();
+  renderLoop(document.getElementById("loop-wrap"));
   show(location.hash.slice(1) || "live");
   refreshIcons();
 });

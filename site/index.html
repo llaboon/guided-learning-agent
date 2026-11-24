@@ -3,135 +3,182 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GLA: Teaching the Child Who Cannot Ask</title>
-<meta name="description" content="Guided Learning Agent: live sessions, released results and session traces.">
+<title>Guided Learning Agent: tutoring children who cannot ask</title>
+<meta name="description" content="Guided Learning Agent (GLA): live tutoring sessions in the browser, paired results and every released session trace.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="css/app.css">
-<script src="https://unpkg.com/lucide@1.79.0/dist/umd/lucide.min.js" defer></script>
+<script>
+  (function () {
+    var t = localStorage.getItem("gla-theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.dataset.theme = t;
+  })();
+</script>
+<script src="vendor/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="top">
-  <div class="brand">
-    <strong>GLA &middot; Guided Learning Agent</strong>
-    <span>Teaching the child who cannot ask</span>
+  <div class="top-inner">
+    <a class="brand" href="#live" aria-label="Guided Learning Agent home">
+      <span class="logo">GLA</span>
+      <strong>Guided Learning Agent</strong>
+    </a>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-view="live" aria-selected="true"><i data-lucide="messages-square"></i>Live session</button>
+      <button role="tab" data-view="results" aria-selected="false"><i data-lucide="bar-chart-3"></i>Results</button>
+      <button role="tab" data-view="explore" aria-selected="false"><i data-lucide="git-commit-horizontal"></i>Traces</button>
+      <button role="tab" data-view="repro" aria-selected="false"><i data-lucide="terminal-square"></i>Reproduce</button>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-plain" id="theme-btn" type="button" data-tip="Toggle dark mode" aria-label="Toggle dark mode"><i data-lucide="moon"></i></button>
+      <a class="icon-link" id="repo-link" href="#" data-tip="Source on GitHub" aria-label="GitHub repository"><i data-lucide="code-xml"></i></a>
+    </div>
   </div>
-  <nav class="tabs" role="tablist">
-    <button role="tab" data-view="live" aria-selected="true"><i data-lucide="play-circle"></i>Live session</button>
-    <button role="tab" data-view="results" aria-selected="false"><i data-lucide="table-2"></i>Results</button>
-    <button role="tab" data-view="explore" aria-selected="false"><i data-lucide="list-tree"></i>Traces</button>
-    <button role="tab" data-view="repro" aria-selected="false"><i data-lucide="terminal"></i>Reproduce</button>
-  </nav>
-  <a class="icon-link" id="repo-link" href="#" title="Source code on GitHub" aria-label="GitHub repository"><i data-lucide="github"></i></a>
 </header>
+
+<section class="overview" aria-label="Overview">
+  <div class="overview-inner">
+    <div>
+      <div class="eyebrow">Agent design &middot; simulation study</div>
+      <h1>Guided Learning Agent</h1>
+      <p class="lede">A tutoring agent for children who cannot say what they want to learn. It probes what the child knows, plans by prerequisites, teaches, and verifies, one short turn at a time.</p>
+      <div class="stats">
+        <div class="stat"><b class="agent">1.67</b><span>skills mastered per session by GLA, vs <em>0.13</em> for a prompt given the same curriculum</span></div>
+        <div class="stat"><b class="agent">0.6%</b><span>of GLA teaching turns leak the answer, vs <em>8.4%</em> for that prompt</span></div>
+        <div class="stat"><b>120</b><span>paired sessions, 8 tutor conditions, 3 child profiles, 5 seeds</span></div>
+      </div>
+      <div class="ov-foot">
+        <button class="btn primary" type="button" data-goto="live"><i data-lucide="play"></i>Run a session</button>
+        <button class="btn" type="button" data-goto="results"><i data-lucide="bar-chart-3"></i>See results</button>
+        <span class="small muted">Simulated children only. Results describe agent behavior under a declared learning model.</span>
+      </div>
+    </div>
+    <div class="loop-wrap" id="loop-wrap"></div>
+  </div>
+</section>
 
 <main>
 <!-- Live session -->
 <section class="view active" id="view-live">
   <div class="grid-live">
-    <form class="panel" id="live-form" autocomplete="off">
-      <h3>Endpoint</h3>
-      <label class="field"><span>Provider</span>
-        <select id="preset"></select>
-      </label>
+    <form class="panel sticky-col" id="live-form" autocomplete="off">
+      <div class="panel-title"><i data-lucide="plug"></i>Model endpoint</div>
+      <label class="field"><span>Provider</span><select id="preset"></select></label>
       <label class="field"><span>Base URL</span>
-        <input type="url" id="base-url" placeholder="https://openrouter.ai/api/v1" required>
+        <div class="input-icon"><i data-lucide="link-2"></i><input type="url" id="base-url" placeholder="https://openrouter.ai/api/v1" required></div>
       </label>
       <label class="field"><span>Model</span>
-        <input type="text" id="model" placeholder="qwen/qwen3-30b-a3b-instruct-2507" required>
+        <div class="input-icon"><i data-lucide="cpu"></i><input type="text" id="model" placeholder="qwen/qwen3-30b-a3b-instruct-2507" required></div>
       </label>
       <label class="field"><span>API key</span>
         <div class="row">
-          <input type="password" id="api-key" class="grow" placeholder="sk-...">
-          <button type="button" class="btn icon-btn" id="toggle-key" title="Show or hide key" aria-label="Show or hide key"><i data-lucide="eye"></i></button>
+          <div class="input-icon grow"><i data-lucide="key-round"></i><input type="password" id="api-key" placeholder="sk-..."></div>
+          <button type="button" class="btn icon-btn" id="toggle-key" data-tip="Show or hide key" aria-label="Show or hide key"><i data-lucide="eye"></i></button>
         </div>
       </label>
-      <label class="row small"><input type="checkbox" id="remember-key"> Remember key in this browser tab</label>
-      <div class="notice">The key is sent only to the base URL above, from your browser. It is never sent to this site or written into traces. The endpoint must allow browser (CORS) requests; OpenRouter, DeepSeek and DashScope do, OpenAI does not.</div>
+      <label class="switch"><input type="checkbox" id="remember-key"> Remember key in this tab</label>
+      <div class="notice"><i data-lucide="shield-check"></i><span>Your browser sends the key only to the base URL above. It is never sent to this site or written into traces. The provider must allow browser requests: OpenRouter, DeepSeek and DashScope do; OpenAI does not.</span></div>
 
       <details class="adv">
-        <summary>Separate judge / child models</summary>
-        <p class="small muted">Empty fields reuse the tutor endpoint. The paper uses a 0.8B child renderer and the tutor model as judge.</p>
-        <label class="field"><span>Judge base URL</span><input type="url" id="judge-url"></label>
-        <label class="field"><span>Judge model</span><input type="text" id="judge-model"></label>
-        <label class="field"><span>Judge API key</span><input type="password" id="judge-key"></label>
-        <label class="field"><span>Child base URL</span><input type="url" id="child-url"></label>
-        <label class="field"><span>Child model</span><input type="text" id="child-model"></label>
-        <label class="field"><span>Child API key</span><input type="password" id="child-key"></label>
-        <label class="row small"><input type="checkbox" id="vllm-nothink"> Send vLLM <code>enable_thinking=false</code></label>
-        <label class="field" style="margin-top:8px"><span>Max tokens per call</span><input type="number" id="max-tokens" min="128" max="4096" value="800"></label>
+        <summary><i data-lucide="sliders-horizontal"></i>Separate judge and child models</summary>
+        <div class="adv-body">
+          <p class="small muted" style="margin:0 0 10px">Empty fields reuse the tutor endpoint. The paper used a 0.8B child renderer and the tutor model as judge.</p>
+          <label class="field"><span>Judge base URL</span><input type="url" id="judge-url"></label>
+          <label class="field"><span>Judge model</span><input type="text" id="judge-model"></label>
+          <label class="field"><span>Judge API key</span><input type="password" id="judge-key"></label>
+          <label class="field"><span>Child base URL</span><input type="url" id="child-url"></label>
+          <label class="field"><span>Child model</span><input type="text" id="child-model"></label>
+          <label class="field"><span>Child API key</span><input type="password" id="child-key"></label>
+          <label class="switch"><input type="checkbox" id="vllm-nothink"> Send vLLM <code>enable_thinking=false</code></label>
+          <label class="field" style="margin:0"><span>Max tokens per call</span><input type="number" id="max-tokens" min="128" max="4096" value="800"></label>
+        </div>
       </details>
 
-      <h3 style="margin-top:14px">Session</h3>
-      <label class="field"><span>Domain</span>
-        <div class="seg" id="domain-seg">
-          <button type="button" data-v="early_math" aria-pressed="true">Linear (13)</button>
-          <button type="button" data-v="early_math_branched" aria-pressed="false">Branched (21)</button>
+      <div class="form-section">
+        <div class="panel-title"><i data-lucide="baby"></i>Session</div>
+        <div class="field"><span class="field-label">Domain</span>
+          <div class="seg full" id="domain-seg">
+            <button type="button" data-v="early_math" aria-pressed="true">Linear, 13 skills</button>
+            <button type="button" data-v="early_math_branched" aria-pressed="false">Branched, 21</button>
+          </div>
         </div>
-      </label>
-      <label class="field"><span>Child profile</span>
-        <select id="profile">
-          <option value="zero">zero: knows nothing yet</option>
-          <option value="mid">mid: counts, cardinality, numerals</option>
-          <option value="beggar">beggar: begs for answers 40%</option>
-          <option value="scatter">scatter: branched domain only</option>
-        </select>
-      </label>
-      <div class="field"><span class="small muted">Tutor conditions (same child, same seed)</span>
-        <div class="checks" id="cond-checks"></div>
-      </div>
-      <div class="row" style="margin:8px 0 12px">
-        <label class="small muted">Turns</label>
-        <div class="stepper">
-          <button type="button" data-step="-2" aria-label="Fewer turns"><i data-lucide="minus"></i></button>
-          <input type="number" id="turns" value="12" min="2" max="40" aria-label="Turns">
-          <button type="button" data-step="2" aria-label="More turns"><i data-lucide="plus"></i></button>
+        <label class="field"><span>Child profile</span>
+          <select id="profile">
+            <option value="zero">zero: knows nothing yet</option>
+            <option value="mid">mid: counts, objects, numerals</option>
+            <option value="beggar">beggar: begs for answers 40%</option>
+            <option value="scatter">scatter: branched domain only</option>
+          </select>
+        </label>
+        <div class="field"><span class="field-label">Tutor conditions, same child and seed</span>
+          <div class="checks" id="cond-checks"></div>
         </div>
-        <label class="small muted" style="margin-left:auto">Seed</label>
-        <div class="stepper">
-          <button type="button" data-seed="-1" aria-label="Previous seed"><i data-lucide="minus"></i></button>
-          <input type="number" id="seed" value="1" min="1" max="999" aria-label="Seed">
-          <button type="button" data-seed="1" aria-label="Next seed"><i data-lucide="plus"></i></button>
+        <div class="num-row">
+          <div><span class="field-label">Turns</span>
+            <div class="stepper">
+              <button type="button" data-step="-2" aria-label="Fewer turns"><i data-lucide="minus"></i></button>
+              <input type="number" id="turns" value="12" min="2" max="40" aria-label="Turns">
+              <button type="button" data-step="2" aria-label="More turns"><i data-lucide="plus"></i></button>
+            </div>
+          </div>
+          <div><span class="field-label">Seed</span>
+            <div class="stepper">
+              <button type="button" data-seed="-1" aria-label="Previous seed"><i data-lucide="minus"></i></button>
+              <input type="number" id="seed" value="1" min="1" max="999" aria-label="Seed">
+              <button type="button" data-seed="1" aria-label="Next seed"><i data-lucide="plus"></i></button>
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <button type="submit" class="btn primary grow" id="run-btn"><i data-lucide="play"></i>Run</button>
+          <button type="button" class="btn" id="mock-btn" data-tip="Scripted offline models, no key"><i data-lucide="flask-conical"></i>Offline</button>
+          <button type="button" class="btn icon-btn" id="stop-btn" data-tip="Stop" aria-label="Stop" disabled><i data-lucide="square"></i></button>
+        </div>
+        <p class="small muted" id="cost-hint" style="margin:10px 0 0"></p>
       </div>
-      <div class="row">
-        <button type="submit" class="btn primary grow" id="run-btn"><i data-lucide="play"></i>Run</button>
-        <button type="button" class="btn" id="mock-btn" title="Run with scripted offline models, no key needed"><i data-lucide="flask-conical"></i>Offline</button>
-        <button type="button" class="btn icon-btn" id="stop-btn" title="Stop" aria-label="Stop" disabled><i data-lucide="square"></i></button>
-      </div>
-      <p class="small muted" id="cost-hint"></p>
     </form>
 
     <div>
-      <div class="status-line panel band" id="live-status" style="padding:8px 12px;margin-bottom:12px">
-        <span class="muted">Python runtime not loaded yet.</span>
+      <div class="status-line panel" id="live-status"><span class="muted">Python runtime not loaded yet.</span></div>
+      <div class="sessions" id="sessions">
+        <div class="empty-state" id="live-empty">
+          <div class="big-icon"><i data-lucide="messages-square"></i></div>
+          <h3>Watch tutors teach the same simulated child</h3>
+          <p>Each selected condition tutors the same child with the same seed. The transcript, the child's true mastery and the tutor's belief update after every turn.</p>
+          <button class="btn" type="button" id="empty-mock"><i data-lucide="flask-conical"></i>Try offline, no key</button>
+        </div>
       </div>
-      <div class="sessions" id="sessions"></div>
     </div>
   </div>
 </section>
 
 <!-- Results -->
 <section class="view" id="view-results">
-  <div class="row" style="margin-bottom:10px;flex-wrap:wrap">
-    <h2 class="grow">Condition summaries</h2>
-    <div class="seg" id="group-seg"></div>
+  <div class="view-head">
+    <div class="grow"><h2>Results</h2><p id="group-desc">Condition means and paired effects for each experiment.</p></div>
   </div>
+  <div class="chips" id="group-seg" style="margin-bottom:14px"></div>
   <div class="panel">
+    <div class="panel-title"><i data-lucide="table-2"></i>Condition summaries</div>
     <div class="table-wrap"><table class="data" id="summary-table"></table></div>
-    <p class="small muted" id="summary-note"></p>
+    <p class="note" id="summary-note"></p>
   </div>
-  <div class="cols-2" style="margin-top:16px">
+  <div class="cols-2" style="margin-top:18px">
     <div class="panel">
-      <div class="row" style="margin-bottom:8px;flex-wrap:wrap">
-        <h3 class="grow" id="paired-title" style="margin:0">Paired effects</h3>
+      <div class="row" style="margin-bottom:12px;flex-wrap:wrap">
+        <div class="panel-title grow" id="paired-title" style="margin:0"><i data-lucide="git-compare"></i>Paired effects</div>
         <div class="seg" id="metric-seg">
-          <button type="button" data-m="norm_gain" aria-pressed="true">Gain</button>
-          <button type="button" data-m="n_learned" aria-pressed="false">Learned</button>
+          <button type="button" data-m="n_learned" aria-pressed="true">Skills mastered</button>
+          <button type="button" data-m="norm_gain" aria-pressed="false">Normalized gain</button>
         </div>
       </div>
-      <div class="table-wrap"><table class="data" id="paired-table"></table></div>
+      <div id="forest"></div>
+      <div class="table-wrap" style="margin-top:8px"><table class="data" id="paired-table"></table></div>
     </div>
     <div class="panel">
-      <h3>Per-profile normalized gain</h3>
+      <div class="panel-title"><i data-lucide="users"></i>Normalized gain by child profile</div>
       <div class="table-wrap"><table class="data" id="profile-table"></table></div>
     </div>
   </div>
@@ -139,43 +186,53 @@
 
 <!-- Trace explorer -->
 <section class="view" id="view-explore">
+  <div class="view-head"><div class="grow"><h2>Session traces</h2><p>Every released session, turn by turn, with the planner directive, the blind annotation and the child's true state.</p></div></div>
   <div class="grid-explore">
-    <div class="panel">
-      <label class="field"><span>Result group</span><select id="ex-group"></select></label>
-      <div class="row" style="margin-bottom:8px">
+    <div class="panel sticky-col">
+      <label class="field"><span>Experiment</span><select id="ex-group"></select></label>
+      <div class="row" style="margin-bottom:10px">
         <select id="ex-cond" class="grow" aria-label="Condition"></select>
         <select id="ex-prof" class="grow" aria-label="Profile"></select>
       </div>
       <div class="list"><table class="data" id="ex-list"></table></div>
     </div>
-    <div class="panel" id="ex-detail"><div class="empty">Select a session.</div></div>
+    <div class="panel" id="ex-detail"><div class="empty"><i data-lucide="mouse-pointer-click"></i><br>Select a session.</div></div>
   </div>
 </section>
 
 <!-- Reproduce -->
 <section class="view" id="view-repro">
+  <div class="view-head"><div class="grow"><h2>Reproduce</h2><p>Three levels, from a one-minute CPU check to a full rerun with the paper's models.</p></div></div>
   <div class="cols-2">
     <div class="panel">
-      <h3>Offline checks (no model needed)</h3>
-<pre class="code">git clone <span class="repo-url">REPO</span>
+      <div class="steps">
+        <div class="step"><div class="step-no">1</div><div>
+          <h3>Offline checks</h3><p>No model or GPU. Validates the simulator, interfaces and a mock run of every condition.</p>
+<div class="code-wrap"><pre class="code">git clone <span class="repo-url">REPO</span>
 cd <span class="repo-name">gla</span>
 python -m pip install -r requirements.txt
 python experiments/validate_state.py
 python scripts/check_interfaces.py
-python experiments/dryrun_mock.py</pre>
-      <h3>Model-based run</h3>
-<pre class="code">export GLA_TUTOR_URL=http://localhost:8101/v1   # Qwen3.5-35B-A3B
-export GLA_JUDGE_URL=$GLA_TUTOR_URL
-export GLA_STUDENT_URL=http://localhost:8102/v1 # Qwen3.5-0.8B
-python experiments/run_experiment.py --domain early_math \
-  --turns 24 --seeds 1,2,3,4,5 --profiles zero,mid,beggar \
-  --conditions all --workers 8</pre>
-      <p class="small muted">See <a class="repo-file" data-path="REPRODUCE.md" href="#">REPRODUCE.md</a> for vLLM launch commands, expected numbers and tolerances.</p>
+python experiments/dryrun_mock.py</pre></div></div></div>
+        <div class="step"><div class="step-no">2</div><div>
+          <h3>Recompute the tables</h3><p>CPU only, from the released traces. Output matches the files in <code>results/resub/analysis/</code>.</p>
+<div class="code-wrap"><pre class="code">bash scripts/analyze_resub.sh
+python experiments/analyze_paired.py results/resub/main/experiment_*.json --brief</pre></div></div></div>
+        <div class="step"><div class="step-no">3</div><div>
+          <h3>Rerun with models</h3><p>OpenAI-compatible endpoints; the paper used vLLM 0.30.0.</p>
+<div class="code-wrap"><pre class="code"><span class="c"># Qwen3.5-35B-A3B tutor/judge, Qwen3.5-0.8B child, Gemma-4-31B cross-family</span>
+export QWEN_URL=http://localhost:8101/v1
+export CHILD_URL=http://localhost:8102/v1
+export XFAM_URL=http://localhost:8103/v1
+bash scripts/run_resubmission.sh main
+bash scripts/run_resubmission.sh validated</pre></div></div></div>
+      </div>
+      <p class="note">Full launch commands and tolerances: <a class="repo-file" data-path="REPRODUCE.md" href="#">REPRODUCE.md</a>.</p>
     </div>
     <div class="panel">
-      <h3>Released artifacts</h3>
+      <div class="panel-title"><i data-lucide="package"></i>Released artifacts</div>
       <div class="table-wrap"><table class="data" id="artifact-table"></table></div>
-      <p class="small muted" id="artifact-note"></p>
+      <p class="note" id="artifact-note"></p>
     </div>
   </div>
 </section>

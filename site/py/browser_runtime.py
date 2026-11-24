@@ -123,7 +123,7 @@ def run_live(cfg_json):
     cfg = json.loads(cfg_json)
     from gla.knowledge_map import load_domain
     from gla.student_state import GroundTruthState
-    from gla.student_sim import StatefulStudentSim
+    from gla.student_sim import OPENING_UTTERANCE, StatefulStudentSim
     from gla.assessment import run_state_test, score_by_skill
     from gla.session import run_session
     from gla.metrics import learning_gain, annotation_metrics, learned_skills
@@ -147,7 +147,8 @@ def run_live(cfg_json):
         student = StatefulStudentSim(profile, kmap, eps["child"], state=state, rng=rng)
         pre = score_by_skill(run_state_test(student, kmap, form="A", render=False))
         emit("session_start", index=idx, condition=condition,
-             profile=profile.to_dict(), state=state.snapshot(), pre=pre)
+             profile=profile.to_dict(), state=state.snapshot(), pre=pre,
+             opening=OPENING_UTTERANCE)
         validator = eps["judge"] if condition == "gla_full_validated" else None
         trace = run_session(condition, student, kmap, eps["tutor"], eps["judge"],
                             max_turns=turns, verbose=False, validator_ep=validator,

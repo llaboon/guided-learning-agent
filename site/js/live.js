@@ -1,4 +1,5 @@
-import { h, icon, refreshIcons, CONDITIONS, condLabel, fmt, signed, actPill, utterance, masteryBars } from "./common.js";
+import { h, icon, refreshIcons, CONDITIONS, condLabel, fmt, signed, chatTurn, childOpening, masteryBars, COND_COLORS } from "./common.js";
+import { setLoopStep } from "./loop.js";
 
 const PRESETS = [
   { id: "openrouter", label: "OpenRouter", url: "https://openrouter.ai/api/v1", model: "qwen/qwen3-30b-a3b-instruct-2507" },
@@ -83,12 +84,15 @@ function startCard(msg) {
     mastery: h("div"), transcript: h("div", { class: "transcript" }),
     badge: h("span", { class: "pill" }, "running"),
   };
+  card.transcript = h("div", { class: "chat" }, msg.opening ? childOpening(msg.opening) : null);
   card.el = h("div", { class: "panel session-card" },
     h("div", { class: "session-head" },
-      h("h3", {}, condLabel(msg.condition)),
-      h("span", { class: "small muted" }, CONDITIONS[msg.condition] ? CONDITIONS[msg.condition].desc : ""),
-      h("span", { style: "margin-left:auto" }, card.badge)),
-    card.metrics, card.mastery, card.transcript);
+      h("span", { class: "cond-mark", style: `background:${COND_COLORS[msg.condition] || "#999"}` }),
+      h("div", { class: "grow", style: "min-width:0" }, h("h3", {}, condLabel(msg.condition)),
+        h("div", { class: "desc" }, CONDITIONS[msg.condition] ? CONDITIONS[msg.condition].desc : "")),
+      card.badge),
+    h("div", { class: "session-body" }, card.metrics, card.mastery, card.transcript));
+  const empty = $("live-empty"); if (empty) empty.remove();
   cards[msg.index] = card;
   $("sessions").append(card.el);
   renderMetrics(card);
@@ -113,9 +117,8 @@ function addTurn(msg) {
     if (a.leaked) card.leaks += 1;
   }
   for (const [sid, v] of Object.entries(msg.state.m)) if (v >= 0.8) card.learned.add(sid);
-  card.transcript.append(h("div", { class: "turn" },
-    h("div", { class: "meta" }, h("span", {}, `#${msg.turn + 1}`), ...actPill(a, msg.directive)),
-    utterance("tutor", msg.tutor), utterance("child", msg.child)));
+  card.transcript.append(...chatTurn(msg.turn + 1, msg.tutor, msg.child, a, msg.directive, true));
+  setLoopStep(msg.directive ? msg.directive.activity : "prompt");
   card.transcript.scrollTop = card.transcript.scrollHeight;
   card.mastery.replaceChildren(masteryBars(domain.order, domain.skills, msg.state.m, msg.belief));
   renderMetrics(card);
@@ -127,10 +130,12 @@ function finishCard(msg) {
   card.learned = new Set(msg.trace.learned_skills);
   renderMetrics(card, msg.trace.gain);
   card.badge.className = "pill ok";
+  card.badge.title = "pre-test and post-test score on missing skills";
   card.badge.textContent = `pre ${fmt(msg.trace.gain.pre, 2)} → post ${fmt(msg.trace.gain.post, 2)}`;
 }
 
 function done(text, error) {
+  setLoopStep(null);
   running = false;
   $("run-btn").disabled = false;
   $("mock-btn").disabled = false;
@@ -224,9 +229,9 @@ export function initLive() {
 
   const box = $("cond-checks");
   for (const c of LIVE_CONDS) {
-    box.append(h("label", { title: CONDITIONS[c].desc },
+    box.append(h("label", { class: "check", title: CONDITIONS[c].desc },
       h("input", { type: "checkbox", value: c, checked: DEFAULT_CONDS.includes(c), onchange: updateHint }),
-      condLabel(c)));
+      h("span", {}, condLabel(c))));
   }
   document.querySelectorAll("#domain-seg button").forEach((b) => b.addEventListener("click", () => {
     document.querySelectorAll("#domain-seg button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
@@ -244,6 +249,7 @@ export function initLive() {
   });
   $("live-form").addEventListener("submit", (e) => { e.preventDefault(); run(false); });
   $("mock-btn").addEventListener("click", () => run(true));
+  const em = $("empty-mock"); if (em) em.addEventListener("click", () => run(true));
   $("stop-btn").addEventListener("click", stop);
   updateHint();
 }
