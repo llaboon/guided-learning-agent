@@ -1,0 +1,247 @@
+profiles skipped (not in domain early_math): ['scatter']
+total runs: 54 (turns=24, workers=12, gate=hard, threshold=0.8, alpha_scale=1.0)
+[done 1/54] socratic/zero/s3 norm_gain=-0.083 learned=0 leak=0.0 (71s)
+[done 2/54] socratic/zero/s2 norm_gain=-0.083 learned=0 leak=0.125 (78s)
+[done 3/54] socratic/zero/s1 norm_gain=-0.091 learned=0 leak=0.05 (84s)
+[done 4/54] socratic/mid/s1 norm_gain=-0.125 learned=0 leak=0.087 (146s)
+[done 5/54] socratic/mid/s3 norm_gain=-0.111 learned=0 leak=0.0 (146s)
+[done 6/54] socratic/mid/s2 norm_gain=-0.111 learned=0 leak=0.0 (156s)
+[done 7/54] vanilla/zero/s3 norm_gain=-0.083 learned=0 leak=0.0 (188s)
+[done 8/54] socratic/beggar/s2 norm_gain=-0.045 learned=0 leak=0.0 (222s)
+[done 9/54] socratic/beggar/s1 norm_gain=-0.15 learned=0 leak=0.0 (227s)
+[done 10/54] socratic/beggar/s3 norm_gain=-0.091 learned=0 leak=0.0 (235s)
+[done 11/54] gla_fixed/zero/s1 norm_gain=-0.091 learned=0 leak=0.087 (271s)
+[done 12/54] gla_fixed/zero/s2 norm_gain=-0.042 learned=0 leak=0.083 (307s)
+[done 13/54] gla_fixed/mid/s1 norm_gain=0.0 learned=1 leak=0.13 (319s)
+[done 14/54] gla_fixed/zero/s3 norm_gain=-0.083 learned=0 leak=0.045 (320s)
+[done 15/54] vanilla/mid/s1 norm_gain=-0.188 learned=0 leak=0.0 (335s)
+[done 16/54] gla_fixed/mid/s2 norm_gain=0.0 learned=1 leak=0.091 (348s)
+[done 17/54] gla_fixed/mid/s3 norm_gain=0.167 learned=2 leak=0.042 (389s)
+[done 18/54] gla_fixed/beggar/s1 norm_gain=-0.1 learned=0 leak=0.13 (400s)
+[done 19/54] gla_fixed/beggar/s2 norm_gain=0.0 learned=1 leak=0.045 (403s)
+[done 20/54] gla_fixed/beggar/s3 norm_gain=-0.045 learned=0 leak=0.0 (428s)
+[done 21/54] gla_reactive/zero/s1 norm_gain=-0.136 learned=0 leak=0.167 (433s)
+[done 22/54] vanilla/mid/s3 norm_gain=-0.111 learned=0 leak=0.0 (435s)
+[done 23/54] vanilla/mid/s2 norm_gain=-0.111 learned=0 leak=0.0 (462s)
+[done 24/54] gla_reactive/zero/s2 norm_gain=-0.083 learned=0 leak=0.0 (481s)
+[done 25/54] gla_reactive/zero/s3 norm_gain=-0.083 learned=0 leak=0.0 (484s)
+[done 26/54] vanilla/beggar/s2 norm_gain=-0.045 learned=0 leak=0.0 (486s)
+[done 27/54] gla_reactive/mid/s1 norm_gain=0.0 learned=0 leak=0.208 (486s)
+[done 28/54] gla_reactive/mid/s2 norm_gain=0.056 learned=0 leak=0.13 (512s)
+[done 29/54] gla_reactive/mid/s3 norm_gain=0.278 learned=1 leak=0.083 (518s)
+[done 30/54] gla_reactive/beggar/s1 norm_gain=-0.1 learned=0 leak=0.042 (520s)
+[done 31/54] gla_reactive/beggar/s2 norm_gain=-0.091 learned=0 leak=0.292 (550s)
+[done 32/54] gla_full/zero/s1 norm_gain=0.091 learned=2 leak=0.0 (574s)
+[done 33/54] gla_reactive/beggar/s3 norm_gain=-0.091 learned=0 leak=0.042 (578s)
+[done 34/54] vanilla/beggar/s3 norm_gain=-0.091 learned=0 leak=0.0 (581s)
+[done 35/54] gla_full/zero/s3 norm_gain=0.042 learned=2 leak=0.174 (586s)
+[done 36/54] gla_full/mid/s1 norm_gain=0.062 learned=2 leak=0.0 (587s)
+[done 37/54] gla_full/zero/s2 norm_gain=0.0 learned=2 leak=0.0 (589s)
+[done 38/54] vanilla/beggar/s1 norm_gain=-0.15 learned=0 leak=0.0 (589s)
+[done 39/54] gla_full/mid/s2 norm_gain=0.111 learned=2 leak=0.083 (616s)
+[done 40/54] vanilla/zero/s2 norm_gain=-0.042 learned=0 leak=0.077 (617s)
+[done 41/54] gla_full/mid/s3 norm_gain=0.167 learned=2 leak=0.042 (618s)
+[done 42/54] gla_full/beggar/s1 norm_gain=-0.15 learned=0 leak=0.0 (647s)
+[done 43/54] gla_full/beggar/s2 norm_gain=0.045 learned=2 leak=0.083 (660s)
+[done 44/54] informed/zero/s3 norm_gain=0.125 learned=2 leak=0.0 (668s)
+[done 45/54] gla_full/beggar/s3 norm_gain=0.091 learned=1 leak=0.042 (672s)
+[done 46/54] informed/zero/s1 norm_gain=-0.045 learned=0 leak=0.25 (684s)
+[FAIL] vanilla/zero/s1: RuntimeError: [student] chat failed after 3 retries: Error code: 400 - {'error': {'message': "This model's maximum context length is 16384 tokens. However, you requested 1024 output tokens and your prompt contains at least 15361 input tokens, for a total of at least 16385 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=15361)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[done 47/54] informed/zero/s2 norm_gain=-0.083 learned=0 leak=0.125 (698s)
+[done 48/54] informed/mid/s1 norm_gain=0.25 learned=1 leak=0.167 (699s)
+[done 49/54] informed/mid/s3 norm_gain=0.0 learned=0 leak=0.087 (701s)
+[done 50/54] informed/mid/s2 norm_gain=0.111 learned=2 leak=0.042 (704s)
+[done 51/54] informed/beggar/s2 norm_gain=0.136 learned=1 leak=0.25 (719s)
+[done 52/54] informed/beggar/s1 norm_gain=-0.15 learned=0 leak=0.042 (725s)
+[done 53/54] informed/beggar/s3 norm_gain=-0.091 learned=0 leak=0.0 (733s)
+
+===== SUMMARY (mean, std) =====
+{
+ "socratic": {
+  "norm_gain": [
+   -0.099,
+   0.03
+  ],
+  "abs_gain": [
+   -0.087,
+   0.023
+  ],
+  "n_learned": [
+   0.0,
+   0.0
+  ],
+  "gap_coverage": [
+   0.068,
+   0.103
+  ],
+  "leakage_rate": [
+   0.029,
+   0.048
+  ],
+  "chitchat_rate": [
+   0.273,
+   0.205
+  ],
+  "n_runs": 9
+ },
+ "vanilla": {
+  "norm_gain": [
+   -0.103,
+   0.05
+  ],
+  "abs_gain": [
+   -0.089,
+   0.038
+  ],
+  "n_learned": [
+   0.0,
+   0.0
+  ],
+  "gap_coverage": [
+   0.01,
+   0.027
+  ],
+  "leakage_rate": [
+   0.01,
+   0.027
+  ],
+  "chitchat_rate": [
+   0.781,
+   0.191
+  ],
+  "n_runs": 8
+ },
+ "gla_fixed": {
+  "norm_gain": [
+   -0.022,
+   0.081
+  ],
+  "abs_gain": [
+   -0.019,
+   0.072
+  ],
+  "n_learned": [
+   0.556,
+   0.726
+  ],
+  "gap_coverage": [
+   0.513,
+   0.116
+  ],
+  "leakage_rate": [
+   0.073,
+   0.043
+  ],
+  "chitchat_rate": [
+   0.046,
+   0.032
+  ],
+  "n_runs": 9
+ },
+ "gla_reactive": {
+  "norm_gain": [
+   -0.028,
+   0.129
+  ],
+  "abs_gain": [
+   -0.024,
+   0.115
+  ],
+  "n_learned": [
+   0.111,
+   0.333
+  ],
+  "gap_coverage": [
+   0.619,
+   0.116
+  ],
+  "leakage_rate": [
+   0.107,
+   0.1
+  ],
+  "chitchat_rate": [
+   0.005,
+   0.014
+  ],
+  "n_runs": 9
+ },
+ "gla_full": {
+  "norm_gain": [
+   0.051,
+   0.089
+  ],
+  "abs_gain": [
+   0.046,
+   0.077
+  ],
+  "n_learned": [
+   1.667,
+   0.707
+  ],
+  "gap_coverage": [
+   0.242,
+   0.098
+  ],
+  "leakage_rate": [
+   0.047,
+   0.059
+  ],
+  "chitchat_rate": [
+   0.037,
+   0.067
+  ],
+  "n_runs": 9
+ },
+ "informed": {
+  "norm_gain": [
+   0.028,
+   0.133
+  ],
+  "abs_gain": [
+   0.024,
+   0.114
+  ],
+  "n_learned": [
+   0.667,
+   0.866
+  ],
+  "gap_coverage": [
+   0.522,
+   0.171
+  ],
+  "leakage_rate": [
+   0.107,
+   0.098
+  ],
+  "chitchat_rate": [
+   0.005,
+   0.014
+  ],
+  "n_runs": 9
+ }
+}
+===== TESTS =====
+{
+ "gla_full_vs_socratic": {
+  "diff_norm_gain": 0.15,
+  "p_value": 0.0008
+ },
+ "gla_full_vs_vanilla": {
+  "diff_norm_gain": 0.154,
+  "p_value": 0.0015
+ },
+ "gla_full_vs_gla_fixed": {
+  "diff_norm_gain": 0.073,
+  "p_value": 0.09
+ },
+ "gla_full_vs_gla_reactive": {
+  "diff_norm_gain": 0.079,
+  "p_value": 0.1459
+ },
+ "gla_full_vs_informed": {
+  "diff_norm_gain": 0.023,
+  "p_value": 0.6665
+ }
+}
+saved -> results/resub/xjudge/experiment_xjudge_1795500763.json
+EXPERIMENT_DONE

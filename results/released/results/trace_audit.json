@@ -1,0 +1,243 @@
+{
+ "dataset": "v2.4 linear final, 75 sessions",
+ "directive_compliance": {
+  "gla_fixed": {
+   "practice": {
+    "n_turns": 120,
+    "skill_match": 0.8083,
+    "poses_question": 0.9083,
+    "no_leak": 0.9917,
+    "all_core_rules": 0.7583
+   },
+   "teach": {
+    "n_turns": 240,
+    "skill_match": 0.5417,
+    "no_practice_task": 0.3292,
+    "all_core_rules": 0.1833
+   }
+  },
+  "gla_full": {
+   "diagnose": {
+    "n_turns": 130,
+    "skill_match": 0.7231,
+    "poses_question": 0.9538,
+    "no_leak": 1.0,
+    "no_demonstration": 0.3308,
+    "all_core_rules": 0.6923
+   },
+   "practice": {
+    "n_turns": 153,
+    "skill_match": 0.8235,
+    "poses_question": 0.9935,
+    "no_leak": 0.9869,
+    "all_core_rules": 0.817
+   },
+   "teach": {
+    "n_turns": 77,
+    "skill_match": 0.9221,
+    "no_practice_task": 0.2338,
+    "all_core_rules": 0.2208
+   }
+  },
+  "gla_reactive": {
+   "diagnose": {
+    "n_turns": 289,
+    "skill_match": 0.2457,
+    "poses_question": 0.9516,
+    "no_leak": 0.9516,
+    "no_demonstration": 0.0796,
+    "all_core_rules": 0.2353
+   },
+   "practice": {
+    "n_turns": 28,
+    "skill_match": 0.3571,
+    "poses_question": 0.8929,
+    "no_leak": 1.0,
+    "all_core_rules": 0.3571
+   },
+   "teach": {
+    "n_turns": 43,
+    "skill_match": 0.8837,
+    "no_practice_task": 0.5116,
+    "all_core_rules": 0.5116
+   }
+  }
+ },
+ "compliance_note": "annotator-measured; act labels have 62.8% agreement with the 122B re-annotation",
+ "batch_split": {
+  "seeds_1_3": {
+   "gla_full_vs_vanilla": {
+    "norm_gain": {
+     "n_blocks": 9,
+     "mean_difference": 0.2203,
+     "n_positive": 9,
+     "exact_signflip_p": 0.00391
+    },
+    "n_learned": {
+     "n_blocks": 9,
+     "mean_difference": 2,
+     "n_positive": 9,
+     "exact_signflip_p": 0.00391
+    }
+   },
+   "gla_full_vs_socratic": {
+    "norm_gain": {
+     "n_blocks": 9,
+     "mean_difference": 0.2203,
+     "n_positive": 9,
+     "exact_signflip_p": 0.00391
+    },
+    "n_learned": {
+     "n_blocks": 9,
+     "mean_difference": 2,
+     "n_positive": 9,
+     "exact_signflip_p": 0.00391
+    }
+   },
+   "gla_full_vs_gla_fixed": {
+    "norm_gain": {
+     "n_blocks": 9,
+     "mean_difference": 0.1027,
+     "n_positive": 7,
+     "exact_signflip_p": 0.07031
+    },
+    "n_learned": {
+     "n_blocks": 9,
+     "mean_difference": 1.5556,
+     "n_positive": 8,
+     "exact_signflip_p": 0.00781
+    }
+   },
+   "gla_full_vs_gla_reactive": {
+    "norm_gain": {
+     "n_blocks": 9,
+     "mean_difference": 0.137,
+     "n_positive": 7,
+     "exact_signflip_p": 0.01562
+    },
+    "n_learned": {
+     "n_blocks": 9,
+     "mean_difference": 1.6667,
+     "n_positive": 8,
+     "exact_signflip_p": 0.00781
+    }
+   }
+  },
+  "seeds_4_5": {
+   "gla_full_vs_vanilla": {
+    "norm_gain": {
+     "n_blocks": 6,
+     "mean_difference": 0.1887,
+     "n_positive": 6,
+     "exact_signflip_p": 0.03125
+    },
+    "n_learned": {
+     "n_blocks": 6,
+     "mean_difference": 1.6667,
+     "n_positive": 5,
+     "exact_signflip_p": 0.0625
+    }
+   },
+   "gla_full_vs_socratic": {
+    "norm_gain": {
+     "n_blocks": 6,
+     "mean_difference": 0.1803,
+     "n_positive": 6,
+     "exact_signflip_p": 0.03125
+    },
+    "n_learned": {
+     "n_blocks": 6,
+     "mean_difference": 1.6667,
+     "n_positive": 5,
+     "exact_signflip_p": 0.0625
+    }
+   },
+   "gla_full_vs_gla_fixed": {
+    "norm_gain": {
+     "n_blocks": 6,
+     "mean_difference": 0.0622,
+     "n_positive": 3,
+     "exact_signflip_p": 0.25
+    },
+    "n_learned": {
+     "n_blocks": 6,
+     "mean_difference": 1.3333,
+     "n_positive": 5,
+     "exact_signflip_p": 0.125
+    }
+   },
+   "gla_full_vs_gla_reactive": {
+    "norm_gain": {
+     "n_blocks": 6,
+     "mean_difference": 0.077,
+     "n_positive": 4,
+     "exact_signflip_p": 0.28125
+    },
+    "n_learned": {
+     "n_blocks": 6,
+     "mean_difference": 1.5,
+     "n_positive": 5,
+     "exact_signflip_p": 0.0625
+    }
+   }
+  },
+  "combined": {
+   "gla_full_vs_vanilla": {
+    "norm_gain": {
+     "n_blocks": 15,
+     "mean_difference": 0.2077,
+     "n_positive": 15,
+     "exact_signflip_p": 6e-05
+    },
+    "n_learned": {
+     "n_blocks": 15,
+     "mean_difference": 1.8667,
+     "n_positive": 14,
+     "exact_signflip_p": 0.00012
+    }
+   },
+   "gla_full_vs_socratic": {
+    "norm_gain": {
+     "n_blocks": 15,
+     "mean_difference": 0.2043,
+     "n_positive": 15,
+     "exact_signflip_p": 6e-05
+    },
+    "n_learned": {
+     "n_blocks": 15,
+     "mean_difference": 1.8667,
+     "n_positive": 14,
+     "exact_signflip_p": 0.00012
+    }
+   },
+   "gla_full_vs_gla_fixed": {
+    "norm_gain": {
+     "n_blocks": 15,
+     "mean_difference": 0.0865,
+     "n_positive": 10,
+     "exact_signflip_p": 0.01465
+    },
+    "n_learned": {
+     "n_blocks": 15,
+     "mean_difference": 1.4667,
+     "n_positive": 13,
+     "exact_signflip_p": 0.00098
+    }
+   },
+   "gla_full_vs_gla_reactive": {
+    "norm_gain": {
+     "n_blocks": 15,
+     "mean_difference": 0.113,
+     "n_positive": 11,
+     "exact_signflip_p": 0.00513
+    },
+    "n_learned": {
+     "n_blocks": 15,
+     "mean_difference": 1.6,
+     "n_positive": 13,
+     "exact_signflip_p": 0.00024
+    }
+   }
+  }
+ }
+}

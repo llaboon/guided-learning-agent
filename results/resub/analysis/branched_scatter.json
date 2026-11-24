@@ -1,0 +1,274 @@
+{
+ "files": [
+  "results/resub/branched/experiment_branched_1795501920.json"
+ ],
+ "ref": "gla_full",
+ "n_rows": 15,
+ "summary": {
+  "gla_fixed": {
+   "n": 3,
+   "norm_gain": [
+    0.097,
+    0.1524
+   ],
+   "n_learned": [
+    0.6667,
+    0.5774
+   ],
+   "leakage_rate": [
+    0.014,
+    0.0242
+   ],
+   "chitchat_rate": [
+    0.0277,
+    0.0479
+   ]
+  },
+  "gla_full": {
+   "n": 3,
+   "norm_gain": [
+    0.0633,
+    0.1216
+   ],
+   "n_learned": [
+    0.6667,
+    0.5774
+   ],
+   "leakage_rate": [
+    0.0557,
+    0.0964
+   ],
+   "chitchat_rate": [
+    0.014,
+    0.0242
+   ]
+  },
+  "gla_reactive": {
+   "n": 3,
+   "norm_gain": [
+    -0.0087,
+    0.1594
+   ],
+   "n_learned": [
+    0.0,
+    0.0
+   ],
+   "leakage_rate": [
+    0.0557,
+    0.0636
+   ],
+   "chitchat_rate": [
+    0.0,
+    0.0
+   ]
+  },
+  "gla_single_probe": {
+   "n": 3,
+   "norm_gain": [
+    0.1467,
+    0.1023
+   ],
+   "n_learned": [
+    1.6667,
+    0.5774
+   ],
+   "leakage_rate": [
+    0.0,
+    0.0
+   ],
+   "chitchat_rate": [
+    0.0,
+    0.0
+   ]
+  },
+  "informed": {
+   "n": 3,
+   "norm_gain": [
+    0.054,
+    0.0797
+   ],
+   "n_learned": [
+    0.3333,
+    0.5774
+   ],
+   "leakage_rate": [
+    0.0277,
+    0.0479
+   ],
+   "chitchat_rate": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "paired_vs_ref": {
+  "norm_gain": {
+   "gla_fixed": {
+    "n_blocks": 3,
+    "mean_diff": -0.0337,
+    "ci95": [
+     -0.069,
+     0.0
+    ],
+    "p_signflip": 0.5,
+    "p_holm": 1.0
+   },
+   "gla_reactive": {
+    "n_blocks": 3,
+    "mean_diff": 0.072,
+    "ci95": [
+     0.032,
+     0.115
+    ],
+    "p_signflip": 0.25,
+    "p_holm": 1.0
+   },
+   "gla_single_probe": {
+    "n_blocks": 3,
+    "mean_diff": -0.0833,
+    "ci95": [
+     -0.115,
+     -0.032
+    ],
+    "p_signflip": 0.25,
+    "p_holm": 1.0
+   },
+   "informed": {
+    "n_blocks": 3,
+    "mean_diff": 0.0093,
+    "ci95": [
+     -0.039,
+     0.035
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "n_learned": {
+   "gla_fixed": {
+    "n_blocks": 3,
+    "mean_diff": 0.0,
+    "ci95": [
+     -1.0,
+     1.0
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "gla_reactive": {
+    "n_blocks": 3,
+    "mean_diff": 0.6667,
+    "ci95": [
+     0.0,
+     1.0
+    ],
+    "p_signflip": 0.5,
+    "p_holm": 1.0
+   },
+   "gla_single_probe": {
+    "n_blocks": 3,
+    "mean_diff": -1.0,
+    "ci95": [
+     -2.0,
+     0.0
+    ],
+    "p_signflip": 0.5,
+    "p_holm": 1.0
+   },
+   "informed": {
+    "n_blocks": 3,
+    "mean_diff": 0.3333,
+    "ci95": [
+     -1.0,
+     1.0
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "leakage_rate": {
+   "gla_fixed": {
+    "n_blocks": 3,
+    "mean_diff": 0.0417,
+    "ci95": [
+     -0.042,
+     0.167
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "gla_reactive": {
+    "n_blocks": 3,
+    "mean_diff": 0.0,
+    "ci95": [
+     -0.125,
+     0.167
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "gla_single_probe": {
+    "n_blocks": 3,
+    "mean_diff": 0.0557,
+    "ci95": [
+     0.0,
+     0.167
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "informed": {
+    "n_blocks": 3,
+    "mean_diff": 0.028,
+    "ci95": [
+     -0.083,
+     0.167
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "chitchat_rate": {
+   "gla_fixed": {
+    "n_blocks": 3,
+    "mean_diff": -0.0137,
+    "ci95": [
+     -0.083,
+     0.042
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "gla_reactive": {
+    "n_blocks": 3,
+    "mean_diff": 0.014,
+    "ci95": [
+     0.0,
+     0.042
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "gla_single_probe": {
+    "n_blocks": 3,
+    "mean_diff": 0.014,
+    "ci95": [
+     0.0,
+     0.042
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "informed": {
+    "n_blocks": 3,
+    "mean_diff": 0.014,
+    "ci95": [
+     0.0,
+     0.042
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   }
+  }
+ }
+}

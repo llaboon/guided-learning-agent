@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GLA: Teaching the Child Who Cannot Ask</title>
+<meta name="description" content="Guided Learning Agent: live sessions, released results and session traces.">
+<link rel="stylesheet" href="css/app.css">
+<script src="https://unpkg.com/lucide@1.79.0/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <strong>GLA &middot; Guided Learning Agent</strong>
+    <span>Teaching the child who cannot ask</span>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-view="live" aria-selected="true"><i data-lucide="play-circle"></i>Live session</button>
+    <button role="tab" data-view="results" aria-selected="false"><i data-lucide="table-2"></i>Results</button>
+    <button role="tab" data-view="explore" aria-selected="false"><i data-lucide="list-tree"></i>Traces</button>
+    <button role="tab" data-view="repro" aria-selected="false"><i data-lucide="terminal"></i>Reproduce</button>
+  </nav>
+  <a class="icon-link" id="repo-link" href="#" title="Source code on GitHub" aria-label="GitHub repository"><i data-lucide="github"></i></a>
+</header>
+
+<main>
+<!-- Live session -->
+<section class="view active" id="view-live">
+  <div class="grid-live">
+    <form class="panel" id="live-form" autocomplete="off">
+      <h3>Endpoint</h3>
+      <label class="field"><span>Provider</span>
+        <select id="preset"></select>
+      </label>
+      <label class="field"><span>Base URL</span>
+        <input type="url" id="base-url" placeholder="https://api.openai.com/v1" required>
+      </label>
+      <label class="field"><span>Model</span>
+        <input type="text" id="model" placeholder="gpt-4.1-mini" required>
+      </label>
+      <label class="field"><span>API key</span>
+        <div class="row">
+          <input type="password" id="api-key" class="grow" placeholder="sk-...">
+          <button type="button" class="btn icon-btn" id="toggle-key" title="Show or hide key" aria-label="Show or hide key"><i data-lucide="eye"></i></button>
+        </div>
+      </label>
+      <label class="row small"><input type="checkbox" id="remember-key"> Remember key in this browser tab</label>
+      <div class="notice">The key is sent only to the base URL above, from your browser. It is never sent to this site or written into traces.</div>
+
+      <details class="adv">
+        <summary>Separate judge / child models</summary>
+        <p class="small muted">Empty fields reuse the tutor endpoint. The paper uses a 0.8B child renderer and the tutor model as judge.</p>
+        <label class="field"><span>Judge base URL</span><input type="url" id="judge-url"></label>
+        <label class="field"><span>Judge model</span><input type="text" id="judge-model"></label>
+        <label class="field"><span>Judge API key</span><input type="password" id="judge-key"></label>
+        <label class="field"><span>Child base URL</span><input type="url" id="child-url"></label>
+        <label class="field"><span>Child model</span><input type="text" id="child-model"></label>
+        <label class="field"><span>Child API key</span><input type="password" id="child-key"></label>
+        <label class="row small"><input type="checkbox" id="vllm-nothink"> Send vLLM <code>enable_thinking=false</code></label>
+        <label class="field" style="margin-top:8px"><span>Max tokens per call</span><input type="number" id="max-tokens" min="128" max="4096" value="800"></label>
+      </details>
+
+      <h3 style="margin-top:14px">Session</h3>
+      <label class="field"><span>Domain</span>
+        <div class="seg" id="domain-seg">
+          <button type="button" data-v="early_math" aria-pressed="true">Linear (13)</button>
+          <button type="button" data-v="early_math_branched" aria-pressed="false">Branched (21)</button>
+        </div>
+      </label>
+      <label class="field"><span>Child profile</span>
+        <select id="profile">
+          <option value="zero">zero: knows nothing yet</option>
+          <option value="mid">mid: counts, cardinality, numerals</option>
+          <option value="beggar">beggar: begs for answers 40%</option>
+          <option value="scatter">scatter: branched domain only</option>
+        </select>
+      </label>
+      <div class="field"><span class="small muted">Tutor conditions (same child, same seed)</span>
+        <div class="checks" id="cond-checks"></div>
+      </div>
+      <div class="row" style="margin:8px 0 12px">
+        <label class="small muted">Turns</label>
+        <div class="stepper">
+          <button type="button" data-step="-2" aria-label="Fewer turns"><i data-lucide="minus"></i></button>
+          <input type="number" id="turns" value="12" min="2" max="40" aria-label="Turns">
+          <button type="button" data-step="2" aria-label="More turns"><i data-lucide="plus"></i></button>
+        </div>
+        <label class="small muted" style="margin-left:auto">Seed</label>
+        <div class="stepper">
+          <button type="button" data-seed="-1" aria-label="Previous seed"><i data-lucide="minus"></i></button>
+          <input type="number" id="seed" value="1" min="1" max="999" aria-label="Seed">
+          <button type="button" data-seed="1" aria-label="Next seed"><i data-lucide="plus"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" class="btn primary grow" id="run-btn"><i data-lucide="play"></i>Run</button>
+        <button type="button" class="btn" id="mock-btn" title="Run with scripted offline models, no key needed"><i data-lucide="flask-conical"></i>Offline</button>
+        <button type="button" class="btn icon-btn" id="stop-btn" title="Stop" aria-label="Stop" disabled><i data-lucide="square"></i></button>
+      </div>
+      <p class="small muted" id="cost-hint"></p>
+    </form>
+
+    <div>
+      <div class="status-line panel band" id="live-status" style="padding:8px 12px;margin-bottom:12px">
+        <span class="muted">Python runtime not loaded yet.</span>
+      </div>
+      <div class="sessions" id="sessions"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Results -->
+<section class="view" id="view-results">
+  <div class="row" style="margin-bottom:10px;flex-wrap:wrap">
+    <h2 class="grow">Condition summaries</h2>
+    <div class="seg" id="group-seg"></div>
+  </div>
+  <div class="panel">
+    <div class="table-wrap"><table class="data" id="summary-table"></table></div>
+    <p class="small muted" id="summary-note"></p>
+  </div>
+  <div class="cols-2" style="margin-top:16px">
+    <div class="panel">
+      <div class="row" style="margin-bottom:8px;flex-wrap:wrap">
+        <h3 class="grow" id="paired-title" style="margin:0">Paired effects</h3>
+        <div class="seg" id="metric-seg">
+          <button type="button" data-m="norm_gain" aria-pressed="true">Gain</button>
+          <button type="button" data-m="n_learned" aria-pressed="false">Learned</button>
+        </div>
+      </div>
+      <div class="table-wrap"><table class="data" id="paired-table"></table></div>
+    </div>
+    <div class="panel">
+      <h3>Per-profile normalized gain</h3>
+      <div class="table-wrap"><table class="data" id="profile-table"></table></div>
+    </div>
+  </div>
+</section>
+
+<!-- Trace explorer -->
+<section class="view" id="view-explore">
+  <div class="grid-explore">
+    <div class="panel">
+      <label class="field"><span>Result group</span><select id="ex-group"></select></label>
+      <div class="row" style="margin-bottom:8px">
+        <select id="ex-cond" class="grow" aria-label="Condition"></select>
+        <select id="ex-prof" class="grow" aria-label="Profile"></select>
+      </div>
+      <div class="list"><table class="data" id="ex-list"></table></div>
+    </div>
+    <div class="panel" id="ex-detail"><div class="empty">Select a session.</div></div>
+  </div>
+</section>
+
+<!-- Reproduce -->
+<section class="view" id="view-repro">
+  <div class="cols-2">
+    <div class="panel">
+      <h3>Offline checks (no model needed)</h3>
+<pre class="code">git clone <span class="repo-url">REPO</span>
+cd <span class="repo-name">gla</span>
+python -m pip install -r requirements.txt
+python experiments/validate_state.py
+python scripts/check_interfaces.py
+python experiments/dryrun_mock.py</pre>
+      <h3>Model-based run</h3>
+<pre class="code">export GLA_TUTOR_URL=http://localhost:8101/v1   # Qwen3.5-35B-A3B
+export GLA_JUDGE_URL=$GLA_TUTOR_URL
+export GLA_STUDENT_URL=http://localhost:8102/v1 # Qwen3.5-0.8B
+python experiments/run_experiment.py --domain early_math \
+  --turns 24 --seeds 1,2,3,4,5 --profiles zero,mid,beggar \
+  --conditions all --workers 8</pre>
+      <p class="small muted">See <a class="repo-file" data-path="REPRODUCE.md" href="#">REPRODUCE.md</a> for vLLM launch commands, expected numbers and tolerances.</p>
+    </div>
+    <div class="panel">
+      <h3>Released artifacts</h3>
+      <div class="table-wrap"><table class="data" id="artifact-table"></table></div>
+      <p class="small muted" id="artifact-note"></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<script src="js/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+{
+ "files": [
+  "results/resub/xtutor/experiment_xtutor_1795501360.json"
+ ],
+ "ref": "gla_full",
+ "n_rows": 54,
+ "summary": {
+  "gla_fixed": {
+   "n": 9,
+   "norm_gain": [
+    -0.0052,
+    0.1081
+   ],
+   "n_learned": [
+    0.1111,
+    0.3333
+   ],
+   "leakage_rate": [
+    0.0093,
+    0.0185
+   ],
+   "chitchat_rate": [
+    0.014,
+    0.021
+   ]
+  },
+  "gla_full": {
+   "n": 9,
+   "norm_gain": [
+    0.0953,
+    0.0812
+   ],
+   "n_learned": [
+    1.5556,
+    0.527
+   ],
+   "leakage_rate": [
+    0.0193,
+    0.058
+   ],
+   "chitchat_rate": [
+    0.051,
+    0.095
+   ]
+  },
+  "gla_reactive": {
+   "n": 9,
+   "norm_gain": [
+    -0.0313,
+    0.0814
+   ],
+   "n_learned": [
+    0.1111,
+    0.3333
+   ],
+   "leakage_rate": [
+    0.014,
+    0.021
+   ],
+   "chitchat_rate": [
+    0.0,
+    0.0
+   ]
+  },
+  "informed": {
+   "n": 9,
+   "norm_gain": [
+    0.0619,
+    0.1048
+   ],
+   "n_learned": [
+    1.0,
+    0.7071
+   ],
+   "leakage_rate": [
+    0.0139,
+    0.0294
+   ],
+   "chitchat_rate": [
+    0.0,
+    0.0
+   ]
+  },
+  "socratic": {
+   "n": 9,
+   "norm_gain": [
+    -0.0683,
+    0.0557
+   ],
+   "n_learned": [
+    0.0,
+    0.0
+   ],
+   "leakage_rate": [
+    0.0,
+    0.0
+   ],
+   "chitchat_rate": [
+    0.3797,
+    0.2218
+   ]
+  },
+  "vanilla": {
+   "n": 9,
+   "norm_gain": [
+    -0.1013,
+    0.0465
+   ],
+   "n_learned": [
+    0.0,
+    0.0
+   ],
+   "leakage_rate": [
+    0.0,
+    0.0
+   ],
+   "chitchat_rate": [
+    0.75,
+    0.1838
+   ]
+  }
+ },
+ "paired_vs_ref": {
+  "norm_gain": {
+   "gla_fixed": {
+    "n_blocks": 9,
+    "mean_diff": 0.1006,
+    "ci95": [
+     0.0359,
+     0.169
+    ],
+    "p_signflip": 0.03125,
+    "p_holm": 0.0625
+   },
+   "gla_reactive": {
+    "n_blocks": 9,
+    "mean_diff": 0.1267,
+    "ci95": [
+     0.0628,
+     0.1869
+    ],
+    "p_signflip": 0.01172,
+    "p_holm": 0.03516
+   },
+   "informed": {
+    "n_blocks": 9,
+    "mean_diff": 0.0334,
+    "ci95": [
+     0.0041,
+     0.0618
+    ],
+    "p_signflip": 0.09375,
+    "p_holm": 0.09375
+   },
+   "socratic": {
+    "n_blocks": 9,
+    "mean_diff": 0.1637,
+    "ci95": [
+     0.1108,
+     0.2172
+    ],
+    "p_signflip": 0.00391,
+    "p_holm": 0.01953
+   },
+   "vanilla": {
+    "n_blocks": 9,
+    "mean_diff": 0.1967,
+    "ci95": [
+     0.139,
+     0.2532
+    ],
+    "p_signflip": 0.00391,
+    "p_holm": 0.01953
+   }
+  },
+  "n_learned": {
+   "gla_fixed": {
+    "n_blocks": 9,
+    "mean_diff": 1.4444,
+    "ci95": [
+     1.0,
+     1.8889
+    ],
+    "p_signflip": 0.00781,
+    "p_holm": 0.02344
+   },
+   "gla_reactive": {
+    "n_blocks": 9,
+    "mean_diff": 1.4444,
+    "ci95": [
+     1.0,
+     1.8889
+    ],
+    "p_signflip": 0.00781,
+    "p_holm": 0.02344
+   },
+   "informed": {
+    "n_blocks": 9,
+    "mean_diff": 0.5556,
+    "ci95": [
+     0.0,
+     1.1111
+    ],
+    "p_signflip": 0.1875,
+    "p_holm": 0.1875
+   },
+   "socratic": {
+    "n_blocks": 9,
+    "mean_diff": 1.5556,
+    "ci95": [
+     1.2222,
+     1.8889
+    ],
+    "p_signflip": 0.00391,
+    "p_holm": 0.01953
+   },
+   "vanilla": {
+    "n_blocks": 9,
+    "mean_diff": 1.5556,
+    "ci95": [
+     1.2222,
+     1.8889
+    ],
+    "p_signflip": 0.00391,
+    "p_holm": 0.01953
+   }
+  },
+  "leakage_rate": {
+   "gla_fixed": {
+    "n_blocks": 9,
+    "mean_diff": 0.01,
+    "ci95": [
+     -0.0187,
+     0.0533
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "gla_reactive": {
+    "n_blocks": 9,
+    "mean_diff": 0.0053,
+    "ci95": [
+     -0.028,
+     0.0533
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "informed": {
+    "n_blocks": 9,
+    "mean_diff": 0.0054,
+    "ci95": [
+     -0.0323,
+     0.0533
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "socratic": {
+    "n_blocks": 9,
+    "mean_diff": 0.0193,
+    "ci95": [
+     0.0,
+     0.058
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "vanilla": {
+    "n_blocks": 9,
+    "mean_diff": 0.0193,
+    "ci95": [
+     0.0,
+     0.058
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   }
+  },
+  "chitchat_rate": {
+   "gla_fixed": {
+    "n_blocks": 9,
+    "mean_diff": 0.037,
+    "ci95": [
+     0.0,
+     0.0927
+    ],
+    "p_signflip": 0.25,
+    "p_holm": 0.375
+   },
+   "gla_reactive": {
+    "n_blocks": 9,
+    "mean_diff": 0.051,
+    "ci95": [
+     0.0092,
+     0.1159
+    ],
+    "p_signflip": 0.125,
+    "p_holm": 0.375
+   },
+   "informed": {
+    "n_blocks": 9,
+    "mean_diff": 0.051,
+    "ci95": [
+     0.0092,
+     0.1159
+    ],
+    "p_signflip": 0.125,
+    "p_holm": 0.375
+   },
+   "socratic": {
+    "n_blocks": 9,
+    "mean_diff": -0.3287,
+    "ci95": [
+     -0.4444,
+     -0.2084
+    ],
+    "p_signflip": 0.00391,
+    "p_holm": 0.01953
+   },
+   "vanilla": {
+    "n_blocks": 9,
+    "mean_diff": -0.699,
+    "ci95": [
+     -0.7918,
+     -0.5973
+    ],
+    "p_signflip": 0.00391,
+    "p_holm": 0.01953
+   }
+  }
+ }
+}

@@ -1,0 +1,52 @@
+profiles skipped (not in domain early_math): ['scatter']
+total runs: 15 (turns=24, workers=10, gate=hard, threshold=0.8, alpha_scale=1.0)
+[done 1/15] gla_full_validated/mid/s4 norm_gain=0.3 learned=2 leak=0.0 (132s)
+[done 2/15] gla_full_validated/mid/s2 norm_gain=0.111 learned=2 leak=0.042 (133s)
+[done 3/15] gla_full_validated/mid/s3 norm_gain=0.278 learned=2 leak=0.0 (137s)
+[done 4/15] gla_full_validated/mid/s1 norm_gain=0.0 learned=2 leak=0.0 (139s)
+[done 5/15] gla_full_validated/mid/s5 norm_gain=0.0 learned=1 leak=0.0 (150s)
+[done 6/15] gla_full_validated/zero/s1 norm_gain=0.136 learned=2 leak=0.0 (154s)
+[done 7/15] gla_full_validated/zero/s3 norm_gain=0.292 learned=3 leak=0.0 (175s)
+[done 8/15] gla_full_validated/zero/s4 norm_gain=0.192 learned=2 leak=0.0 (175s)
+[done 9/15] gla_full_validated/zero/s2 norm_gain=-0.083 learned=0 leak=0.0 (186s)
+[done 10/15] gla_full_validated/zero/s5 norm_gain=0.167 learned=0 leak=0.0 (193s)
+[done 11/15] gla_full_validated/beggar/s2 norm_gain=0.045 learned=2 leak=0.0 (261s)
+[done 12/15] gla_full_validated/beggar/s3 norm_gain=0.182 learned=2 leak=0.0 (283s)
+[done 13/15] gla_full_validated/beggar/s4 norm_gain=0.208 learned=1 leak=0.0 (292s)
+[done 14/15] gla_full_validated/beggar/s1 norm_gain=0.15 learned=2 leak=0.0 (297s)
+[done 15/15] gla_full_validated/beggar/s5 norm_gain=0.227 learned=2 leak=0.0 (369s)
+
+===== SUMMARY (mean, std) =====
+{
+ "gla_full_validated": {
+  "norm_gain": [
+   0.147,
+   0.114
+  ],
+  "abs_gain": [
+   0.137,
+   0.109
+  ],
+  "n_learned": [
+   1.667,
+   0.816
+  ],
+  "gap_coverage": [
+   0.241,
+   0.053
+  ],
+  "leakage_rate": [
+   0.003,
+   0.011
+  ],
+  "chitchat_rate": [
+   0.006,
+   0.021
+  ],
+  "n_runs": 15
+ }
+}
+===== TESTS =====
+{}
+saved -> results/resub/validated/experiment_validated_1795500397.json
+EXPERIMENT_DONE

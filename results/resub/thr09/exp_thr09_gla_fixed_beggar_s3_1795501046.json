@@ -1,0 +1,1500 @@
+{
+ "condition": "gla_fixed",
+ "student_profile": {
+  "pid": "beggar",
+  "name": "皮皮",
+  "age": 5,
+  "mastered": [
+   "counting_10"
+  ],
+  "attention": 0.85,
+  "beg_for_answer": 0.4,
+  "persona_extra": "6. 你特别爱撒娇耍赖，经常想让老师直接告诉你答案。"
+ },
+ "transcript": [
+  {
+   "role": "student",
+   "text": "老师……我不知道要学什么。"
+  },
+  {
+   "role": "tutor",
+   "text": "今天我们要像小青蛙一样，从 1 数到 10，看看谁能数得最整齐！\n我们伸出小手，一个一个点着数：1、2、3……一直数到 10，就像数小苹果一样。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "好呀好呀！老师我们数得真整齐，像小鱼一样！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你数得真棒，像小青蛙跳荷叶一样整齐！\n我们再来数一遍，伸出小手点着：1、2、3、4、5……一直数到 10。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "好棒好棒！老师数得真整齐，像小青蛙一样！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你像小松鼠一样数得真快真准！\n现在我们来玩个游戏，请你从 1 数到 10，就像数小星星一样，1、2、3……一直数到 10，好吗？"
+  },
+  {
+   "role": "student",
+   "text": "好呀好呀，老师我想和星星数星星，1、2、3、4、5、6、7、8、9、10，数得真像星星一样！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你数得真清楚，像小星星在天上眨眼睛一样！\n现在老师来教你一个小本领：点数的时候，手指点一个物体，嘴巴就数一个数，最后数到的那个数字，就是所有东西的总数哦。\n比如这里有 3 个苹果，我们点一个数“一”，点一个数“二”，点一个数“三”，最后数到“三”，说明一共有 3 个苹果。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，我有 3 个苹果，我们一个一个点着的。"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你做得太棒了！就像小猴子摘桃子一样，点一个数一个，最后数到“三”，说明一共有 3 个苹果哦。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，我有 3 个苹果，很好！"
+  },
+  {
+   "role": "tutor",
+   "text": "你做得真棒，就像小蜜蜂采花蜜一样准确！\n现在轮到小宝贝自己来试试啦，请伸出手指，数一数老师手心里的 3 颗糖果，最后数到几，就是有几颗糖果呢？"
+  },
+  {
+   "role": "student",
+   "text": "老师，我有 3 颗糖，数到三啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你数得真准，就像小蚂蚁搬糖豆一样聪明！\n现在我们来玩个认数字的游戏，数字 1 长得像一支细细的铅笔，数字 2 像一只游来游去的小鸭子，数字 3 像我们弯弯的耳朵。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "像铅笔、鸭子、耳朵……你们说的都对，老师心里美！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你记得真牢，就像小百灵鸟唱歌一样好听！\n数字 1 像铅笔，数字 2 像小鸭子，数字 3 像小耳朵，我们再来复习一遍好不好？\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，小狗 1 是细铅笔，数字 2 是小鸭鸭，数字 3 像耳朵，我们复习一下！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你记得太清楚啦，像小喜鹊一样聪明！\n现在我们来玩个“找数字”的游戏，请你在纸上找出数字“2”，就像找到那只小鸭子一样，你能找出来吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，猪猪 2 在桌子上呢！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你眼睛真亮，一下子就把小鸭子找到了！\n现在老师这里有两排小动物，左边有 2 只小猫，右边有 3 只小狗，我们要像排队一样把它们一一对应起来比一比。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，猫是 2 个，狗是 3 个，一一对应，右边多啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太聪明啦！像小侦探一样一眼就看出右边的小狗更多！\n就像小猫和小狗手拉手，小猫拉完手还剩下一只小狗没朋友，所以小狗就是多的那个。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，猫 2 是小猫，狗 3 是小狗，右边小狗明明！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你观察得真仔细，像小狮子一样勇敢地说出了答案！\n那现在请你当小裁判，左边有 2 个红苹果，右边有 1 个绿苹果，哪一边的苹果更多呢？"
+  },
+  {
+   "role": "student",
+   "text": "不知道……"
+  },
+  {
+   "role": "tutor",
+   "text": "别着急，我们来帮小苹果排排队，左边有 2 个红苹果，右边只有 1 个绿苹果。\n就像小火车，2 节车厢比 1 节车厢更长，所以红苹果更多哦。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "红苹果多呀！2 个比 1 个多！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你答对啦！就像小蝴蝶一样飞得准准的，2 个红苹果确实比 1 个绿苹果多！\n现在我们来玩个“排队”的游戏，看谁能认出谁排第几个。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，红苹果排第 2，绿苹果排第 1，红苹果排在前面啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你回答得真棒！就像小火车头一样，第一个出发的是绿苹果，第二个是红苹果。\n现在老师这里排好了一队小动物：第一只是小猫，第二只是小狗，第三只是小兔。\n请你告诉老师，排在最前面（第一个）的是谁呀？"
+  },
+  {
+   "role": "student",
+   "text": "排第 1 的是小猫！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你答得真对！就像小火车头一样，小猫就是第一个出发的！\n现在我们来学一个特别的本领，认识一个很安静、很安静的数字“0”。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，0 一个也没有，0 像小朋友睡觉的闹钟响铃一样，心里很安静呀！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太聪明啦！0 就像吃完苹果的盘子，里面一个苹果也没有，这就是\"0\"的意思。\n在数数排队的时候，0 是第一个，它排在 1 的前面，表示“一个都没有”。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，0 就是 0 一个也没有，它排在 1 前面，就像垃圾桶一样，里面没东西。"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你理解得太棒啦！就像把空空的糖果盒放在 1 前面，里面确实一个糖果也没有呢！\n现在老师这里有一个小篮子，里面**一个**小饼干都没有，请问篮子里有几个小饼干呀？"
+  },
+  {
+   "role": "student",
+   "text": "篮子有 0 个饼干哦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你答得太棒啦！就像小管家一样聪明，知道空空的篮子就是 0 个饼干！\n现在我们玩个“分玩具”的游戏：老师这里有 4 个小圆片，像 4 颗小糖果，我要把它们分给两只小手，看看有几种分法？\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "好呀好呀！让我想一想，有的方法还是太麻烦了，老师想直接告诉你答案哦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你愿意当小老师告诉老师，真勇敢！\n那老师来示范一下，把 4 个小圆片分一分：左手拿 1 个，右手拿 3 个，4 就可以分成 1 和 3 哦。\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "嘿嘿，老师来示范啦！左手拿 1，右手拿 3，4 就分成 1 和 3 啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你学得真快，就像小猴子模仿动作一样聪明！\n现在轮到你自己来分一分啦：如果有 3 颗小星星，可以分成几颗和几颗呢？\n请你试着说一种分法，比如“3 可以分成 1 和 2\"。"
+  },
+  {
+   "role": "student",
+   "text": "1 和 2！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你答对啦！就像小蝴蝶一样聪明，3 颗星星确实可以分成 1 颗和 2 颗哦！\n现在我们要玩个“合起来”的游戏：老师这里有 2 块小积木，旁边又拿来了 1 块小积木，把它们放在一起，一共会有几块积木呢？\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "2 块积木加 1 块积木，一共就是 3 块啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太棒啦！就像两只小兔子跳在一起变成了三只，2 加 1 真的等于 3 哦！\n现在老师再给你一个“合起来”的例子：这里有 1 个红苹果，旁边又放上来 2 个绿苹果，把它们合在一起，一共是几个苹果呢？\n你听懂了吗？"
+  },
+  {
+   "role": "student",
+   "text": "1 个红苹果 + 2 个绿苹果 = 3 个苹果呀！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你算得真准！就像把两堆小石头倒在一起，1 加 2 真的等于 3 哦！\n现在请你来当小老师，如果有 2 只小鸭子，又游来了 1 只小鸭子，合起来一共有几只小鸭子呀？"
+  },
+  {
+   "role": "student",
+   "text": "是2吧！"
+  }
+ ],
+ "directives": [
+  {
+   "activity": "teach",
+   "skill": "counting_10",
+   "note": "用具体例子讲解「口头数数1-10」，本回合以讲解示范为主。教法：用手指、玩具、小动物等实物一个一个点着数；可以唱数数歌。"
+  },
+  {
+   "activity": "teach",
+   "skill": "counting_10",
+   "note": "用具体例子讲解「口头数数1-10」，本回合以讲解示范为主。教法：用手指、玩具、小动物等实物一个一个点着数；可以唱数数歌。"
+  },
+  {
+   "activity": "practice",
+   "skill": "counting_10",
+   "note": "出一道「口头数数1-10」的小练习让孩子自己回答"
+  },
+  {
+   "activity": "teach",
+   "skill": "counting_objects",
+   "note": "用具体例子讲解「点数与基数」，本回合以讲解示范为主。教法：点一个说一个数；数完追问\"一共有几个\"，强调最后一个数就是总数。"
+  },
+  {
+   "activity": "teach",
+   "skill": "counting_objects",
+   "note": "用具体例子讲解「点数与基数」，本回合以讲解示范为主。教法：点一个说一个数；数完追问\"一共有几个\"，强调最后一个数就是总数。"
+  },
+  {
+   "activity": "practice",
+   "skill": "counting_objects",
+   "note": "出一道「点数与基数」的小练习让孩子自己回答"
+  },
+  {
+   "activity": "teach",
+   "skill": "number_recognition",
+   "note": "用具体例子讲解「认识数字符号1-10」，本回合以讲解示范为主。教法：把数字形状比喻成身边的东西：1像铅笔，2像小鸭子，3像耳朵。"
+  },
+  {
+   "activity": "teach",
+   "skill": "number_recognition",
+   "note": "用具体例子讲解「认识数字符号1-10」，本回合以讲解示范为主。教法：把数字形状比喻成身边的东西：1像铅笔，2像小鸭子，3像耳朵。"
+  },
+  {
+   "activity": "practice",
+   "skill": "number_recognition",
+   "note": "出一道「认识数字符号1-10」的小练习让孩子自己回答"
+  },
+  {
+   "activity": "teach",
+   "skill": "quantity_compare",
+   "note": "用具体例子讲解「比较多少」，本回合以讲解示范为主。教法：把两排东西一一对应摆好再比较；先数一数每边有几个。"
+  },
+  {
+   "activity": "teach",
+   "skill": "quantity_compare",
+   "note": "用具体例子讲解「比较多少」，本回合以讲解示范为主。教法：把两排东西一一对应摆好再比较；先数一数每边有几个。"
+  },
+  {
+   "activity": "practice",
+   "skill": "quantity_compare",
+   "note": "出一道「比较多少」的小练习让孩子自己回答"
+  },
+  {
+   "activity": "teach",
+   "skill": "ordinal",
+   "note": "用具体例子讲解「认识第几个」，本回合以讲解示范为主。教法：排队游戏：小熊排第1，小兔排第2……谁排第3？"
+  },
+  {
+   "activity": "teach",
+   "skill": "ordinal",
+   "note": "用具体例子讲解「认识第几个」，本回合以讲解示范为主。教法：排队游戏：小熊排第1，小兔排第2……谁排第3？"
+  },
+  {
+   "activity": "practice",
+   "skill": "ordinal",
+   "note": "出一道「认识第几个」的小练习让孩子自己回答"
+  },
+  {
+   "activity": "teach",
+   "skill": "zero_concept",
+   "note": "用具体例子讲解「0的概念」，本回合以讲解示范为主。教法：用\"吃光的盘子\"\"空盒子\"讲0；数轴/数列里让0排在1前面。"
+  },
+  {
+   "activity": "teach",
+   "skill": "zero_concept",
+   "note": "用具体例子讲解「0的概念」，本回合以讲解示范为主。教法：用\"吃光的盘子\"\"空盒子\"讲0；数轴/数列里让0排在1前面。"
+  },
+  {
+   "activity": "practice",
+   "skill": "zero_concept",
+   "note": "出一道「0的概念」的小练习让孩子自己回答"
+  },
+  {
+   "activity": "teach",
+   "skill": "composition_5",
+   "note": "用具体例子讲解「5以内数的组成」，本回合以讲解示范为主。教法：用分小圆片游戏：把4个圆片分到两只手里，看看有几种分法。"
+  },
+  {
+   "activity": "teach",
+   "skill": "composition_5",
+   "note": "用具体例子讲解「5以内数的组成」，本回合以讲解示范为主。教法：用分小圆片游戏：把4个圆片分到两只手里，看看有几种分法。"
+  },
+  {
+   "activity": "practice",
+   "skill": "composition_5",
+   "note": "出一道「5以内数的组成」的小练习让孩子自己回答"
+  },
+  {
+   "activity": "teach",
+   "skill": "addition_5",
+   "note": "用具体例子讲解「5以内加法」，本回合以讲解示范为主。教法：用实物合并演示：2个积木和1个积木放在一起，一共几个？"
+  },
+  {
+   "activity": "teach",
+   "skill": "addition_5",
+   "note": "用具体例子讲解「5以内加法」，本回合以讲解示范为主。教法：用实物合并演示：2个积木和1个积木放在一起，一共几个？"
+  },
+  {
+   "activity": "practice",
+   "skill": "addition_5",
+   "note": "出一道「5以内加法」的小练习让孩子自己回答"
+  }
+ ],
+ "annotations": [
+  {
+   "skill": "counting_10",
+   "act": "teach",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "1到10",
+   "turn": 0,
+   "drawn_correct": null
+  },
+  {
+   "skill": "counting_10",
+   "act": "teach",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "1到10",
+   "turn": 1,
+   "drawn_correct": null
+  },
+  {
+   "skill": "counting_10",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "1到10",
+   "turn": 2,
+   "drawn_correct": null
+  },
+  {
+   "skill": "counting_objects",
+   "act": "teach",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 3,
+   "drawn_correct": null
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 4,
+   "drawn_correct": null
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "3",
+   "turn": 5,
+   "drawn_correct": null
+  },
+  {
+   "skill": "number_recognition",
+   "act": "teach",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 6,
+   "drawn_correct": null
+  },
+  {
+   "skill": "number_recognition",
+   "act": "teach",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 7,
+   "drawn_correct": null
+  },
+  {
+   "skill": "number_recognition",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 8,
+   "drawn_correct": null
+  },
+  {
+   "skill": "quantity_compare",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 9,
+   "drawn_correct": null
+  },
+  {
+   "skill": "quantity_compare",
+   "act": "teach",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 10,
+   "drawn_correct": null
+  },
+  {
+   "skill": "quantity_compare",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "左边",
+   "turn": 11,
+   "drawn_correct": false
+  },
+  {
+   "skill": "quantity_compare",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 12,
+   "drawn_correct": false
+  },
+  {
+   "skill": "quantity_compare",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 13,
+   "drawn_correct": false
+  },
+  {
+   "skill": "ordinal",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "小猫",
+   "turn": 14,
+   "drawn_correct": null
+  },
+  {
+   "skill": "zero_concept",
+   "act": "teach",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 15,
+   "drawn_correct": null
+  },
+  {
+   "skill": "zero_concept",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 16,
+   "drawn_correct": null
+  },
+  {
+   "skill": "zero_concept",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "0",
+   "turn": 17,
+   "drawn_correct": null
+  },
+  {
+   "skill": "composition_5",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 18,
+   "drawn_correct": false
+  },
+  {
+   "skill": "composition_5",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 19,
+   "drawn_correct": false
+  },
+  {
+   "skill": "composition_5",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 20,
+   "drawn_correct": false
+  },
+  {
+   "skill": "composition_5",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "3",
+   "turn": 21,
+   "drawn_correct": null
+  },
+  {
+   "skill": "addition_5",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "3",
+   "turn": 22,
+   "drawn_correct": null
+  },
+  {
+   "skill": "addition_5",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "3",
+   "turn": 23,
+   "drawn_correct": false
+  }
+ ],
+ "belief_snapshots": [
+  {
+   "counting_10": 0.429,
+   "counting_objects": 0.333,
+   "number_recognition": 0.333,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.333,
+   "number_recognition": 0.333,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.333,
+   "number_recognition": 0.333,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.429,
+   "number_recognition": 0.333,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.5,
+   "number_recognition": 0.333,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.333,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.429,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.333,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.429,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.333,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.429,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.5,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.333,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.429,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.5,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.556,
+   "composition_5": 0.333,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.556,
+   "composition_5": 0.429,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.556,
+   "composition_5": 0.5,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.556,
+   "composition_5": 0.5,
+   "addition_5": 0.333,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.556,
+   "composition_5": 0.5,
+   "addition_5": 0.429,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.556,
+   "composition_5": 0.5,
+   "addition_5": 0.5,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  },
+  {
+   "counting_10": 0.5,
+   "counting_objects": 0.556,
+   "number_recognition": 0.5,
+   "quantity_compare": 0.5,
+   "ordinal": 0.556,
+   "zero_concept": 0.556,
+   "composition_5": 0.5,
+   "addition_5": 0.5,
+   "subtraction_5": 0.333,
+   "composition_10": 0.333,
+   "addition_10": 0.333,
+   "subtraction_10": 0.333,
+   "word_problem_10": 0.333
+  }
+ ],
+ "final_belief": {
+  "counting_10": 0.5,
+  "counting_objects": 0.556,
+  "number_recognition": 0.5,
+  "quantity_compare": 0.5,
+  "ordinal": 0.556,
+  "zero_concept": 0.556,
+  "composition_5": 0.5,
+  "addition_5": 0.5,
+  "subtraction_5": 0.333,
+  "composition_10": 0.333,
+  "addition_10": 0.333,
+  "subtraction_10": 0.333,
+  "word_problem_10": 0.333
+ },
+ "state_events": [
+  {
+   "turn": 0,
+   "skill": "counting_10",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 1,
+   "skill": "counting_10",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 3,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.112,
+   "m": 0.112
+  },
+  {
+   "turn": 4,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.0797,
+   "m": 0.1917
+  },
+  {
+   "turn": 5,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.1099,
+   "m": 0.3016
+  },
+  {
+   "turn": 6,
+   "skill": "number_recognition",
+   "event": "progress",
+   "delta": 0.0761,
+   "m": 0.0761
+  },
+  {
+   "turn": 7,
+   "skill": "number_recognition",
+   "event": "progress",
+   "delta": 0.0916,
+   "m": 0.1677
+  },
+  {
+   "turn": 9,
+   "skill": "quantity_compare",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 10,
+   "skill": "quantity_compare",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 11,
+   "skill": "quantity_compare",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 12,
+   "skill": "quantity_compare",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 13,
+   "skill": "quantity_compare",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 14,
+   "skill": "ordinal",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 15,
+   "skill": "zero_concept",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 16,
+   "skill": "zero_concept",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 17,
+   "skill": "zero_concept",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 18,
+   "skill": "composition_5",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 19,
+   "skill": "composition_5",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 20,
+   "skill": "composition_5",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 21,
+   "skill": "composition_5",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 22,
+   "skill": "addition_5",
+   "event": "blocked_prereq"
+  },
+  {
+   "turn": 23,
+   "skill": "addition_5",
+   "event": "blocked_prereq"
+  }
+ ],
+ "final_state": {
+  "mastered": [
+   "counting_10"
+  ],
+  "m": {
+   "counting_10": 1.0,
+   "counting_objects": 0.302,
+   "number_recognition": 0.168,
+   "quantity_compare": 0.0,
+   "ordinal": 0.0,
+   "zero_concept": 0.0,
+   "composition_5": 0.0,
+   "addition_5": 0.0,
+   "subtraction_5": 0.0,
+   "composition_10": 0.0,
+   "addition_10": 0.0,
+   "subtraction_10": 0.0,
+   "word_problem_10": 0.0
+  }
+ },
+ "n_turns": 24,
+ "validation_log": [],
+ "seed": 3,
+ "pre_scores": {
+  "counting_10": 1.0,
+  "counting_objects": 0.0,
+  "number_recognition": 0.0,
+  "quantity_compare": 0.5,
+  "ordinal": 0.0,
+  "zero_concept": 0.0,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.0,
+  "addition_10": 0.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.5
+ },
+ "post_scores": {
+  "counting_10": 1.0,
+  "counting_objects": 0.5,
+  "number_recognition": 0.0,
+  "quantity_compare": 0.0,
+  "ordinal": 0.0,
+  "zero_concept": 0.0,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.0,
+  "addition_10": 0.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.0
+ },
+ "pre_test": {
+  "counting_10": [
+   {
+    "q": "你能从1数到5给我听吗？数完告诉我5的后面是几。",
+    "expected": "6",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "3的后面一个数是几？",
+    "expected": "4",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "这里有6只小鸭子（嘎嘎嘎），你数一数，一共有几只小鸭子？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "桌上摆了4块积木，你点着数一数，一共有几块？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"7\"这个数字，念作什么？",
+    "expected": "七",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"3\"这个数字念什么？",
+    "expected": "三",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小明有3颗糖，小红有5颗糖，谁的糖多？",
+    "expected": "小红",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "4个苹果和6个苹果，哪个多？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时从前往后数，小明前面有2个人，小明排第几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第4个后面紧跟着的是第几个？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "盘子里的3块蛋糕都被吃光啦，现在盘子里有几块蛋糕？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"一个也没有\"用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "4个苹果分给两个小朋友，一个拿1个，另一个拿几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5可以分成2和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "2加2等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有1颗糖，妈妈又给你3颗，现在一共几颗？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "4减1等于几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有5颗糖，吃掉2颗，还剩几颗？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "8可以分成5和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成6和几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "6加3等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4加5等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "9减4等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "8减3等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "小明有4张贴纸，姐姐又给他3张，他送给同学2张。现在小明有几张贴纸？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "篮子里有5个橘子，再放进3个，一共几个橘子？",
+    "expected": "8",
+    "reply": "",
+    "correct": true
+   }
+  ]
+ },
+ "post_test": {
+  "counting_10": [
+   {
+    "q": "你从1数到10，7的后面是几呀？",
+    "expected": "8",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "5的后面一个数是几？",
+    "expected": "6",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "盘子里放了7颗草莓，你数一数，一共有几颗草莓？",
+    "expected": "7",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "地上有5辆小汽车，你点着数一数，一共有几辆？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"9\"这个数字，念作什么？",
+    "expected": "九",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"5\"这个数字念什么？",
+    "expected": "五",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小狗有2根骨头，小猫有4条小鱼，谁的食物多？",
+    "expected": "小猫",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "7个气球和5个气球，哪个多？",
+    "expected": "7",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时小红前面有3个人，小红排第几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第2个后面紧跟着的是第几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "鱼缸里的鱼都被捞走了，一条也不剩，鱼缸里有几条鱼？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "口袋空空的，什么都没有，用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "5个糖果分给两个小朋友，一个拿4个，另一个拿几个？",
+    "expected": "1",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4可以分成2和几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "3加2等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有2个气球，爸爸又给你2个，一共几个？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "5减3等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "树上有4只小鸟，飞走1只，还剩几只？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "9可以分成4和几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成7和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "7加2等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5加4等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "10减6等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "7减5等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "车上原来有7个人，到站下去3个，又上来1个，现在车上有几个人？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "枝头有9颗樱桃，小鸟吃掉4颗，还剩几颗？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ]
+ },
+ "gain": {
+  "pre": 0.083,
+  "post": 0.042,
+  "abs_gain": -0.042,
+  "norm_gain": -0.045
+ },
+ "annotation_metrics": {
+  "touched_skills": [
+   "addition_5",
+   "composition_5",
+   "counting_10",
+   "counting_objects",
+   "number_recognition",
+   "ordinal",
+   "quantity_compare",
+   "zero_concept"
+  ],
+  "coverage_all": 0.615,
+  "gap_coverage": 0.583,
+  "substantive_turns": 24,
+  "chitchat_rate": 0.0,
+  "leakage_rate": 0.0
+ },
+ "learned_skills": []
+}

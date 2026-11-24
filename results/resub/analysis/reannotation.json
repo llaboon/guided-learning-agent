@@ -1,0 +1,113 @@
+{
+ "annotator": "gemma4_31b",
+ "n_turns": 2424,
+ "fields": {
+  "skill": {
+   "agreement": 0.9055,
+   "kappa": 0.892
+  },
+  "act": {
+   "agreement": 0.6918,
+   "kappa": 0.5342
+  },
+  "leaked": {
+   "agreement": 0.9262,
+   "kappa": 0.2992
+  },
+  "comprehensible": {
+   "agreement": 0.9959,
+   "kappa": 0.1655
+  },
+  "act_collapsed_ask_both": {
+   "agreement": 0.835,
+   "kappa": 0.5546
+  }
+ },
+ "by_condition_leak": {
+  "gla_fixed": {
+   "n_substantive": 357,
+   "qwen": 0.0112,
+   "reannotator": 0.0616
+  },
+  "gla_full": {
+   "n_substantive": 356,
+   "qwen": 0.0056,
+   "reannotator": 0.073
+  },
+  "gla_reactive": {
+   "n_substantive": 360,
+   "qwen": 0.0694,
+   "reannotator": 0.1611
+  },
+  "gla_single_probe": {
+   "n_substantive": 355,
+   "qwen": 0.0141,
+   "reannotator": 0.0732
+  },
+  "informed": {
+   "n_substantive": 358,
+   "qwen": 0.0838,
+   "reannotator": 0.1453
+  },
+  "socratic": {
+   "n_substantive": 220,
+   "qwen": 0.0273,
+   "reannotator": 0.0409
+  },
+  "vanilla": {
+   "n_substantive": 97,
+   "qwen": 0.0,
+   "reannotator": 0.0206
+  }
+ },
+ "act_confusion": [
+  [
+   "both->both",
+   831
+  ],
+  [
+   "ask->ask",
+   518
+  ],
+  [
+   "both->ask",
+   263
+  ],
+  [
+   "chitchat->chitchat",
+   229
+  ],
+  [
+   "teach->both",
+   169
+  ],
+  [
+   "teach->teach",
+   99
+  ],
+  [
+   "ask->both",
+   84
+  ],
+  [
+   "chitchat->ask",
+   65
+  ],
+  [
+   "both->teach",
+   53
+  ],
+  [
+   "ask->chitchat",
+   46
+  ],
+  [
+   "chitchat->both",
+   27
+  ],
+  [
+   "teach->chitchat",
+   18
+  ]
+ ]
+}

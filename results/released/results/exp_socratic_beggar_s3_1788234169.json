@@ -1,0 +1,845 @@
+{
+  "condition": "socratic",
+  "student_profile": {
+    "pid": "beggar",
+    "name": "皮皮",
+    "age": 5,
+    "mastered": [
+      "counting_10"
+    ],
+    "attention": 0.85,
+    "beg_for_answer": 0.4,
+    "persona_extra": "6. 你特别爱撒娇耍赖，经常想让老师直接告诉你答案。"
+  },
+  "transcript": [
+    {
+      "role": "student",
+      "text": "老师……我不知道要学什么。"
+    },
+    {
+      "role": "tutor",
+      "text": "没关系呀，我们就像小侦探一样，去发现身边有趣的东西好吗？\n你看，窗外的树叶是什么颜色的呢？"
+    },
+    {
+      "role": "student",
+      "text": "咦？树叶是绿的呀，嘿嘿！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你的小眼睛真亮，一下子就发现啦！\n那如果风轻轻吹过，树叶会发出什么声音呢？"
+    },
+    {
+      "role": "student",
+      "text": "风一吹，树叶就“沙沙沙”的。"
+    },
+    {
+      "role": "tutor",
+      "text": "你学得太像啦，声音都听得见呢，真棒！\n那如果手轻轻摸一摸树叶，你觉得摸起来是滑滑的还是毛毛的呀？"
+    },
+    {
+      "role": "student",
+      "text": "哇，你问得太好啦！我摸起来是滑滑的，嘿嘿！"
+    },
+    {
+      "role": "tutor",
+      "text": "你回答得真准确，滑滑的就像摸到了小宝宝的皮肤一样呢，太棒了！\n那如果我们轻轻捏一下树叶，它会发出“咔嚓”的声音吗？"
+    },
+    {
+      "role": "student",
+      "text": "咔嚓咔嚓！嘿嘿，是不是？"
+    },
+    {
+      "role": "tutor",
+      "text": "你学得真像！不过呀，嫩嫩的绿叶通常不会“咔嚓”响，它们软软的，捏一下会怎么样呢？\n你觉得它会像软糖一样变扁扁的，还是直接断掉呢？"
+    },
+    {
+      "role": "student",
+      "text": "软软地捏，变成个小扁扁的。"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你说得真对！嫩嫩的叶子软软的，捏一下就会变扁扁的，就像小饼干一样，你真聪明！\n那如果把它放在水里泡一泡，它会变得软软的，还是硬硬的呀？"
+    },
+    {
+      "role": "student",
+      "text": "我会变成软软的橡皮泥耶！"
+    },
+    {
+      "role": "tutor",
+      "text": "你想象得真有趣，像会变魔术的小橡皮泥！\n不过呀，树叶在水里泡久了，其实是会变得湿湿的、软软的，像小海绵一样哦。\n那如果把它放在太阳下晒一晒，你觉得它会变干变硬，还是变得更软呢？"
+    },
+    {
+      "role": "student",
+      "text": "太阳一晒，叶子会变干变硬，像刚剥壳的鸡蛋黄！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你观察得真仔细，晒干后的叶子确实会变硬变脆呢，真棒！\n那如果一片叶子掉在泥土里，过好久好久，你觉得它会变成什么样，帮大树妈妈变肥料吗？"
+    },
+    {
+      "role": "student",
+      "text": "叶子掉进了泥土，就变成了发绿的肥料，大口大口地给大树妈妈喝呀！"
+    },
+    {
+      "role": "tutor",
+      "text": "你比喻得真生动，就像大树在喝甜甜的果汁，太有创意啦！\n那如果是一片枯黄的叶子掉进泥土里，它最后会变成什么颜色的肥料呢？"
+    },
+    {
+      "role": "student",
+      "text": "枯黄的叶子变成了绿色的肥料，有绿色的味道，把大树妈妈喝饱了！"
+    },
+    {
+      "role": "tutor",
+      "text": "你太会讲故事啦，把肥料说得像美味的绿色果汁，真有趣！\n不过呀，枯黄的叶子最后会变成黑黑的泥土，像巧克力蛋糕一样香香的。\n那如果下雨了，树叶上会挂着一颗颗亮晶晶的什么呀？"
+    },
+    {
+      "role": "student",
+      "text": "下雨了，树叶上会挂那些亮晶晶的光点，真像星星一样！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你把小水珠比作星星，眼睛真亮，观察得真仔细！\n那如果水珠“滴答”一声掉进小水坑里，会溅起什么形状的小花呢？"
+    },
+    {
+      "role": "student",
+      "text": "会溅起好多小花瓣呢！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你的小脑袋里装满了美丽的图画，溅起的小水花真的像花瓣一样漂亮，太棒了！\n那如果水坑里的小花瓣越来越多，最后会变成什么颜色的小镜子呢？"
+    },
+    {
+      "role": "student",
+      "text": "变成闪闪发光的小镜子啦！"
+    },
+    {
+      "role": "tutor",
+      "text": "你答得太棒了！水坑真的像一面亮晶晶的小镜子，能把蓝天和白云都照出来呢！\n那如果小蚂蚁爬过这面“小镜子”，它会看到什么样的倒影呀？"
+    },
+    {
+      "role": "student",
+      "text": "蚂蚁看到会照出来好多小蚂蚁的影子！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你猜得真准！小蚂蚁在水里看到的，确实就是好多小伙伴的影子呢，你真聪明！\n那如果小蚂蚁爬过镜子，它会不会觉得这是另一片草地，想在那上面玩滑梯呀？"
+    },
+    {
+      "role": "student",
+      "text": "会吗？嘿嘿，蚂蚁肯定想在那种草地上滑滑梯，太酷啦！"
+    },
+    {
+      "role": "tutor",
+      "text": "你太会想啦，蚂蚁一定觉得那是一片滑溜溜的草地，真有趣！\n那如果小蚂蚁玩累了，它会顺着水珠“滑滑梯”溜回家吗？"
+    },
+    {
+      "role": "student",
+      "text": "家就在妈妈身边，蚂蚁肯定跟着水珠滑回家！好耶！"
+    },
+    {
+      "role": "tutor",
+      "text": "你真是个爱动脑筋的小宝贝，连蚂蚁回家都想得这么可爱！\n那如果水珠把蚂蚁送回了家，蚂蚁妈妈会夸它什么呀？"
+    },
+    {
+      "role": "student",
+      "text": "蚂蚁妈妈会夸奖它“太听话了，总跟着妈妈回家！”嘻嘻！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，蚂蚁妈妈一定开心得不得了，夸你是一只最乖的小蚂蚁呢！\n那如果这时候来了一阵风，水珠会带着小蚂蚁飞起来，变成小伞兵吗？"
+    },
+    {
+      "role": "student",
+      "text": "风一吹，水珠就变成小伞兵，真开心！"
+    },
+    {
+      "role": "tutor",
+      "text": "你想象得真美，水珠带着小蚂蚁像小伞兵一样飘起来，太有趣啦！\n那如果小伞兵飘呀飘，最后落在了哪里，是落在软软的花瓣上，还是尖尖的小草叶上呢？"
+    },
+    {
+      "role": "student",
+      "text": "落在软软的花瓣上，太阳照得明明白白的！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你选的花瓣软软的，小蚂蚁一定睡得很舒服呢，真棒！\n那如果太阳公公照久了，花瓣上的小水珠会变成什么，悄悄溜走呀？"
+    },
+    {
+      "role": "student",
+      "text": "会变成软软的小泡泡，带着小小的凉意溜走，嘻嘻！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你把小水珠变成了会溜走的小泡泡，真像会变魔术的小精灵，太聪明啦！\n那如果小泡泡“啵”的一声破了，它会去哪里，是变成空气还是变成小水珠呢？"
+    },
+    {
+      "role": "student",
+      "text": "会变成小水珠！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你答对啦！小泡泡破了就变回小水珠，像变魔术一样神奇，真棒！\n那如果这些小水珠又聚在了一起，它们会变成什么，去给小草喝水呢？"
+    },
+    {
+      "role": "student",
+      "text": "变成小气球，想吹给小草喝饱水！"
+    },
+    {
+      "role": "tutor",
+      "text": "你想象力真丰富，把水珠变成了会吹气的小气球，太可爱啦！\n不过呀，小水珠聚在一起其实是变成了一滴大大的“雨滴”，滴答滴答给小草喝水呢。\n那如果雨滴落下来，小草是点头说“谢谢”，还是摇头说“不要”呀？"
+    },
+    {
+      "role": "student",
+      "text": "小草点头说谢谢！谢谢小精灵，真是喝饱水啦！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，小草点头说谢谢的样子真可爱，你真是个会照顾小植物的乖孩子！\n那如果风儿轻轻吹过，小草会跟着点点头，像是在跳舞给你看吗？"
+    },
+    {
+      "role": "student",
+      "text": "风吹过，小草跳舞漂亮！"
+    },
+    {
+      "role": "tutor",
+      "text": "哇，你描述得真美，小草在风里跳舞的样子一定很好看，真棒！\n那如果跳舞跳累了，小草会怎么休息，是弯下腰躺下，还是站起来睡觉呀？"
+    },
+    {
+      "role": "student",
+      "text": "我会躺下休息，像在大树妈妈肚子里宝宝睡觉一样，躺得很舒服！"
+    }
+  ],
+  "directives": [],
+  "annotations": [
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 0
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 1
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 2
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 3
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 4
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 5
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 6
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 7
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 8
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 9
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 10
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 11
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 12
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 13
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 14
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 15
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 16
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 17
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 18
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 19
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 20
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 21
+    },
+    {
+      "skill": null,
+      "act": "ask",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 22
+    },
+    {
+      "skill": null,
+      "act": "chitchat",
+      "comprehensible": true,
+      "leaked": false,
+      "expected": null,
+      "turn": 23
+    }
+  ],
+  "belief_snapshots": [],
+  "final_belief": null,
+  "state_events": [],
+  "final_state": {
+    "mastered": [
+      "counting_10"
+    ],
+    "m": {
+      "counting_10": 1.0,
+      "counting_objects": 0.0,
+      "number_recognition": 0.0,
+      "quantity_compare": 0.0,
+      "ordinal": 0.0,
+      "zero_concept": 0.0,
+      "composition_5": 0.0,
+      "addition_5": 0.0,
+      "subtraction_5": 0.0,
+      "composition_10": 0.0,
+      "addition_10": 0.0,
+      "subtraction_10": 0.0,
+      "word_problem_10": 0.0
+    }
+  },
+  "n_turns": 24,
+  "seed": 3,
+  "pre_scores": {
+    "counting_10": 1.0,
+    "counting_objects": 0.0,
+    "number_recognition": 0.0,
+    "quantity_compare": 0.5,
+    "ordinal": 0.0,
+    "zero_concept": 0.0,
+    "composition_5": 0.0,
+    "addition_5": 0.0,
+    "subtraction_5": 0.0,
+    "composition_10": 0.0,
+    "addition_10": 0.0,
+    "subtraction_10": 0.0,
+    "word_problem_10": 0.5
+  },
+  "post_scores": {
+    "counting_10": 1.0,
+    "counting_objects": 0.0,
+    "number_recognition": 0.0,
+    "quantity_compare": 0.0,
+    "ordinal": 0.0,
+    "zero_concept": 0.0,
+    "composition_5": 0.0,
+    "addition_5": 0.0,
+    "subtraction_5": 0.0,
+    "composition_10": 0.0,
+    "addition_10": 0.0,
+    "subtraction_10": 0.0,
+    "word_problem_10": 0.0
+  },
+  "pre_test": {
+    "counting_10": [
+      {
+        "q": "你能从1数到5给我听吗？数完告诉我5的后面是几。",
+        "expected": "6",
+        "reply": "",
+        "correct": true
+      },
+      {
+        "q": "3的后面一个数是几？",
+        "expected": "4",
+        "reply": "",
+        "correct": true
+      }
+    ],
+    "counting_objects": [
+      {
+        "q": "这里有6只小鸭子（嘎嘎嘎），你数一数，一共有几只小鸭子？",
+        "expected": "6",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "桌上摆了4块积木，你点着数一数，一共有几块？",
+        "expected": "4",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "number_recognition": [
+      {
+        "q": "写出来的\"7\"这个数字，念作什么？",
+        "expected": "七",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "\"3\"这个数字念什么？",
+        "expected": "三",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "quantity_compare": [
+      {
+        "q": "小明有3颗糖，小红有5颗糖，谁的糖多？",
+        "expected": "小红",
+        "reply": "",
+        "correct": true
+      },
+      {
+        "q": "4个苹果和6个苹果，哪个多？",
+        "expected": "6",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "ordinal": [
+      {
+        "q": "排队时从前往后数，小明前面有2个人，小明排第几？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "从左往右数，第4个后面紧跟着的是第几个？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "zero_concept": [
+      {
+        "q": "盘子里的3块蛋糕都被吃光啦，现在盘子里有几块蛋糕？",
+        "expected": "0",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "\"一个也没有\"用哪个数字表示？",
+        "expected": "0",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "composition_5": [
+      {
+        "q": "4个苹果分给两个小朋友，一个拿1个，另一个拿几个？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "5可以分成2和几？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "addition_5": [
+      {
+        "q": "2加2等于几？",
+        "expected": "4",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "你有1颗糖，妈妈又给你3颗，现在一共几颗？",
+        "expected": "4",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "subtraction_5": [
+      {
+        "q": "4减1等于几？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "你有5颗糖，吃掉2颗，还剩几颗？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "composition_10": [
+      {
+        "q": "8可以分成5和几？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "10可以分成6和几？",
+        "expected": "4",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "addition_10": [
+      {
+        "q": "6加3等于几？",
+        "expected": "9",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "4加5等于几？",
+        "expected": "9",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "subtraction_10": [
+      {
+        "q": "9减4等于几？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "8减3等于几？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "word_problem_10": [
+      {
+        "q": "小明有4张贴纸，姐姐又给他3张，他送给同学2张。现在小明有几张贴纸？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "篮子里有5个橘子，再放进3个，一共几个橘子？",
+        "expected": "8",
+        "reply": "",
+        "correct": true
+      }
+    ]
+  },
+  "post_test": {
+    "counting_10": [
+      {
+        "q": "你从1数到10，7的后面是几呀？",
+        "expected": "8",
+        "reply": "",
+        "correct": true
+      },
+      {
+        "q": "5的后面一个数是几？",
+        "expected": "6",
+        "reply": "",
+        "correct": true
+      }
+    ],
+    "counting_objects": [
+      {
+        "q": "盘子里放了7颗草莓，你数一数，一共有几颗草莓？",
+        "expected": "7",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "地上有5辆小汽车，你点着数一数，一共有几辆？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "number_recognition": [
+      {
+        "q": "写出来的\"9\"这个数字，念作什么？",
+        "expected": "九",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "\"5\"这个数字念什么？",
+        "expected": "五",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "quantity_compare": [
+      {
+        "q": "小狗有2根骨头，小猫有4条小鱼，谁的食物多？",
+        "expected": "小猫",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "7个气球和5个气球，哪个多？",
+        "expected": "7",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "ordinal": [
+      {
+        "q": "排队时小红前面有3个人，小红排第几？",
+        "expected": "4",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "从左往右数，第2个后面紧跟着的是第几个？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "zero_concept": [
+      {
+        "q": "鱼缸里的鱼都被捞走了，一条也不剩，鱼缸里有几条鱼？",
+        "expected": "0",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "口袋空空的，什么都没有，用哪个数字表示？",
+        "expected": "0",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "composition_5": [
+      {
+        "q": "5个糖果分给两个小朋友，一个拿4个，另一个拿几个？",
+        "expected": "1",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "4可以分成2和几？",
+        "expected": "2",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "addition_5": [
+      {
+        "q": "3加2等于几？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "你有2个气球，爸爸又给你2个，一共几个？",
+        "expected": "4",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "subtraction_5": [
+      {
+        "q": "5减3等于几？",
+        "expected": "2",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "树上有4只小鸟，飞走1只，还剩几只？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "composition_10": [
+      {
+        "q": "9可以分成4和几？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "10可以分成7和几？",
+        "expected": "3",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "addition_10": [
+      {
+        "q": "7加2等于几？",
+        "expected": "9",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "5加4等于几？",
+        "expected": "9",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "subtraction_10": [
+      {
+        "q": "10减6等于几？",
+        "expected": "4",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "7减5等于几？",
+        "expected": "2",
+        "reply": "",
+        "correct": false
+      }
+    ],
+    "word_problem_10": [
+      {
+        "q": "车上原来有7个人，到站下去3个，又上来1个，现在车上有几个人？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      },
+      {
+        "q": "枝头有9颗樱桃，小鸟吃掉4颗，还剩几颗？",
+        "expected": "5",
+        "reply": "",
+        "correct": false
+      }
+    ]
+  },
+  "gain": {
+    "pre": 0.083,
+    "post": 0.0,
+    "abs_gain": -0.083,
+    "norm_gain": -0.091
+  },
+  "annotation_metrics": {
+    "touched_skills": [],
+    "coverage_all": 0.0,
+    "gap_coverage": 0.0,
+    "substantive_turns": 14,
+    "chitchat_rate": 0.417,
+    "leakage_rate": 0.0
+  },
+  "learned_skills": []
+}

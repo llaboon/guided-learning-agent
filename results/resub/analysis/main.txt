@@ -1,0 +1,36 @@
+SUM gla_fixed {'n': 15, 'norm_gain': [0.1137, 0.1403], 'n_learned': [0.4667, 0.8338], 'leakage_rate': [0.0114, 0.0256], 'chitchat_rate': [0.0084, 0.0174]}
+SUM gla_full {'n': 15, 'norm_gain': [0.1317, 0.0952], 'n_learned': [1.6667, 0.8997], 'leakage_rate': [0.0056, 0.0148], 'chitchat_rate': [0.0111, 0.0431]}
+SUM gla_full_validated {'n': 15, 'norm_gain': [0.147, 0.1144], 'n_learned': [1.6667, 0.8165], 'leakage_rate': [0.0028, 0.0108], 'chitchat_rate': [0.0055, 0.0214], 'validator_first_pass': [0.7777, 0.1277], 'validator_final_pass': [0.9054, 0.1107]}
+SUM gla_reactive {'n': 15, 'norm_gain': [0.0347, 0.1341], 'n_learned': [0.4, 0.9103], 'leakage_rate': [0.0694, 0.0513], 'chitchat_rate': [0.0, 0.0]}
+SUM gla_single_probe {'n': 15, 'norm_gain': [0.12, 0.1239], 'n_learned': [1.6, 0.9103], 'leakage_rate': [0.0139, 0.0257], 'chitchat_rate': [0.0139, 0.0301]}
+SUM informed {'n': 15, 'norm_gain': [0.0295, 0.1307], 'n_learned': [0.1333, 0.3519], 'leakage_rate': [0.0836, 0.0443], 'chitchat_rate': [0.0055, 0.0214]}
+SUM socratic {'n': 15, 'norm_gain': [-0.0419, 0.1027], 'n_learned': [0.0667, 0.2582], 'leakage_rate': [0.0184, 0.057], 'chitchat_rate': [0.3889, 0.2402]}
+SUM vanilla {'n': 15, 'norm_gain': [-0.0391, 0.0869], 'n_learned': [0.0, 0.0], 'leakage_rate': [0.0, 0.0], 'chitchat_rate': [0.6889, 0.2303]}
+PAIR norm_gain gla_full-gla_fixed 0.0179 [-0.0585, 0.0941] p 0.66748 holm 1.0 n 15
+PAIR norm_gain gla_full-gla_full_validated -0.0153 [-0.0714, 0.0357] p 0.61389 holm 1.0 n 15
+PAIR norm_gain gla_full-gla_reactive 0.097 [0.0165, 0.1737] p 0.03687 holm 0.14746 n 15
+PAIR norm_gain gla_full-gla_single_probe 0.0117 [-0.0631, 0.0854] p 0.77539 holm 1.0 n 15
+PAIR norm_gain gla_full-informed 0.1021 [0.0297, 0.1709] p 0.01794 holm 0.08972 n 15
+PAIR norm_gain gla_full-socratic 0.1735 [0.1309, 0.2157] p 6e-05 holm 0.00043 n 15
+PAIR norm_gain gla_full-vanilla 0.1707 [0.1195, 0.2161] p 0.00018 holm 0.0011 n 15
+PAIR n_learned gla_full-gla_fixed 1.2 [0.6, 1.8] p 0.00488 holm 0.01953 n 15
+PAIR n_learned gla_full-gla_full_validated 0.0 [-0.4667, 0.4667] p 1.0 holm 1.0 n 15
+PAIR n_learned gla_full-gla_reactive 1.2667 [0.4667, 1.9333] p 0.01025 holm 0.03076 n 15
+PAIR n_learned gla_full-gla_single_probe 0.0667 [-0.5333, 0.6667] p 1.0 holm 1.0 n 15
+PAIR n_learned gla_full-informed 1.5333 [1.0, 2.0] p 0.00049 holm 0.00244 n 15
+PAIR n_learned gla_full-socratic 1.6 [1.1333, 2.0667] p 0.00024 holm 0.00171 n 15
+PAIR n_learned gla_full-vanilla 1.6667 [1.2, 2.0667] p 0.00024 holm 0.00171 n 15
+PAIR leakage_rate gla_full-gla_fixed -0.0058 [-0.0228, 0.0084] p 0.6875 holm 1.0 n 15
+PAIR leakage_rate gla_full-gla_full_validated 0.0028 [-0.0056, 0.0112] p 1.0 holm 1.0 n 15
+PAIR leakage_rate gla_full-gla_reactive -0.0638 [-0.0915, -0.0389] p 0.00049 holm 0.00293 n 15
+PAIR leakage_rate gla_full-gla_single_probe -0.0083 [-0.025, 0.0057] p 0.53125 holm 1.0 n 15
+PAIR leakage_rate gla_full-informed -0.078 [-0.1005, -0.0558] p 0.00012 holm 0.00085 n 15
+PAIR leakage_rate gla_full-socratic -0.0128 [-0.0485, 0.0101] p 0.625 holm 1.0 n 15
+PAIR leakage_rate gla_full-vanilla 0.0056 [0.0, 0.014] p 0.5 holm 1.0 n 15
+PAIR chitchat_rate gla_full-gla_fixed 0.0027 [-0.0168, 0.0306] p 1.0 holm 1.0 n 15
+PAIR chitchat_rate gla_full-gla_full_validated 0.0056 [0.0, 0.0168] p 1.0 holm 1.0 n 15
+PAIR chitchat_rate gla_full-gla_reactive 0.0111 [0.0, 0.0334] p 1.0 holm 1.0 n 15
+PAIR chitchat_rate gla_full-gla_single_probe -0.0027 [-0.0194, 0.014] p 1.0 holm 1.0 n 15
+PAIR chitchat_rate gla_full-informed 0.0056 [-0.0166, 0.0334] p 1.0 holm 1.0 n 15
+PAIR chitchat_rate gla_full-socratic -0.3777 [-0.4972, -0.2667] p 6e-05 holm 0.00043 n 15
+PAIR chitchat_rate gla_full-vanilla -0.6778 [-0.7833, -0.5694] p 6e-05 holm 0.00043 n 15

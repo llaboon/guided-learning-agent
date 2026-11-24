@@ -1,0 +1,40 @@
+{
+  "status": "exploratory_cross_family_check",
+  "valid_for_main_paper": false,
+  "source_remote": "results/experiment_1795245352.json",
+  "source_local": "results/experiment_1795245352.json",
+  "models": {
+    "tutor": "Qwen3-30B-A3B-Instruct-2507",
+    "judge": "Qwen3-30B-A3B-Instruct-2507",
+    "student": "Qwen3-VL-4B-Instruct"
+  },
+  "config": {
+    "turns": 24,
+    "seeds": [1, 2],
+    "profiles": ["zero", "mid", "beggar"],
+    "conditions": ["vanilla", "socratic", "gla_fixed", "gla_reactive", "gla_full"],
+    "n_sessions": 30
+  },
+  "summary": {
+    "vanilla": {"norm_gain": [-0.104, 0.058], "n_learned": [0.0, 0.0], "gap_coverage": [0.0, 0.0], "leakage_rate": [0.0, 0.0], "chitchat_rate": [0.965, 0.049], "n_runs": 6},
+    "socratic": {"norm_gain": [-0.122, 0.072], "n_learned": [0.0, 0.0], "gap_coverage": [0.026, 0.063], "leakage_rate": [0.0, 0.0], "chitchat_rate": [0.785, 0.189], "n_runs": 6},
+    "gla_fixed": {"norm_gain": [-0.026, 0.077], "n_learned": [0.667, 0.516], "gap_coverage": [0.611, 0.131], "leakage_rate": [0.0, 0.0], "chitchat_rate": [0.007, 0.017], "n_runs": 6},
+    "gla_reactive": {"norm_gain": [-0.09, 0.033], "n_learned": [0.0, 0.0], "gap_coverage": [0.525, 0.247], "leakage_rate": [0.028, 0.05], "chitchat_rate": [0.0, 0.0], "n_runs": 6},
+    "gla_full": {"norm_gain": [0.017, 0.076], "n_learned": [1.0, 0.894], "gap_coverage": [0.203, 0.076], "leakage_rate": [0.0, 0.0], "chitchat_rate": [0.264, 0.193], "n_runs": 6}
+  },
+  "pooled_permutation_tests": {
+    "gla_full_vs_vanilla": {"difference": 0.122, "p_value": 0.021},
+    "gla_full_vs_socratic": {"difference": 0.139, "p_value": 0.0146},
+    "gla_full_vs_gla_fixed": {"difference": 0.043, "p_value": 0.3545},
+    "gla_full_vs_gla_reactive": {"difference": 0.107, "p_value": 0.0135}
+  },
+  "paired_block_effects": {
+    "n_blocks": 6,
+    "bootstrap_seed": 7,
+    "bootstrap_resamples": 20000,
+    "gla_full_vs_vanilla": {"mean_difference": 0.121667, "bootstrap_ci95": [0.041667, 0.194667], "exact_sign_flip_p": 0.09375},
+    "gla_full_vs_socratic": {"mean_difference": 0.138833, "bootstrap_ci95": [0.050833, 0.222167], "exact_sign_flip_p": 0.09375},
+    "gla_full_vs_gla_fixed": {"mean_difference": 0.043333, "bootstrap_ci95": [-0.045333, 0.138667], "exact_sign_flip_p": 0.5},
+    "gla_full_vs_gla_reactive": {"mean_difference": 0.106833, "bootstrap_ci95": [0.035167, 0.166], "exact_sign_flip_p": 0.0625}
+  }
+}

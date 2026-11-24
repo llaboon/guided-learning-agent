@@ -1,0 +1,215 @@
+{
+ "files": [
+  "results/resub/softgate/experiment_softgate_1795501238.json"
+ ],
+ "ref": "gla_full",
+ "n_rows": 60,
+ "summary": {
+  "gla_fixed": {
+   "n": 15,
+   "norm_gain": [
+    0.1161,
+    0.0814
+   ],
+   "n_learned": [
+    0.6667,
+    0.7237
+   ],
+   "leakage_rate": [
+    0.017,
+    0.0271
+   ],
+   "chitchat_rate": [
+    0.0195,
+    0.0267
+   ]
+  },
+  "gla_full": {
+   "n": 15,
+   "norm_gain": [
+    0.1556,
+    0.0934
+   ],
+   "n_learned": [
+    1.9333,
+    0.7037
+   ],
+   "leakage_rate": [
+    0.0028,
+    0.0108
+   ],
+   "chitchat_rate": [
+    0.0,
+    0.0
+   ]
+  },
+  "gla_reactive": {
+   "n": 15,
+   "norm_gain": [
+    0.0381,
+    0.1501
+   ],
+   "n_learned": [
+    0.4,
+    1.0556
+   ],
+   "leakage_rate": [
+    0.0499,
+    0.0477
+   ],
+   "chitchat_rate": [
+    0.0,
+    0.0
+   ]
+  },
+  "informed": {
+   "n": 15,
+   "norm_gain": [
+    0.1104,
+    0.109
+   ],
+   "n_learned": [
+    0.8667,
+    1.0601
+   ],
+   "leakage_rate": [
+    0.0444,
+    0.0556
+   ],
+   "chitchat_rate": [
+    0.0028,
+    0.0108
+   ]
+  }
+ },
+ "paired_vs_ref": {
+  "norm_gain": {
+   "gla_fixed": {
+    "n_blocks": 15,
+    "mean_diff": 0.0395,
+    "ci95": [
+     0.0016,
+     0.0764
+    ],
+    "p_signflip": 0.06934,
+    "p_holm": 0.13867
+   },
+   "gla_reactive": {
+    "n_blocks": 15,
+    "mean_diff": 0.1175,
+    "ci95": [
+     0.0373,
+     0.1931
+    ],
+    "p_signflip": 0.01367,
+    "p_holm": 0.04102
+   },
+   "informed": {
+    "n_blocks": 15,
+    "mean_diff": 0.0452,
+    "ci95": [
+     -0.0209,
+     0.1074
+    ],
+    "p_signflip": 0.2002,
+    "p_holm": 0.2002
+   }
+  },
+  "n_learned": {
+   "gla_fixed": {
+    "n_blocks": 15,
+    "mean_diff": 1.2667,
+    "ci95": [
+     0.7333,
+     1.8
+    ],
+    "p_signflip": 0.00098,
+    "p_holm": 0.00293
+   },
+   "gla_reactive": {
+    "n_blocks": 15,
+    "mean_diff": 1.5333,
+    "ci95": [
+     0.8,
+     2.1333
+    ],
+    "p_signflip": 0.00293,
+    "p_holm": 0.00586
+   },
+   "informed": {
+    "n_blocks": 15,
+    "mean_diff": 1.0667,
+    "ci95": [
+     0.5333,
+     1.5333
+    ],
+    "p_signflip": 0.00391,
+    "p_holm": 0.00586
+   }
+  },
+  "leakage_rate": {
+   "gla_fixed": {
+    "n_blocks": 15,
+    "mean_diff": -0.0142,
+    "ci95": [
+     -0.0288,
+     0.0
+    ],
+    "p_signflip": 0.1875,
+    "p_holm": 0.1875
+   },
+   "gla_reactive": {
+    "n_blocks": 15,
+    "mean_diff": -0.0471,
+    "ci95": [
+     -0.0721,
+     -0.0221
+    ],
+    "p_signflip": 0.00781,
+    "p_holm": 0.02344
+   },
+   "informed": {
+    "n_blocks": 15,
+    "mean_diff": -0.0416,
+    "ci95": [
+     -0.0666,
+     -0.0194
+    ],
+    "p_signflip": 0.01562,
+    "p_holm": 0.03125
+   }
+  },
+  "chitchat_rate": {
+   "gla_fixed": {
+    "n_blocks": 15,
+    "mean_diff": -0.0195,
+    "ci95": [
+     -0.0334,
+     -0.0083
+    ],
+    "p_signflip": 0.03125,
+    "p_holm": 0.09375
+   },
+   "gla_reactive": {
+    "n_blocks": 15,
+    "mean_diff": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   },
+   "informed": {
+    "n_blocks": 15,
+    "mean_diff": -0.0028,
+    "ci95": [
+     -0.0084,
+     0.0
+    ],
+    "p_signflip": 1.0,
+    "p_holm": 1.0
+   }
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+  "dataset": "v2.4 linear final, seeds 1-5",
+  "unit": "profile-seed block",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 1,
+  "comparisons": {
+    "gla_full_vs_vanilla": {
+      "n_blocks": 15,
+      "mean_difference": 0.207667,
+      "bootstrap_95ci": [
+        0.1558,
+        0.259867
+      ],
+      "exact_signflip_p": 6.103515625e-05
+    },
+    "gla_full_vs_socratic": {
+      "n_blocks": 15,
+      "mean_difference": 0.204333,
+      "bootstrap_95ci": [
+        0.1498,
+        0.258267
+      ],
+      "exact_signflip_p": 6.103515625e-05
+    },
+    "gla_full_vs_gla_fixed": {
+      "n_blocks": 15,
+      "mean_difference": 0.086467,
+      "bootstrap_95ci": [
+        0.0266,
+        0.151667
+      ],
+      "exact_signflip_p": 0.0146484375
+    },
+    "gla_full_vs_gla_reactive": {
+      "n_blocks": 15,
+      "mean_difference": 0.113,
+      "bootstrap_95ci": [
+        0.048933,
+        0.174133
+      ],
+      "exact_signflip_p": 0.005126953125
+    }
+  },
+  "input_files": [
+    "experiment_1788234362.json (seeds 1-3)",
+    "experiment_1788235140.json (seeds 4-5)"
+  ]
+}

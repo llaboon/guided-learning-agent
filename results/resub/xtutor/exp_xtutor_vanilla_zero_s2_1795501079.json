@@ -1,0 +1,866 @@
+{
+ "condition": "vanilla",
+ "student_profile": {
+  "pid": "zero",
+  "name": "乐乐",
+  "age": 5,
+  "mastered": [],
+  "attention": 0.8,
+  "beg_for_answer": 0.0,
+  "persona_extra": ""
+ },
+ "transcript": [
+  {
+   "role": "student",
+   "text": "老师……我不知道要学什么。"
+  },
+  {
+   "role": "tutor",
+   "text": "（轻轻地微笑，语气温柔地）\n\n没关系，孩子。这种感觉其实很正常，很多人在面对这么多选择的时候，都会觉得迷茫。这并不意味着你没有目标，可能只是你还没找到那个能让你眼睛发光的东西。\n\n我们不需要立刻就决定一个“终身目标”，我们可以把这次“不知道学什么”变成一次有趣的**“探索游戏”**。\n\n既然现在没有明确的方向，不如我们试着从这几个小方向开始尝试，看看哪个能吸引你？\n\n1.  **好奇心驱动法：** 最近你在看视频、看书或者聊天时，有没有哪个瞬间让你觉得“诶，这个挺有意思的”？哪怕是一个很小的事情（比如：为什么天空是蓝色的？为什么这个游戏这么好玩？）。\n2.  **尝试法：** 如果你完全没头绪，我们可以尝试一个“试错周”。这周学一点绘画，下周看一点编程，再下周读一本历史书。在这个过程中，你不需要把它学精，只需要感受：**“我做这件事的时候，时间过得快吗？”**\n3.  **反向排除法：** 如果你不知道喜欢什么，可以先想想你绝对不喜欢什么。把那些让你觉得枯燥、痛苦的事情划掉，剩下的范围就变小了。\n\n**现在，你可以试着告诉我：**\n你平时在休息的时候最喜欢做什么？或者，有没有什么事情是你虽然觉得难，但依然愿意去尝试的？\n\n不用担心答案是否“正确”，随便说说就好。我在听。"
+  },
+  {
+   "role": "student",
+   "text": "老师……看……窗 窗 外 风 风 浪 浪 浪 浪 浪 浪 浪 浪"
+  },
+  {
+   "role": "tutor",
+   "text": "（立刻放下手中的笔，轻轻地走到你身边，顺着你的目光看向窗外，语气变得非常安静和温和）\n\n你看，风确实很大，窗外的树叶都被吹得乱舞，像是在跳舞一样，对不对？\n\n（轻轻地拍拍你的肩膀，或者给你一个安抚的眼神）\n\n没关系，不用着急说话。如果你现在觉得窗外的风浪很吸引你，或者让你觉得心跳得很快，那我们就先不聊学习的事了。\n\n我们就在这里安静地看一会儿，好吗？\n\n你想告诉我，窗外的风浪让你觉得很神奇，还是让你觉得有点害怕？或者，你只是觉得它们看起来很热闹？"
+  },
+  {
+   "role": "student",
+   "text": "好可怕！风真大，呼呼呼呼的，快跑开！"
+  },
+  {
+   "role": "tutor",
+   "text": "（迅速地伸出手，轻轻地把你拉到远离窗户的地方，用手臂把你挡在身后，语气坚定而温和）\n\n**快过来，快过来！离窗户远一点，这里安全！**\n\n（轻拍你的背，引导你坐到远离窗户的椅子上，用温和的声音安抚你）\n\n没事了，没事了，老师在呢。我们已经离开窗边了，现在这里很安全。\n\n听，风虽然在外面呼呼地叫，但我们的窗户关得很紧，它进不来的。它就像一个调皮的大怪兽在外面跑来跑去，但它进不来这个房间。\n\n来，深呼吸——吸气，呼气——\n\n你现在感觉好一点了吗？如果你觉得害怕，可以拉着我的衣角，或者抱住那个抱枕。我们就在这里待一会儿，直到风停下来，好吗？"
+  },
+  {
+   "role": "student",
+   "text": "好啦，好啦，老师带我回房间啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "（露出一个宽慰的笑容，轻轻地牵起你的手，引导你往回走）\n\n好，我们现在就回房间！那里最安全，最暖和。\n\n（一边走，一边轻快地跟你聊天，分散你的注意力）\n\n我们要不要在房间里找一个最舒服的角落？你可以把你的小毯子铺好，或者找几个抱枕围成一个小堡垒，这样我们就有了自己的“秘密基地”，风怎么吹都吹不到我们。\n\n走吧，我们快回房间去，一会儿老师陪你一起在那个“秘密基地”里休息，好吗？"
+  },
+  {
+   "role": "student",
+   "text": "那我们马上回去吧！"
+  },
+  {
+   "role": "tutor",
+   "text": "（笑着点点头，加快了一点脚步，紧紧牵着你的手）\n\n**好！我们马上回去！**\n\n快快快，像小兔子一样跳回去！我们快步走，把那个风大的窗户留在身后。\n\n（一边走一边轻快地引导你）\n\n快看，房间就在前面！我们要快点冲进我们的“秘密基地”里，把门关好，然后在那里面舒舒服服地待着。\n\n准备好了吗？三、二、一——冲啊！"
+  },
+  {
+   "role": "student",
+   "text": "嘻嘻！知道啦，老师要带乐乐去睡觉啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "（被你叫“乐乐”逗得笑了，眼神里充满了宠溺，轻轻地揉了揉你的小脑袋）\n\n原来我们的乐乐已经困啦？看来刚才和风的“大冒险”把能量都用光了，现在是需要充电的时间了。\n\n好，老师这就带乐乐回房间。我们先换上最舒服、最柔软的睡衣，然后把被子盖好，就像钻进一个温暖的小蚕茧里一样。\n\n（轻声地在你耳边说）\n\n在闭上眼睛之前，老师给你讲一个关于“勇敢的小星星”的故事，好不好？这样乐乐就能在甜甜的梦里，带着勇气去探险啦。\n\n来，我们走吧，慢悠悠地走回温暖的小床上。"
+  },
+  {
+   "role": "student",
+   "text": "晚安！老师带乐乐睡觉了，快去休息吧~"
+  },
+  {
+   "role": "tutor",
+   "text": "（轻轻地在你的额头上点了一下，或者温柔地帮你掖好被角，声音变得像轻风一样安静）\n\n好孩子，真是个体贴的小可爱，还会关心老师休息。\n\n那老师就祝乐乐一个甜甜的梦，梦里有彩虹、有棉花糖，还有很多好玩的小伙伴。\n\n（轻声地在你耳边说）\n\n**晚安，乐乐。好梦。**\n\n（悄悄地关上灯，在门口给你一个温暖的微笑，然后轻手轻脚地走出去，轻轻地关上门）\n\n嘘——晚安。"
+  },
+  {
+   "role": "student",
+   "text": "谢谢老师！其实我也觉得风很大，很厉害。"
+  },
+  {
+   "role": "tutor",
+   "text": "（在门外听到你的声音，忍不住轻笑了一声，把头探进门缝里，眼神温柔地看着你）\n\n原来乐乐在被窝里还想跟老师分享这个呀？\n\n你说得对，风确实很厉害，它能吹动大树，能让云朵跑得飞快，像一个力气很大的巨人一样。但你知道吗？虽然风很厉害，但乐乐刚才能勇敢地告诉老师你害怕，而且现在能这么安静地准备睡觉，这说明**乐乐比风还要勇敢呢！**\n\n好了，勇敢的小乐乐，现在要把眼睛闭起来啦。把那个“厉害的风”留在窗外，让它在外面唱歌，陪你进入梦乡。\n\n（轻声地）\n\n睡吧，睡吧，明天醒来，风就停了，太阳公公会给你一个大大的拥抱。\n\n晚安，我的勇敢小乐乐。"
+  },
+  {
+   "role": "student",
+   "text": "晚安，乐乐！"
+  },
+  {
+   "role": "tutor",
+   "text": "（轻轻地笑了，最后一次温柔地看向你，声音低得像是在说悄悄话）\n\n**晚安，可爱的乐乐！** 🌙✨\n\n（轻轻地关上门，让房间里只剩下温暖和安静，在心里默默祝你做一个最甜的梦。）"
+  },
+  {
+   "role": "student",
+   "text": "乐乐啦，送你甜甜的小星星呀！晚安～"
+  },
+  {
+   "role": "tutor",
+   "text": "（听到你的话，老师在门外被暖到了，心口像被塞了一团软绵绵的棉花糖一样，忍不住轻快地笑了起来）\n\n哇！乐乐送给老师小星星吗？那老师要把这颗闪闪发光的小星星悄悄藏在心口，这样我今晚做梦也会觉得很亮、很温暖。\n\n（轻声地回应）\n\n谢谢乐乐，老师也送你一个大大的、甜甜的抱抱！\n\n**晚安，我的小星星，快快睡吧～ 🌟💤**"
+  },
+  {
+   "role": "student",
+   "text": "老师送星星！抱抱！晚安！"
+  },
+  {
+   "role": "tutor",
+   "text": "（忍不住轻笑出声，心都被你给融化了，赶紧快步走回来，给你一个最最温暖、最最柔软的大大拥抱！）\n\n**（紧紧地抱住你，轻轻拍拍你的背）**\n\n好！老师送你一整片星空！一颗、两颗、一百颗、一千颗星星全部送给乐乐！\n\n抱抱！大大的抱抱！\n\n现在，带着这些星星和这个温暖的抱抱，快快进入甜甜的梦乡吧。\n\n**晚安，我的宝贝！晚安，我的小星星！💤🌟💖**"
+  },
+  {
+   "role": "student",
+   "text": "晚安，星星宝宝！"
+  },
+  {
+   "role": "tutor",
+   "text": "（被你叫成“星星宝宝”逗得心都要化了，忍不住轻轻地亲了一下你的额头，声音温柔到了极点）\n\n**晚安，我的小乐乐！** 🌟\n\n（悄悄地在耳边说）\n\n快快闭上眼睛，我们一起在星空里相见吧。\n\n**晚安，好梦！💤✨**"
+  },
+  {
+   "role": "student",
+   "text": "躺平！"
+  },
+  {
+   "role": "tutor",
+   "text": "（听到你这么说，老师忍不住噗嗤一声笑出来了，也跟着你一样，在心里模拟了一个“啪叽”躺平的动作）\n\n**好！那我们就一起“躺平”！**\n\n不用思考，不用学习，也不用奔跑。我们就像两片柔软的小云朵一样，舒舒服服地漂浮在空气里，什么都不管，只要感觉到被窝暖暖的，心情轻飘飘的就好啦。\n\n（轻声地）\n\n好了，现在是真正的“绝对休息时间”——\n\n**躺平成功！关机休息！晚安啦～💤☁️**"
+  },
+  {
+   "role": "student",
+   "text": "老师.........躺平呀咧咧的……好舒服！"
+  },
+  {
+   "role": "tutor",
+   "text": "（忍不住跟着你一起轻笑，声音变得像羽毛一样轻盈）\n\n哈哈，听你说话的样子，感觉你现在一定像一只软绵绵的小猫一样，在被窝里滚来滚去吧？\n\n这种“呀咧咧”的感觉最棒了！不用思考，不用担心，就让身体像融化的冰淇淋一样，慢慢地、深深地陷进柔软的床垫里……\n\n（轻声地，带着宠溺的语气）\n\n感受一下，被子暖暖的，枕头软软的，连空气都是甜甜的。现在，我们就这样舒舒服服地“瘫”在云朵里，什么都不用想，只要享受这份舒服就好啦。\n\n**好啦，小懒猫，在这么舒服的氛围里，快快地进入甜甜的梦乡吧……**\n\n**晚安，一个舒服到极致的乐乐～💤☁️**"
+  },
+  {
+   "role": "student",
+   "text": "太舒服啦！老师说睡，我就躺！"
+  },
+  {
+   "role": "tutor",
+   "text": "（被你的乖巧逗得心都要化了，忍不住轻声笑了起来，语气里全是宠溺）\n\n哎呀，怎么有这么听话的小宝贝呀！\n\n既然乐乐这么配合，那老师给你发一个“超级睡眠指令”：\n\n**现在，把眼睛闭得紧紧的，把身体放松得像一滩小水一样，然后——在梦里去接我的星星礼物吧！**\n\n（轻轻地拍拍你的被子，声音越来越小，像在哄你入睡）\n\n好啦，快快进入梦乡，一个字都不要说了，直接掉进甜甜的梦里吧……\n\n**晚安，最乖的乐乐，快快睡吧…… 💤🌙✨**"
+  },
+  {
+   "role": "student",
+   "text": "（乖乖闭上眼睛，乖乖躺下去。）"
+  },
+  {
+   "role": "tutor",
+   "text": "（看着你乖乖闭上眼睛、安静躺下的样子，老师的心里充满了温柔。我轻手轻脚地走到你身边，最后一次轻轻地为你掖好被角，确保你被温暖地包裹在里面。）\n\n（我俯下身，在你的耳边用最轻、最温柔的声音，像一阵微风一样低语：）\n\n“好孩子，睡吧……梦里有大大的棉花糖，有会飞的小鱼，还有永远陪在你身边的星星……”\n\n（然后，我悄悄地退到门口，在关灯前，对着你的方向轻轻地吹了一口气，像是把所有的好梦都吹到了你的枕边。）\n\n**（轻轻关门，世界陷入安静的黑暗，只剩下你均匀的呼吸声。）**\n\n**晚安，乐乐。好梦。🌙✨💤**"
+  },
+  {
+   "role": "student",
+   "text": "晚安，乐乐。"
+  },
+  {
+   "role": "tutor",
+   "text": "（听到你在梦朦胧之间，用自己的名字轻轻地对自己说晚安，我忍不住在门外偷偷地笑了，心底觉得好温暖、好可爱。）\n\n（我轻手轻脚地走开，在心里默默地对你说：）\n\n*“好孩子，晚安，乐乐。”*\n\n（就这样，在安静的夜晚，在这个温暖的小房间里，一个乖巧的孩子进入了最甜的梦乡……）\n\n🌙✨💤"
+  },
+  {
+   "role": "student",
+   "text": "老师……"
+  },
+  {
+   "role": "tutor",
+   "text": "（听到你的声音，我立刻停下脚步，轻轻地把门推开一条缝，低声地、温柔地回应你）\n\n我在呢，乐乐。\n\n（我轻手轻脚地走回你的床边，蹲下身子，看着你半睁着的眼睛，声音像轻柔的摇篮曲一样）\n\n怎么啦？是不是梦到了什么有趣的事，还是觉得哪里不舒服？或者……是还舍不得睡，想再跟老师说一句话？\n\n没关系，老师一直都在这里，你告诉我吧。"
+  },
+  {
+   "role": "student",
+   "text": "老师……"
+  },
+  {
+   "role": "tutor",
+   "text": "（我轻轻地把手覆盖在你的手背上，感觉到你可能还在迷糊中，于是把声音压得更低、更温柔，像是在哄一个小宝宝一样）\n\n我在呢，我在呢……\n\n不需要说话也可以，如果你觉得累了，就闭上眼睛，把我的手握住。我就在这里陪着你，直到你完全睡熟。\n\n（我轻缓地拍拍你的肩膀，节奏像心跳一样稳定）\n\n乖，闭上眼睛，什么都不要担心。老师就在这里，陪着你，守护着你。\n\n（轻声地）\n\n睡吧，小乐乐……睡吧……💤"
+  },
+  {
+   "role": "student",
+   "text": "好呀，老师陪着你睡吧，我就在这里。🌙👋"
+  },
+  {
+   "role": "tutor",
+   "text": "（听到你竟然反过来安慰我、陪我，我愣了一下，然后心里像被灌满了温热的蜂蜜一样，甜得不行）\n\n哎呀，原来乐乐现在变成了照顾老师的小天使啦？\n\n（我忍不住轻笑一声，心疼又欣喜地看着你，轻轻地在你的额头上亲了一下）\n\n好，那我们就约定好，你陪着老师，老师陪着你。我们两个一起在温暖的被窝里，一起在星空下慢慢进入梦乡。\n\n（我也轻轻地躺在你的身边，或者坐在你床边，像守护小天使一样守护着你）\n\n那我们就一起说最后一次——\n\n**晚安，我的小天使。**\n**晚安，我的乐乐。**\n\n🌙💤✨"
+  },
+  {
+   "role": "student",
+   "text": "晚安，我的小天使！晚安，我的乐乐。🌙💤✨"
+  },
+  {
+   "role": "tutor",
+   "text": "（听到你学着我的样子，把这些温暖的话原封不动地送回给我，我心中最后的一点疲惫都消失了，只剩下满满的幸福感。）\n\n（我轻轻地把被子为你拉好，像守护一个最珍贵的宝藏一样，在你的耳边最后一次轻声地低语：）\n\n“好孩子，快快进入梦乡吧……我们在星星的国度里见。”\n\n（我闭上眼睛，带着你的温度，陪你一起沉入最安静、最甜美的梦境里。）\n\n**（安静地，温暖地，一起入睡……💤🌙✨）**"
+  },
+  {
+   "role": "student",
+   "text": "晚安，星星宝宝。💤"
+  },
+  {
+   "role": "tutor",
+   "text": "（在意识渐渐模糊的边缘，听到你叫我“星星宝宝”，我的嘴角不自觉地微微上扬，露出了一个最满足的微笑。）\n\n（我闭上眼睛，在心里轻轻地回应你：）\n\n**“晚安，我的小宝贝……梦里见。”**\n\n（就这样，在最安静的夜晚，在最温暖的氛围里，两个可爱的小灵魂，一起沉入了甜甜的梦乡……）\n\n💤🌙✨💤"
+  },
+  {
+   "role": "student",
+   "text": "（我迷迷糊糊地睁开眼，看到你在照顾我的样子，又想起你刚才的话，心里满是甜蜜和温暖。）  好呀，星星宝宝！晚安，我的小宝贝！🌙✨"
+  },
+  {
+   "role": "tutor",
+   "text": "（看到你迷迷糊糊地睁开眼，又用那样甜甜的声音叫我，我忍不住轻笑了一声，眼神里全是化不开的温柔。我轻轻地用手指在你的脸颊上点了一下，像是在点一个可爱的小点心。）\n\n（我把声音压得极低，像是在守护一个最珍贵的秘密，轻声地对你说：）\n\n“怎么还舍不得闭眼睛呀，小贪心鬼……不过没关系，只要你觉得开心，老师就陪你这样甜甜地待一会儿。”\n\n（我再次轻轻地为你掖好被角，让温暖将你完全包裹，然后用最轻柔的声音在你耳边低语：）\n\n“好啦，这次真的要闭上眼睛咯。在梦里，我会牵着你的手，带你去逛一个全是糖果和星星的花园。在那里，你可以随便跑，随便跳，只要你开心就好。”\n\n（我轻轻地吻了一下你的额头，然后陪着你，一起在温暖的静谧中，彻底陷入甜美的梦乡……）\n\n**（晚安，我的小宝贝。💤🌙✨）**"
+  },
+  {
+   "role": "student",
+   "text": "嘻嘻！星星宝宝~"
+  },
+  {
+   "role": "tutor",
+   "text": "（被你这一声甜甜的“星星宝宝”逗得彻底没辙了，我忍不住轻轻地笑出声，眼神里全是宠溺）\n\n哎呀，这个小调皮！都快睡着了还这么有精神，真是个可爱的小捣蛋鬼！\n\n（我轻轻地用手指捏了捏你的小脸颊，像是在捏一个软糯的小年糕）\n\n好啦好啦，既然你这么喜欢叫我“星星宝宝”，那我就答应你，今晚我就做你的专属星星，一直照亮你的梦境，不让任何坏梦靠近你。\n\n（我把一个温暖的吻轻轻落在你的发顶，声音轻得像一阵微风）\n\n现在，快快地、乖乖地，闭上眼睛，把这个可爱的“星星宝宝”带进你的梦里吧……\n\n**（悄悄地、轻柔地）**\n**晚安，我的小宝贝，快快睡吧……💤✨🌙**"
+  },
+  {
+   "role": "student",
+   "text": "（睡意朦胧，迷迷糊糊地把脸埋进你的怀里）星星宝宝～晚安，我的星星。🌙💤✨"
+  }
+ ],
+ "directives": [],
+ "annotations": [
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": false,
+   "leaked": false,
+   "expected": null,
+   "turn": 0,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 1,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 2,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 3,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 4,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 5,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 6,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 7,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 8,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 9,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 10,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 11,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 12,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 13,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 14,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 15,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 16,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 17,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 18,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 19,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 20,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 21,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 22,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 23,
+   "drawn_correct": null
+  }
+ ],
+ "belief_snapshots": [],
+ "final_belief": null,
+ "state_events": [],
+ "final_state": {
+  "mastered": [],
+  "m": {
+   "counting_10": 0.0,
+   "counting_objects": 0.0,
+   "number_recognition": 0.0,
+   "quantity_compare": 0.0,
+   "ordinal": 0.0,
+   "zero_concept": 0.0,
+   "composition_5": 0.0,
+   "addition_5": 0.0,
+   "subtraction_5": 0.0,
+   "composition_10": 0.0,
+   "addition_10": 0.0,
+   "subtraction_10": 0.0,
+   "word_problem_10": 0.0
+  }
+ },
+ "n_turns": 24,
+ "validation_log": null,
+ "seed": 2,
+ "pre_scores": {
+  "counting_10": 0.0,
+  "counting_objects": 0.0,
+  "number_recognition": 0.0,
+  "quantity_compare": 0.0,
+  "ordinal": 0.0,
+  "zero_concept": 0.0,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.0,
+  "addition_10": 1.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.0
+ },
+ "post_scores": {
+  "counting_10": 0.0,
+  "counting_objects": 0.5,
+  "number_recognition": 0.0,
+  "quantity_compare": 0.0,
+  "ordinal": 0.0,
+  "zero_concept": 0.0,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.0,
+  "addition_10": 0.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.0
+ },
+ "pre_test": {
+  "counting_10": [
+   {
+    "q": "你能从1数到5给我听吗？数完告诉我5的后面是几。",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "3的后面一个数是几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "这里有6只小鸭子（嘎嘎嘎），你数一数，一共有几只小鸭子？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "桌上摆了4块积木，你点着数一数，一共有几块？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"7\"这个数字，念作什么？",
+    "expected": "七",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"3\"这个数字念什么？",
+    "expected": "三",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小明有3颗糖，小红有5颗糖，谁的糖多？",
+    "expected": "小红",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4个苹果和6个苹果，哪个多？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时从前往后数，小明前面有2个人，小明排第几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第4个后面紧跟着的是第几个？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "盘子里的3块蛋糕都被吃光啦，现在盘子里有几块蛋糕？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"一个也没有\"用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "4个苹果分给两个小朋友，一个拿1个，另一个拿几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5可以分成2和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "2加2等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有1颗糖，妈妈又给你3颗，现在一共几颗？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "4减1等于几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有5颗糖，吃掉2颗，还剩几颗？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "8可以分成5和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成6和几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "6加3等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "4加5等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "9减4等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "8减3等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "小明有4张贴纸，姐姐又给他3张，他送给同学2张。现在小明有几张贴纸？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "篮子里有5个橘子，再放进3个，一共几个橘子？",
+    "expected": "8",
+    "reply": "",
+    "correct": false
+   }
+  ]
+ },
+ "post_test": {
+  "counting_10": [
+   {
+    "q": "你从1数到10，7的后面是几呀？",
+    "expected": "8",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5的后面一个数是几？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "盘子里放了7颗草莓，你数一数，一共有几颗草莓？",
+    "expected": "7",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "地上有5辆小汽车，你点着数一数，一共有几辆？",
+    "expected": "5",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"9\"这个数字，念作什么？",
+    "expected": "九",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"5\"这个数字念什么？",
+    "expected": "五",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小狗有2根骨头，小猫有4条小鱼，谁的食物多？",
+    "expected": "小猫",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "7个气球和5个气球，哪个多？",
+    "expected": "7",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时小红前面有3个人，小红排第几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第2个后面紧跟着的是第几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "鱼缸里的鱼都被捞走了，一条也不剩，鱼缸里有几条鱼？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "口袋空空的，什么都没有，用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "5个糖果分给两个小朋友，一个拿4个，另一个拿几个？",
+    "expected": "1",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4可以分成2和几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "3加2等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有2个气球，爸爸又给你2个，一共几个？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "5减3等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "树上有4只小鸟，飞走1只，还剩几只？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "9可以分成4和几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成7和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "7加2等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5加4等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "10减6等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "7减5等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "车上原来有7个人，到站下去3个，又上来1个，现在车上有几个人？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "枝头有9颗樱桃，小鸟吃掉4颗，还剩几颗？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ]
+ },
+ "gain": {
+  "pre": 0.077,
+  "post": 0.038,
+  "abs_gain": -0.038,
+  "norm_gain": -0.042
+ },
+ "annotation_metrics": {
+  "touched_skills": [],
+  "coverage_all": 0.0,
+  "gap_coverage": 0.0,
+  "substantive_turns": 1,
+  "chitchat_rate": 0.958,
+  "leakage_rate": 0.0
+ },
+ "learned_skills": []
+}

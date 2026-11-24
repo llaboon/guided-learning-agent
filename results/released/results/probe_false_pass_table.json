@@ -1,0 +1,12 @@
+{
+  "formula": "(0.05 + 0.85*m)^2",
+  "interpretation": "probability of two independent correct probe responses when mastery remains fixed",
+  "rows": [
+    {"m": 0.0, "single_pass": 0.05, "double_pass": 0.0025},
+    {"m": 0.2, "single_pass": 0.22, "double_pass": 0.0484},
+    {"m": 0.5, "single_pass": 0.475, "double_pass": 0.225625},
+    {"m": 0.7, "single_pass": 0.645, "double_pass": 0.416025},
+    {"m": 0.8, "single_pass": 0.73, "double_pass": 0.5329},
+    {"m": 1.0, "single_pass": 0.9, "double_pass": 0.81}
+  ]
+}

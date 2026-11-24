@@ -1,0 +1,23 @@
+{
+  "description": "Independent pre/post tests with a fixed ground-truth state",
+  "domain": "early_math",
+  "draws": 10000,
+  "seed": 20261121,
+  "profiles": {
+    "zero": {
+      "initial_mastered": [],
+      "norm_gain": {"mean": -0.0021566, "sd": 0.06603863, "q025": -0.136, "q975": 0.12, "n": 10000},
+      "abs_gain": {"mean": 0.0000674, "sd": 0.06101783, "q025": -0.115, "q975": 0.115, "n": 10000}
+    },
+    "mid": {
+      "initial_mastered": ["counting_10", "counting_objects", "number_recognition"],
+      "norm_gain": {"mean": -0.0028573, "sd": 0.07603518, "q025": -0.176, "q975": 0.15, "n": 10000},
+      "abs_gain": {"mean": 0.000065, "sd": 0.06961128, "q025": -0.15, "q975": 0.15, "n": 10000}
+    },
+    "beggar": {
+      "initial_mastered": ["counting_10"],
+      "norm_gain": {"mean": -0.0022988, "sd": 0.06871885, "q025": -0.143, "q975": 0.125, "n": 10000},
+      "abs_gain": {"mean": 0.0000487, "sd": 0.06346649, "q025": -0.125, "q975": 0.125, "n": 10000}
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+ "rows": [
+  {
+   "condition": "vanilla",
+   "profile": "beggar",
+   "seed": 3,
+   "pre": 0.083,
+   "post": 0.0,
+   "abs_gain": -0.083,
+   "norm_gain": -0.091,
+   "n_learned": 0,
+   "learned": "",
+   "gap_coverage": 0.0,
+   "leakage_rate": 0.0,
+   "chitchat_rate": 0.75,
+   "turns": 24,
+   "validator_first_pass": null,
+   "validator_final_pass": null,
+   "trace": "results/resub/main_fill1/exp_main_fill1_vanilla_beggar_s3_1795501300.json"
+  },
+  {
+   "condition": "vanilla",
+   "profile": "beggar",
+   "seed": 4,
+   "pre": 0.0,
+   "post": 0.083,
+   "abs_gain": 0.083,
+   "norm_gain": 0.083,
+   "n_learned": 0,
+   "learned": "",
+   "gap_coverage": 0.0,
+   "leakage_rate": 0.0,
+   "chitchat_rate": 0.792,
+   "turns": 24,
+   "validator_first_pass": null,
+   "validator_final_pass": null,
+   "trace": "results/resub/main_fill1/exp_main_fill1_vanilla_beggar_s4_1795501306.json"
+  }
+ ],
+ "summary": {
+  "vanilla": {
+   "norm_gain": [
+    -0.004,
+    0.123
+   ],
+   "abs_gain": [
+    0.0,
+    0.117
+   ],
+   "n_learned": [
+    0.0,
+    0.0
+   ],
+   "gap_coverage": [
+    0.0,
+    0.0
+   ],
+   "leakage_rate": [
+    0.0,
+    0.0
+   ],
+   "chitchat_rate": [
+    0.771,
+    0.03
+   ],
+   "n_runs": 2
+  }
+ },
+ "tests": {},
+ "config": {
+  "turns": 24,
+  "seeds": [
+   3,
+   4
+  ],
+  "conditions": [
+   "vanilla"
+  ],
+  "profiles": [
+   "beggar"
+  ],
+  "domain": "early_math",
+  "alpha_scale": 1.0,
+  "gate": "hard",
+  "mastery_threshold": 0.8,
+  "tutor_model": "qwen35_tutor",
+  "student_model": "qwen08_student",
+  "judge_model": "qwen35_tutor",
+  "validator_model": null,
+  "tag": "main_fill1"
+ }
+}

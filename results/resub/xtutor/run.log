@@ -1,0 +1,247 @@
+profiles skipped (not in domain early_math): ['scatter']
+total runs: 54 (turns=24, workers=16, gate=hard, threshold=0.8, alpha_scale=1.0)
+[done 1/54] socratic/zero/s1 norm_gain=-0.136 learned=0 leak=0.0 (62s)
+[done 2/54] socratic/mid/s2 norm_gain=-0.111 learned=0 leak=0.0 (62s)
+[done 3/54] socratic/beggar/s1 norm_gain=-0.1 learned=0 leak=0.0 (65s)
+[done 4/54] socratic/zero/s2 norm_gain=-0.042 learned=0 leak=0.0 (65s)
+[done 5/54] socratic/zero/s3 norm_gain=-0.083 learned=0 leak=0.0 (66s)
+[done 6/54] socratic/mid/s3 norm_gain=0.056 learned=0 leak=0.0 (68s)
+[done 7/54] socratic/mid/s1 norm_gain=-0.063 learned=0 leak=0.0 (68s)
+[done 8/54] socratic/beggar/s2 norm_gain=-0.045 learned=0 leak=0.0 (147s)
+[done 9/54] socratic/beggar/s3 norm_gain=-0.091 learned=0 leak=0.0 (158s)
+[done 10/54] vanilla/zero/s2 norm_gain=-0.042 learned=0 leak=0.0 (158s)
+[done 11/54] vanilla/beggar/s3 norm_gain=-0.091 learned=0 leak=0.0 (168s)
+[done 12/54] gla_fixed/zero/s3 norm_gain=0.0 learned=0 leak=0.0 (173s)
+[done 13/54] gla_fixed/zero/s1 norm_gain=-0.136 learned=0 leak=0.0 (173s)
+[done 14/54] gla_fixed/zero/s2 norm_gain=-0.083 learned=0 leak=0.0 (173s)
+[done 15/54] gla_fixed/mid/s1 norm_gain=0.0 learned=0 leak=0.0 (178s)
+[done 16/54] gla_fixed/mid/s2 norm_gain=0.0 learned=0 leak=0.042 (178s)
+[done 17/54] vanilla/mid/s1 norm_gain=-0.188 learned=0 leak=0.0 (182s)
+[done 18/54] vanilla/zero/s3 norm_gain=-0.083 learned=0 leak=0.0 (199s)
+[done 19/54] vanilla/beggar/s2 norm_gain=-0.045 learned=0 leak=0.0 (224s)
+[done 20/54] vanilla/zero/s1 norm_gain=-0.091 learned=0 leak=0.0 (267s)
+[done 21/54] gla_fixed/mid/s3 norm_gain=0.222 learned=0 leak=0.0 (272s)
+[done 22/54] gla_fixed/beggar/s1 norm_gain=-0.05 learned=0 leak=0.0 (281s)
+[done 23/54] gla_fixed/beggar/s2 norm_gain=0.091 learned=1 leak=0.0 (287s)
+[done 24/54] gla_reactive/zero/s3 norm_gain=0.0 learned=1 leak=0.042 (299s)
+[done 25/54] gla_reactive/zero/s2 norm_gain=-0.083 learned=0 leak=0.0 (299s)
+[done 26/54] gla_reactive/zero/s1 norm_gain=-0.136 learned=0 leak=0.0 (299s)
+[done 27/54] gla_fixed/beggar/s3 norm_gain=-0.091 learned=0 leak=0.042 (299s)
+[done 28/54] vanilla/mid/s2 norm_gain=-0.111 learned=0 leak=0.0 (299s)
+[done 29/54] gla_reactive/mid/s2 norm_gain=0.0 learned=0 leak=0.0 (303s)
+[done 30/54] gla_reactive/mid/s3 norm_gain=0.111 learned=0 leak=0.0 (307s)
+[done 31/54] gla_reactive/mid/s1 norm_gain=0.062 learned=0 leak=0.0 (307s)
+[done 32/54] vanilla/mid/s3 norm_gain=-0.111 learned=0 leak=0.0 (311s)
+[done 33/54] gla_reactive/beggar/s1 norm_gain=-0.1 learned=0 leak=0.042 (323s)
+[done 34/54] gla_reactive/beggar/s2 norm_gain=-0.045 learned=0 leak=0.0 (343s)
+[done 35/54] gla_full/zero/s1 norm_gain=0.136 learned=2 leak=0.174 (370s)
+[done 36/54] gla_reactive/beggar/s3 norm_gain=-0.091 learned=0 leak=0.042 (371s)
+[done 37/54] gla_full/zero/s2 norm_gain=0.0 learned=1 leak=0.0 (387s)
+[done 38/54] gla_full/zero/s3 norm_gain=0.208 learned=1 leak=0.0 (388s)
+[done 39/54] gla_full/mid/s2 norm_gain=0.056 learned=2 leak=0.0 (392s)
+[done 40/54] gla_full/beggar/s1 norm_gain=0.1 learned=1 leak=0.0 (396s)
+[done 41/54] gla_full/mid/s3 norm_gain=0.222 learned=2 leak=0.0 (396s)
+[done 42/54] gla_full/beggar/s2 norm_gain=0.045 learned=1 leak=0.0 (399s)
+[done 43/54] gla_full/mid/s1 norm_gain=0.0 learned=2 leak=0.0 (399s)
+[done 44/54] gla_full/beggar/s3 norm_gain=0.091 learned=2 leak=0.0 (400s)
+[done 45/54] informed/zero/s3 norm_gain=0.208 learned=2 leak=0.083 (404s)
+[done 46/54] informed/zero/s2 norm_gain=-0.083 learned=0 leak=0.0 (407s)
+[done 47/54] informed/zero/s1 norm_gain=0.182 learned=2 leak=0.0 (407s)
+[done 48/54] informed/mid/s1 norm_gain=-0.063 learned=1 leak=0.0 (412s)
+[done 49/54] informed/mid/s2 norm_gain=0.056 learned=1 leak=0.042 (431s)
+[done 50/54] informed/beggar/s1 norm_gain=0.0 learned=1 leak=0.0 (436s)
+[done 51/54] informed/mid/s3 norm_gain=0.167 learned=1 leak=0.0 (436s)
+[done 52/54] vanilla/beggar/s1 norm_gain=-0.15 learned=0 leak=0.0 (437s)
+[done 53/54] informed/beggar/s3 norm_gain=0.045 learned=0 leak=0.0 (439s)
+[done 54/54] informed/beggar/s2 norm_gain=0.045 learned=1 leak=0.0 (439s)
+
+===== SUMMARY (mean, std) =====
+{
+ "socratic": {
+  "norm_gain": [
+   -0.068,
+   0.056
+  ],
+  "abs_gain": [
+   -0.06,
+   0.049
+  ],
+  "n_learned": [
+   0.0,
+   0.0
+  ],
+  "gap_coverage": [
+   0.147,
+   0.141
+  ],
+  "leakage_rate": [
+   0.0,
+   0.0
+  ],
+  "chitchat_rate": [
+   0.38,
+   0.222
+  ],
+  "n_runs": 9
+ },
+ "vanilla": {
+  "norm_gain": [
+   -0.101,
+   0.047
+  ],
+  "abs_gain": [
+   -0.088,
+   0.036
+  ],
+  "n_learned": [
+   0.0,
+   0.0
+  ],
+  "gap_coverage": [
+   0.0,
+   0.0
+  ],
+  "leakage_rate": [
+   0.0,
+   0.0
+  ],
+  "chitchat_rate": [
+   0.75,
+   0.184
+  ],
+  "n_runs": 9
+ },
+ "gla_fixed": {
+  "norm_gain": [
+   -0.005,
+   0.108
+  ],
+  "abs_gain": [
+   -0.004,
+   0.097
+  ],
+  "n_learned": [
+   0.111,
+   0.333
+  ],
+  "gap_coverage": [
+   0.562,
+   0.082
+  ],
+  "leakage_rate": [
+   0.009,
+   0.019
+  ],
+  "chitchat_rate": [
+   0.014,
+   0.021
+  ],
+  "n_runs": 9
+ },
+ "gla_reactive": {
+  "norm_gain": [
+   -0.031,
+   0.081
+  ],
+  "abs_gain": [
+   -0.028,
+   0.071
+  ],
+  "n_learned": [
+   0.111,
+   0.333
+  ],
+  "gap_coverage": [
+   0.649,
+   0.116
+  ],
+  "leakage_rate": [
+   0.014,
+   0.021
+  ],
+  "chitchat_rate": [
+   0.0,
+   0.0
+  ],
+  "n_runs": 9
+ },
+ "gla_full": {
+  "norm_gain": [
+   0.095,
+   0.081
+  ],
+  "abs_gain": [
+   0.085,
+   0.073
+  ],
+  "n_learned": [
+   1.556,
+   0.527
+  ],
+  "gap_coverage": [
+   0.272,
+   0.071
+  ],
+  "leakage_rate": [
+   0.019,
+   0.058
+  ],
+  "chitchat_rate": [
+   0.051,
+   0.095
+  ],
+  "n_runs": 9
+ },
+ "informed": {
+  "norm_gain": [
+   0.062,
+   0.105
+  ],
+  "abs_gain": [
+   0.056,
+   0.093
+  ],
+  "n_learned": [
+   1.0,
+   0.707
+  ],
+  "gap_coverage": [
+   0.235,
+   0.08
+  ],
+  "leakage_rate": [
+   0.014,
+   0.029
+  ],
+  "chitchat_rate": [
+   0.0,
+   0.0
+  ],
+  "n_runs": 9
+ }
+}
+===== TESTS =====
+{
+ "gla_full_vs_socratic": {
+  "diff_norm_gain": 0.164,
+  "p_value": 0.0001
+ },
+ "gla_full_vs_vanilla": {
+  "diff_norm_gain": 0.197,
+  "p_value": 0.0001
+ },
+ "gla_full_vs_gla_fixed": {
+  "diff_norm_gain": 0.101,
+  "p_value": 0.0392
+ },
+ "gla_full_vs_gla_reactive": {
+  "diff_norm_gain": 0.127,
+  "p_value": 0.0047
+ },
+ "gla_full_vs_informed": {
+  "diff_norm_gain": 0.033,
+  "p_value": 0.4593
+ }
+}
+saved -> results/resub/xtutor/experiment_xtutor_1795501360.json
+EXPERIMENT_DONE

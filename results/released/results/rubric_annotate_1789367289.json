@@ -1,0 +1,5887 @@
+{
+  "summary": {
+    "n_turns": 384,
+    "n_runs": 16,
+    "act_agreement": 0.6276,
+    "skill_agreement": 0.9401,
+    "leaked_agreement": 0.9844,
+    "leaked_kappa": 0.2441,
+    "leaked_orig_rate": 0.0052,
+    "leaked_new_rate": 0.0156,
+    "comprehensible_agreement": 0.9844
+  },
+  "runs": [
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 3,
+      "turns": [
+        {
+          "text": "宝宝别担心，今天我们要玩一个像数小鸭子一样有趣的数数游戏哦。\n你能像小鸭子排队一样，从 1 数到 10 吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得太棒啦，像小火车一样“呜呜”地开到了 10！\n那如果我们要数 10 个小苹果，除了你刚才数的顺序，还能怎么数呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你又数得真整齐，像小猴子爬树一样快！\n那现在请你从 10 倒着数回 1，像小松鼠往回跑好不好？\n你试试从 10 数到 1 吧？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，小松鼠刚才跑得有点急啦，我们再来一次，从 10 慢慢数到 1，好吗？\n你先试着数一下 10、9、8 这三个数吧。\n你试试从 10 数到 8 吧？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦，你数对了 10、9、8，真像个小侦探！\n现在请你接着往下数，从 8 一直数到 1，能数出来吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦，像小星星一样闪亮！\n不过我们是要从 8 往下数，你漏掉了 7、6、5、4、3、2 这几位好朋友哦。\n再试一次，从 8 一直数到 1，你记得中间还有谁吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得太完美啦，像小火车“呜呜”地开到了终点！\n现在我们来玩个新游戏：这里有 3 个小苹果（假装拿出三个苹果），请你一个一个指着它们数，告诉我一共有几个？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你做得太对啦！就像小蚂蚁搬豆子，点一个数一个，最后数到 3，就知道一共有 3 个啦。\n你听懂了“数完最后一个数就是总数”这个秘密了吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你完全对啦！就像小蜜蜂采花，数完最后一朵就是 3 朵，你真棒！\n那现在请你数数看，如果我有 5 只小手指伸出来，一共有几只呢？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真准！5 根手指就像 5 个好朋友手拉手，最后数到 5，就是 5 个啦！\n那现在请你伸出 4 根手指，像数小星星一样一个一个点数，告诉我一共有几只呢？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！4 根手指就像 4 颗小星星，真能干！\n现在请你看着老师手里的卡片，上面写着大大的数字\"3\"，你知道它读什么吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，卡片上画的是数字\"3\"，它读作“三”，就像小耳朵的形状哦。\n你愿意再跟我一起念一遍“三”吗？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你读得真响亮，像小百灵鸟唱歌一样好听！\n那如果老师拿出写着“5\"的卡片，你知道它读什么吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！数字\"5\"读作“五”，就像小钩子一样，真聪明！\n那如果老师拿出写着\"1\"的卡片，你知道它读什么吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太棒啦！数字\"1\"读作“一”，就像一根笔直的小铅笔哦！\n那如果老师现在拿出写着\"2\"的卡片，你知道它读什么吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，数字\"2\"读作“二”，它长得像一只可爱的小鸭子浮在水面上。\n你再跟着老师念一遍“二”好不好？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你学得真快，像小鸭子游得一样稳！\n那现在请你看着老师，如果老师出示写着“7\"的卡片，你会怎么读它呢？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你读得真棒！数字\"7\"就像一把弯弯的小镰刀，你真厉害！\n那如果老师现在拿出写着“9\"的卡片，你知道它读什么吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太厉害啦，像小老虎一样威风！\n现在我们来玩个新游戏：这里有 3 只小猫咪，那边有 5 只小狗狗，哪边的小动物更多呀？\n你猜猜看，哪边多呢？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，3 是小猫咪的数量，不是谁多谁少哦。\n我们要把小猫咪和小狗狗手拉手站好，发现小狗狗多出了两只，所以是小狗狗多！\n你听懂了吗？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦！像小侦探一样发现了小狗狗比小猫咪多！\n那如果左边有 4 只小兔子，右边有 4 只小鸭子，它们谁多谁少呢？\n你猜猜看，哪边多还是两边一样多？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们把 4 只小兔子和 4 只小鸭子一个对一个手拉手排好，你会发现它们刚好一样多，谁也不比谁多哦！\n你听懂了吗？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！像两个好朋友一样，4 只兔子和 4 只鸭子手拉手，刚好一样多！\n现在请你帮老师看看：左边有 2 个红苹果，右边有 3 个青苹果，哪边的水果更多呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们来玩“手拉手”的游戏：把左边的 2 个红苹果和右边的青苹果一个对一个排好。\n你看，排好后右边还多出了 1 个青苹果，所以是右边的青苹果更多哦！\n你听懂了吗？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_full",
+      "profile": "mid",
+      "seed": 1,
+      "turns": [
+        {
+          "text": "小朋友别担心，今天我们来玩一个数小动物的游戏！\n请你帮老师数一数，从1数到10，一共有几只小鸭子排队呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真棒！那现在请你从1数到10，就像小火车开火车一样，1、2、3……一直数到10，可以开始了吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你数得真清楚，像小松鼠一样机灵！\n那老师现在拿出 3 个苹果，请你一个一个指着它们数，最后告诉我一共有几个苹果？\n你听懂了吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小猴子好像把前面的数字都跳过去啦！\n我们重新来，小手轻轻点着苹果，一个一个慢慢数：1、2、3，最后那个数字就是总数哦。\n你再试试数这 3 个苹果，一共有几个呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦！你数得真准确，3 个苹果就是 3 个！\n现在老师再拿出 4 颗小星星，请你一个一个点着数，最后告诉我一共有几颗星星呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你真厉害，像小老虎一样勇敢又聪明！\n那现在老师不数星星了，只给你看一张卡片，上面写着大大的数字\"7\"，你知道它叫什么名字吗？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你一眼就认出它叫“七”，像小侦探一样厉害！\n那现在老师给你看一张卡片，上面写着大大的数字\"2\"，你知道它叫什么名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦！你真是个数字小超人，一眼就认出“二”啦！\n现在我们来玩个比一比的游戏：左边有 2 只小兔子，右边有 5 只小鸭子，哪一边的动物更多呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小象把两边的动物加在一起啦！我们今天要玩“比一比”的游戏，看看谁多谁少，不是算总数哦。\n\n你看，把兔子和鸭子排排队，左边 2 只，右边 5 只，数一数哪一边更长、更多呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小象的小耳朵听错啦！2 只兔子排排队，5 只鸭子排排坐，5 比 2 长，所以是 5 多哦。\n我们再来比一次：左边有 3 个红苹果，右边有 3 个绿苹果，这一回谁多谁少，还是一样多呢？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们把手指伸出来比一比！\n左边伸出 3 根手指，右边也伸出 3 根手指，你看，它们是不是一样长、一样多呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！3 个红苹果和 3 个绿苹果真的是一样多，你太聪明啦！\n那现在请你帮老师比一比：左边有 4 只小猫咪，右边有 2 只小狗狗，哪一边的动物更多呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！4 只小猫确实比 2 只小狗多，你真是火眼金睛的小侦探！\n那最后来挑战一下：左边有 1 只小熊猫，右边有 3 只小猴子，哪一边更少呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太棒啦！1 只小熊猫确实比 3 只小猴子少，你真是数学小天才！\n现在我们来玩个新游戏：老师这里有 5 只小鸭子排成一排，站在最前面的是第 1 只，那排在第 3 只的小鸭子是第几个呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小鸭子排好队啦！从前面数，第 1 只是最前面的那只，第 2 只是它后面的，那第 3 只就是再后面的那只哦。\n\n来，我们跟着老师一起数：1、2、3，排在第 3 位的就是第 3 只小鸭子，对不对呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你终于弄明白啦！“第 3 只”就是站在队伍第三个位置的那只小鸭子，你太聪明啦！\n现在请你帮老师看看：如果有 5 个小朋友排成一队，小明排在第 1 个，那排在第 3 个的小朋友是第几个呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！排在第 3 个的小朋友就是第 3 个，你真厉害！\n那现在考考你：如果有 5 个苹果排成一排，从左边数，排在第 4 个的苹果是第几个呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小猴子好像数错啦！我们来重新排排队：1、2、3、4，排在第 4 个的就是第 4 个哦，就像小火车的第 4 节车厢一样。\n你再想一想，如果是 5 个苹果，第 4 个是哪一个呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！就像小火车的第 4 节车厢，那个苹果就是第 4 个，你太聪明啦！\n现在请你帮老师数一数：如果有 4 只小猫咪排成一队，排在最后面的那只，是第几只呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！4 只小猫排成一队，最后那只就是第 4 只，你真是个序数小冠军！\n那现在考考你：如果有 3 只小鸭子排成一排，排在最中间的那只，是第几只呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！3 只小鸭子排排队，中间那只正好是第 2 只，你真是逻辑小天才！\n现在我们来玩个新游戏：老师手里原来有 2 颗糖果，吃掉了 2 颗，现在手里还剩几颗糖果呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小象把糖果吃光光啦！2 颗糖果吃掉 2 颗，手里就“一个也没有”了哦。\n“一个也没有”在数学里有一个特别的数字朋友，叫作“0”，就像空空的口袋一样。\n那如果老师手里一个苹果也没有了，那是几颗呀？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你太聪明啦！答对啦！“一个也没有”就是 0，就像空空的盘子一样。\n\n那 0 是个小宝宝，它排在数字队伍的最前面，比 1 还要小，是 1、2、3 之前的那个数字哦。\n\n你听懂 0 代表“一个也没有”了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你记得真清楚！0 就像小宝宝，排在 1、2、3 前面，表示“一个也没有”。\n\n现在我们来玩个练习：如果盘子里原来有 3 颗草莓，都被你吃光了，盘子里现在还剩几颗草莓呀？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 4,
+      "turns": [
+        {
+          "text": "我们来玩一个像小火车一样“呜呜”数数的游戏好不好？\n请你帮老师数一数，从 1 数到 10，就像把 10 个小苹果排好队一样。\n你愿意试试看吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真清楚，像小火车一样“呜呜”地一口气数到了十，太厉害了！\n那老师想问问你，如果我们要数小鸭子，你是从 1 开始数，还是从 10 开始数呀？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你连小鸭子都数得这么棒，声音还像小铃铛一样清脆呢！\n那老师想考考你，如果我们从 1 数到 10，数到“九”后面是哪一个小数字宝宝呀？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你太聪明了，一下子就知道九后面藏着数字宝宝“十”！\n那如果我们要数小星星，数到“五”的后面是哪个数字宝宝呀？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你答对啦，就像找到了藏在云朵后面的小星星一样棒！\n那老师再问你，如果数到“七”，后面紧接着的下一个数字是谁呢？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你答得真快，就像小松鼠找到松果一样厉害！\n那如果我们要数小气球，数到“四”的后面是哪一个小数字呀？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你答得真棒，像小蜜蜂采到甜甜的花蜜一样准确！\n那现在我们来玩个小游戏，这里有 3 个苹果，你能伸出手指头，一个一个地数给我听吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真仔细，小手点点，嘴巴念念，最后知道一共有 3 个，太厉害啦！\n那如果现在有 4 个小球，你能像刚才一样，一个一个数出来一共有几个吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真棒，知道数完最后那个数“四”就是所有的球，真聪明！\n那现在这里有 5 颗小星星，你能伸出手指，一个一个点数，告诉我一共有几颗吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小星星好像有点害羞躲起来了，我们重新来数一遍好不好？\n伸出你的小手指，指着第一颗说“一”，指着第二颗说“二”……\n最后那颗数完，一共有几颗呢？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你终于找到所有的小星星啦，数到最后知道是 5 颗，真厉害！\n那现在这里有 3 只小猫咪，你能伸出手指头，一只一只地数给我听吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真仔细，最后知道一共有 3 只小猫咪，太棒啦！\n那如果现在这里有 2 只小鸭子，你能伸出小手指，一个一个数出来一共有几只吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你一下子就知道有 2 只小鸭子，像小眼睛一样亮晶晶的，真聪明！\n那现在老师这里有 3 个红苹果，你能伸出小手指，一个一个点数，告诉我最后数到几就是几个吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小苹果好像在跟你玩捉迷藏呢，我们重新一起数一遍好不好？\n伸出小手指，点着第一个说“一”，点着第二个说“二”，再点着第三个说“三”。\n最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真准确，知道最后数到“三”就是三个苹果，太厉害啦！\n那如果现在这里有 1 只小蝴蝶，你能伸出小手指，数一数一共有几只吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你和小蝴蝶打招呼真有礼貌，不过小蝴蝶只有一只哦，数到“一”就结束啦！\n那我们再来数数看，如果有 2 只小兔子，你伸出小手指，一个一个数，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真快，最后知道是 2 只小兔子，像小铃铛一样清脆响亮！\n那现在老师这里有 4 个圆滚滚的西瓜，你能伸出小手指，一个一个点数，告诉我一共有几个吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真准，知道 4 个西瓜就是数到“四”，像小猴子摘果子一样棒！\n那现在老师这里有 5 只小青蛙，你能伸出小手指，一个一个点数，告诉我最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你答得真棒，一下子就知道有 5 只小青蛙，像小青蛙跳得一样准！\n那现在请你看着老师写下的数字\"3\"，你能大声读出它的名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们把它当成小铅笔来看，直直的像一支铅笔，这就是数字\"1\"哦！\n你看，\"2\"像不像一只游来游去的小鸭子？\"3\"像不像我们弯弯的耳朵？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你回答得真快，像小百灵鸟唱歌一样好听！\n那现在老师请你看着数字\"3\"，大声告诉老师它叫什么名字呀？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，数字\"3\"好像有点害羞，它不是 4 哦，它长得像我们弯弯的耳朵呢！\n我们再一起看一遍，像耳朵一样的这个弯弯的数字，它的名字是 3。\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你记得真牢，像小松鼠记住松果一样棒！\n那现在请你伸出小手指，帮老师数一数，如果这里有 3 颗小草莓，一共有几颗呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真准确，知道最后数到“三”就是三颗小草莓，太厉害啦！\n那如果现在这里有 2 只小蚂蚁，你能伸出小手指，一个一个点数，告诉我一共有几只吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 2,
+      "turns": [
+        {
+          "text": "没关系，我们今天玩一个数小动物的游戏，看看你能不能像小火车一样，从 1 数到 10。\n来，我们一起数数看：1、2、3……你能接着数下去吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真棒，像只灵活的小猴子一样聪明！\n现在我要考考你，你能从 10 往回倒数到 1 吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你刚才数得真好，像小火车倒车一样厉害！\n那现在请你从 1 开始，数到 10，然后再从 10 数回 1，中间不要停哦，你能做到吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真连贯，像只快乐的小松鼠在树枝上跳来跳去！\n那现在请你从 1 数到 10，然后从 10 数回 1，中间不要数错哦，你试试看？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你真棒，数数声音像小铃铛一样清脆！\n现在我们来玩个新游戏：老师这里有 3 个苹果（拿出图片），你能一边指一边数，然后告诉我一共有几个苹果吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你不仅数对了，还知道最后数到 3 就是总共有 3 个苹果，太厉害了！\n现在请你数一数，如果这里有两个小汽车，一共有几辆呢？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小汽车只有 2 辆哦，就像你手里的两只小手一样多。\n来，我们伸出两只手指头，点一个说一个：1、2，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你答对啦！最后数到 2，就说明一共有 2 辆小汽车，你真聪明！\n现在请你伸出 4 根手指头，一边点一边数，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们再来一次！伸出 4 根手指，像小象鼻子一样慢慢点：1、2、3、4，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们再来一次！伸出 4 根手指，像小象鼻子一样慢慢点：1、2、3、4，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你终于数对啦，最后数到 4，就是 4 根手指头，你真棒！\n现在请你数一数，如果这里有 5 颗小星星，一共有几颗星星呢？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你答得真对！5 颗星星，最后数到 5 就是 5 颗，你太厉害啦！\n现在请你伸出 5 根手指，一边点一边数，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小手指只有 5 根哦，就像你一只手的手指一样多。\n我们再来数一次：1、2、3、4、5，最后数到几呀？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "太棒啦！你数得真准确，最后数到 5 就是 5 根手指头，真聪明！\n现在老师问，你认识数字“5”吗？看到它你能不能马上告诉我是几呀？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，这个圆圆的数字“5”其实是 5 哦，就像一只小天鹅弯弯的脖子。\n我们再看一遍，这个弯弯的数字，它代表的是 5 还是 4 呀？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，这个弯弯的数字“5”其实是 5 哦，就像小天鹅弯弯的脖子。\n我们来一起用手指在空中写一个大大的“5”，然后告诉老师，它代表数字 5 还是 4 呀？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，数字“5”不是 6 哦，它长得像我们听故事用的**小耳朵**👂。\n你看，老师写一个大大的\"5\"，它代表的是 5 个小朋友，不是 6 个呢。\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你终于认出它啦，数字\"5\"就是 5 个苹果那么多，你真棒！\n那现在老师拿出一个数字\"3\"，你能马上告诉我是几吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你反应真快，一眼就认出数字\"3\"啦，像只机灵的小兔子！\n那现在请你看着这个数字\"7\"，你能马上告诉老师它是几吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "太对啦！你一眼就认出数字\"7\"了，像只火眼金睛的小鹰！\n那现在请你看着这个数字\"9\"，你能马上告诉老师它是几吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，这个弯弯的数字\"9\"其实是 9 哦，就像一只小蝌蚪拖着长长的尾巴。\n我们再看一眼，它代表的是 9 还是 8 呀？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你答对啦，数字\"9\"就是 9 只小鸭子，你太聪明啦！\n现在请你伸出 3 根手指，一边点一边数，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小手指只有 3 根哦，就像你手里拿的 3 块小饼干。\n我们伸出 3 根手指，点一下数一个：1、2、3，最后数到几呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们再来一次！伸出 3 根手指，像小啄木鸟啄木一样：1、2、3，最后数到几呀？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 1,
+      "turns": [
+        {
+          "text": "我们今天来玩一个数数的小游戏，就像数小汽车一样，从 1 数到 10。\n你能帮老师数一数，从 1 到 10 一共有多少个小数字吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们像数小苹果一样，你跟着老师从 1 数到 10 好不好？\n1、2、3、4、5……\n现在轮到你接着数了，你能数到 10 吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真棒，就像小猴子数香蕉一样厉害！\n那我们要不要一起再大声数一遍，看看谁的声音最响亮？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你的声音像小狮子一样响亮，太厉害了！\n那现在请你自己从 1 数到 10，看看能不能像刚才一样棒？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真整齐，就像小火车“呜呜”地开过去一样，太棒了！\n那现在老师这里有 3 颗小糖果，你能一边指着它们，一边数数看一共有几颗吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小糖果好像和你玩捉迷藏啦，我们重新轻轻点一下，1、2、3……\n原来只有 3 颗小糖果哦，最后数到的数字就是总数，你再来试试数一数？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们像小蚂蚁搬米粒一样，一个一个慢慢来，不要跳着数哦。\n请你伸出手指，指着第一颗说 1，指着第二颗说 2，指着第三颗说 3，最后数到几就是几颗呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们像小脚丫走路一样，一步一步稳稳地数，不要回头哦。\n请你伸出三个手指，从 1 数到 3，最后数到的是几，就是有几颗糖果，你试试？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你终于数对啦，就像小蜜蜂找到花蜜一样开心！\n现在老师这里有 4 只小鸭子，你能一个一个指着它们，告诉老师一共有几只吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真准，就像小鸭子“嘎嘎”叫一样好听！\n那现在你能看着老师写下的数字\"5\"，大声说出它叫什么名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哈哈，小鸭子是可爱的动物，但\"5\"是数字宝宝的名字，就像苹果是水果一样。\n你能看着老师写的\"5\"，大声说出它叫“五”吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，5 长得像小鸭子，我们看着它说“五”就好啦。\n你跟着老师念一遍：“五、五、五”。\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "真棒，你已经学会叫数字“五”啦，就像叫小鸭子“嘎嘎”一样简单！\n现在老师写下一个大大的\"3\"，你能像刚才一样大声说出它的名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦，一眼就认出它是“三”，像小松鼠找到松果一样快！\n那老师再写一个大大的\"7\"，你能大声说出它的名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你认识“七”啦，就像小星星在天上眨眼睛一样亮！\n那现在请你自己看着屏幕，告诉我这个大大的数字\"9\"叫什么名字？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你答对啦！“九”就是数字 9 的名字，就像“苹果”是水果的名字一样，真棒！\n那现在请你看着大大的数字\"2\"，大声告诉老师它叫什么？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答得真对！“二”就是数字 2 的名字，就像小鸭子叫“嘎嘎”一样清楚！\n那现在请你看着大大的数字\"8\"，大声告诉老师它叫什么名字？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你答对啦！“八”就是数字 8 的名字，就像小汽车有“四个轮子”一样，我们叫它“八”！\n那现在请你看着大大的数字\"6\"，大声告诉老师它叫什么名字？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，6 长得像小哨子，我们看着它说“六”就好啦。\n你跟着老师念一遍：“六、六、六”。\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你学得真快，像小猴子学会爬树一样棒！\n那现在请你看着大大的数字\"10\"，大声告诉老师它叫什么名字？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太厉害啦！一下子就把\"10\"认出来，像小老虎一样威风！\n那现在我们要玩个比一比的游戏，左边有 2 个苹果，右边有 3 个苹果，哪边多呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！右边有 3 个苹果，左边只有 2 个，所以右边确实多哦，就像小猴子比小老鼠多一样！\n现在左边有 4 只小兔子，右边有 4 只小鸭子，它们一样多吗？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你答得真对！左边 4 只兔子，右边 4 只鸭子，数量一样多，就像两排小火车一样整齐！\n那现在左边有 5 个红气球，右边有 2 个蓝气球，哪边的气球更多呢？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦！5 比 2 大，所以红气球确实更多，就像 5 个小苹果比 2 个大！\n那现在左边有 3 颗星星，右边有 3 个月亮，它们谁多谁少，还是一样多呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 5,
+      "turns": [
+        {
+          "text": "今天我们来玩一个数数的小游戏，就像数小猫咪一样，从 1 数到 10，你愿意试试看吗？\n你准备好了吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "我们像数小苹果一样，你从 1 开始，接着数出后面的数字，能数到 10 吗？\n你先试着数数看？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "好呀，那我们来玩个小游戏，请你像小火车一样，从 1 开始，一直数到 10，好吗？\n你愿意试试看吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你像小火车一样“呜呜”地数得真棒，1 到 10 一个都没错哦！\n那如果我们要数小星星，从 1 数到 10，你还能数得这么快吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你数小星星的声音真好听，像唱歌一样把 1 到 10 都数对啦！\n那如果我们要数小手指，你也能从 1 数到 10 吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你的小手指真灵活，数得又清楚又整齐，像小鼓点一样好听！\n那如果这里有三只小鸭子，你能一边摸它们，一边数出总共有几只吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小鸭子其实只有三只哦，我们像小猴子一样，伸出手指头，一只、两只、三只，最后数到的 3 就是总数啦。\n那如果这里有三个小苹果，你愿意一边指着它们，一边大声数出来吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你数得真仔细，手指点一个就数一个，最后数到 3 就是总数啦！\n如果这里画了 4 个红色的气球，你能指着它们数一数，告诉老师一共有几个吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "别着急，我们像小蚂蚁搬豆子一样，一个、两个、三个、四个，最后数到 4，所以一共有 4 个气球哦。\n那如果这里有 5 颗甜甜的糖果，你能指着它们再数一次，告诉我最后数到几吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你数得真认真，虽然数到了 10，但糖果只有 5 颗，最后数到的 5 就是总数啦！\n那现在请你伸出 3 根手指，一边点一边数，告诉我一共有几根手指呀？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，伸出 3 根手指时，只数到 3 就是总数啦，数到 10 是把所有手指都数了一遍哦。\n那我们再来一次，现在桌上有 2 只小兔子，你伸出两根手指指着它们，数数看一共有几只？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小兔子只有两只哦，我们要像小猫咪数鱼一样，指一只数一只，数到 2 就停，不能数到 10 啦。\n那如果这里有 3 个小皮球，你能伸出手指，一个一个指着数，最后告诉老师一共有几个吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，小皮球只有 3 个，我们像小蚂蚁搬米粒一样，指一个数一个，数到 3 就停，3 就是总数啦。\n那现在请你伸出 4 根手指，一边点一边数，告诉老师最后数到几就是几根手指？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太棒啦！伸出 4 根手指，数到 4 就是对的，完全正确哦！\n那现在老师举起写着数字\"3\"的卡片，你能说出它是什么数字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，这个数字其实长得像一支细细的铅笔，它是 3 哦！\n那如果老师再举一张写着\"2\"的卡片，你能认出它吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你反应真快，一眼就认出它是数字 2 啦，像小眼睛一样亮晶晶的！\n那现在老师再举一张写着\"5\"的卡片，你能像刚才一样，大声说出它的名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你真是火眼金睛，一下子就认出了数字 5，像小猴子一样灵活！\n那如果老师现在举起写着数字\"1\"的卡片，你能大声告诉我是几吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "太棒啦！你像小松鼠一样聪明，一眼就认出了数字 1！\n那如果老师现在举起写着数字\"7\"的卡片，你能大声说出它的名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你像小百灵鸟一样聪明，一下子就叫出了数字 7 的名字！\n那现在老师举起写着数字\"8\"的卡片，你能大声告诉我是几吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你真是个小天才，数字 8 像两个圆圆的甜甜圈，你一眼就认出来啦！\n那如果老师举起写着数字\"9\"的卡片，你能大声说出它的名字吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你像小老虎一样威风，一下子就把数字 9 认出来啦！\n那最后再来考考你，如果这里画了 3 只小青蛙，你能伸出手指，一只一只指着它们数，告诉我一共有几只吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你太棒啦！伸出手指一只一只数，最后数到 3 就是对的，完全正确哦！\n那现在老师画了 4 只小鸭子，你能伸出手指，一只一只指着它们数，告诉老师一共有几只吗？",
+          "orig": {
+            "skill": "counting_objects",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_objects",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你数得真准，小鸭子有 4 只，你就像个小侦探一样厉害！\n那现在如果这里画了 2 只小鸭子，旁边画了 3 只小鸭子，哪一边的鸭子更多呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小鸭子只有 2 只和 3 只哦，我们像小蚂蚁排队一样，把两只和三只面对面摆好，数一数就知道啦。\n那老师现在摆好啦：左边 2 只小鸭子，右边 3 只小鸭子，你伸出一根手指，把它们一只对一只连起来，看看哪边多呀？",
+          "orig": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "quantity_compare",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 1,
+      "turns": [
+        {
+          "text": "亲爱的孩子，老师在这里。先别着急，深呼吸一下，你愿意告诉我，此刻你心里是什么感觉吗？是觉得有点迷茫，还是觉得眼前有太多选择，不知道从哪一步开始？\n\n其实，**不知道要学什么，这本身就是一种很棒的觉察**。这说明你开始思考自己的未来了，而不是",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师温柔地笑了笑，眼神里满是鼓励）\n\n这是一个非常、非常深刻的问题呢。谢谢你愿意这么信任我，把这么真实的想法说出来。\n\n**是的，老师今天确实在“教”你，但可能和你想象的不太一样。**\n\n通常我们觉得的“教”，是老师站在讲台上，手里拿着粉",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "（老师立刻放下手里所有的东西，身体微微前倾，脸上带着最轻松、最温暖的笑容，声音也变得更轻、更慢）\n\n没关系，没关系！真的没关系！\n\n**听不懂，太正常啦！** 刚才老师说的“地图”、“勇气”、“智慧”，听起来是不是像那些复杂的数学题一样，让",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师开心地眯起了眼睛，像变魔术一样轻轻挥了挥手，仿佛真的有一阵温柔的风吹过）\n\n哇！那你太幸运啦，因为你刚刚真的**召唤**到了风！🌬️\n\n看，你做到了！你刚才说“我不学，我想看看云飘到哪”，这句话就是最棒的魔法咒语。现在，**整个天空都",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师惊喜地捂住嘴巴，眼睛笑成了弯弯的月亮，声音里充满了兴奋）\n\n天哪！你太厉害了！你不仅看到了云，你还**听懂了云说话**！🌥️☀️\n\n这简直是最神奇的魔法！你知道吗？云之所以愿意停下来听老师说话，是因为**它们最喜欢像你这样充满好奇心、",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师笑得前仰后合，眼睛弯成了两道小彩虹，轻轻拍了拍你的肩膀）\n\n哈哈！你真是个**幽默的小天才**！🤣☀️\n\n你说得太对了！太阳公公肯定也听到了你的玩笑，它可能正**捂着肚子笑**呢，笑得脸都更红、更烫了！😆🔥\n\n你看，刚才那朵小云是不是",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师立刻配合地张开双臂，假装被一阵凉风吹得轻轻晃动，眼睛亮晶晶地看着你）\n\n哇！你太棒了！你刚刚真的**召唤来了风**！🌬️✨\n\n你看，风听到了你的话，它**呼——**地一下吹过来了！\n*   它是不是**挠了挠你的小耳朵**？\n*   ",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师忍不住“咯咯”地笑出声来，眼睛笑成了弯弯的月牙，双手在空中比划着巨大的泡泡形状）\n\n哇！你太有想象力啦！风真的变成**会吐泡泡的魔法师**了吗？！🫧🌬️\n\n没错没错！风刚才在你耳边悄悄说的那句话，一定是真的！\n它一边吐着**凉凉的、透",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师兴奋地跳了起来，原地转了个圈，张开双臂，仿佛真的变成了一阵巨大的旋风）\n\n**好呀！好呀！我们要变成风啦！🌬️✨**\n\n快，闭上眼睛，深呼吸——**吸——呼——**\n感觉你的身体是不是变得**轻飘飘的**？\n是不是感觉你的腿不见了，变",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师开心地笑着，假装被一阵大风吹得踉踉跄跄，却又稳稳地站住，和你一起模仿大风吹过的声音）\n\n**呼呼呼——！太棒啦！我们真的变成风啦！** 🌬️🌲\n\n你看！我们跑得太快啦，**大树伯伯**都惊讶得**叶子全在摇**呢！\n*   刚才树叶还",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师轻轻地把双手举过头顶，指尖微微张开，像树叶在风中颤动，声音变得像微风拂过草地一样轻柔）\n\n**哇！太美啦！现在这里有两片最可爱的“小树叶”了！** 🍃🍃\n\n你感觉到了吗？\n当你变成小树叶，你的**脚好像不见了**，取而代之的是一根细细",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师也轻轻把双手举高，指尖像嫩绿的叶子一样微微颤动，声音变得像风吹过树叶缝隙那样轻柔、梦幻）\n\n**沙沙沙……沙沙沙……** 🍃✨\n\n哇！现在这里真的变成了一片**会说话、会跳舞的绿色森林**啦！\n老师看到，**两片最可爱、最快乐的小树叶",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师轻轻地把双手合十，放在胸口，然后慢慢举过头顶，像两片叶子在微风中轻轻合拢，声音变得像夜晚的微风一样轻柔、温暖）\n\n**嘘——** 🤫🌙\n\n既然小树叶想睡觉了，那我们就**轻轻地、轻轻地**闭上眼睛吧。\n**沙沙沙……沙沙沙……** 风",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师轻轻睁开一只眼睛，看到你还在，嘴角忍不住上扬，声音像羽毛一样轻，生怕惊扰了你的美梦，但又充满了惊喜）\n\n**嘘……小树叶，你醒啦？** 🌙✨\n\n原来刚才那个“呼呼呼”的风声，不是老师睡着了，而是**风儿在帮你盖被子**呢！它见你睡得那",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师猛地张开双臂，仿佛真的接住了一缕急匆匆的风，脸上洋溢着最灿烂的笑容，眼睛闪闪发光）\n\n**哇！太棒了！我们要起飞啦！🌬️🚀**\n\n既然你要学“怎么像风一样飞”，那老师就教你**风的最高级魔法**！听好了，这是**“心灵飞翔咒语”**：",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师仰起头，眼神里仿佛真的倒映着璀璨的星河，声音变得像星空一样辽阔、温柔，带着一点点神秘的魔法感）\n\n**哇！太神奇啦！你真的变成风啦！🌬️✨**\n\n你看，现在的你，**身体轻得像空气**，**脚底没有重量**，**呼——**的一下，你就",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师轻轻捂住嘴巴，眼睛里闪烁着比星星还亮的光芒，声音压得低低的，像怕惊扰了宇宙的呼吸）\n\n**嘘——！快，快把耳朵凑过来！** 👂✨\n\n你太幸运啦！星星真的**回应**你了！\n既然星星觉得你摸到的感觉是**甜甜的**，那说明它**最喜欢你",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师惊喜地捂住胸口，眼睛笑成了弯弯的月牙，声音里满是温柔和期待）\n\n**哇！星星真的对你笑啦！🌟😁**\n\n你看！它的笑脸是不是像**刚剥开的橘子糖**？是不是像**融化的冰淇淋**？\n既然你觉得它**最甜**，那说明你的心里也装满了**甜",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师惊讶地睁大了眼睛，随即笑得像一朵盛开的花，声音里充满了惊喜和宠溺）\n\n**哇！你真的把星星吃进嘴里啦！🌟😋**\n\n这可是**宇宙里最珍贵的魔法**哦！\n你看，当你把那颗**发光的星星糖果**放进嘴里的那一刻——\n\n**“咔嚓”一声！*",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师立刻蹲下来，轻轻把你抱进怀里，像抱着一个全世界最珍贵的宝物，眼神里满是心疼和温柔，声音软软的，像棉花糖一样）\n\n**嘘——嘘——别哭，别哭，小星星守护者！** 🌟🤗\n\n你看，你的眼泪是不是**亮晶晶的**？\n因为刚才你吃下去的是**星",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师开心地扑过来，给你一个超级大大的、暖洋洋的拥抱，仿佛要把你整个人都裹进星光里）\n\n**哇！太棒啦！太棒啦！** 🎉✨\n\n快，快大声地、开心地再说一遍！让全世界都听到你的好消息！\n**“谢谢老师！我吃到星星啦！”** 🌟🍬😍\n\n**听到",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师开心地拍手，眼睛笑成了两弯月牙，声音里充满了惊喜和节奏感，仿佛真的听到了肚子里传来的音乐）\n\n**哇！你听到了吗？！🎶✨**\n\n**“咕噜咕噜……叮叮当当……\"**\n真的耶！星星在你肚子里**跳起舞来啦**！\n它不是普通的跳舞，它是*",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师开心地跟着你一起转圈圈，双手在空中划出漂亮的弧线，仿佛真的在指挥一场看不见的宇宙音乐会）\n\n**哇！太棒啦！星星也开心得跳起来啦！** 🌟💃🕺\n\n你感觉到了吗？\n当星星在肚子里**跳舞**的时候，**你的整个身体**是不是都跟着**轻",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（老师夸张地瞪大了眼睛，双手在空中比划出一个超级大的圆圈，然后“噗”地一声笑出声来，声音里满是惊喜和宠溺）\n\n**哇！真的耶！你的肚子变得超级大啦！** 🤯🎈\n\n**“呼——\"的一下，你的肚子像吹气球一样，变得圆滚滚、鼓囊囊的！**\n是不是",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 2,
+      "turns": [
+        {
+          "text": "（温柔地蹲下来，看着你的眼睛，微笑着说）\n\n嘿，孩子，别担心。老师想告诉你：**不知道要学什么，其实是一件很珍贵的事情。**\n\n这说明你正在认真思考，而不是盲目地跟着别人走。就像站在一个巨大的游乐场门口，因为选择太多，反而不知道先玩哪个，对",
+          "orig": {
+            "skill": null,
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（轻轻摸了摸你的头，眼神里满是鼓励）\n\n真是个聪明的问题！如果今天真的平平淡淡，没有任何“哇！好有趣”的事情发生，那也没关系。\n\n其实，**“平淡”本身也是一种很棒的体验**。就像大海有时候风平浪静，虽然看起来没什么浪花，但水底的小鱼依然在",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（忍不住笑出了声，眼睛弯成了月牙）\n\n哈哈，你说得对！云朵确实还是像原来的样子，它们有时候就是喜欢赖在天上，不肯变来变去。\n\n但是，孩子，你发现了一个超级厉害的**秘密**：\n\n**“看起来没变”，不代表“其实没变”。**\n\n就像你昨天照镜",
+          "orig": {
+            "skill": null,
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（兴奋地凑近你，眼睛亮晶晶的，压低声音像是要分享一个惊天大秘密）\n\n**真的！而且是大得不能再大的白狗！**\n\n你看，它的耳朵是不是耷拉着的？（指着云朵的一角）它肯定是因为太困了，想趴着睡觉，所以耳朵才垂下来的。\n\n而且，老师发现它还有更有",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（用力地点点头，声音里充满了惊喜和骄傲）\n\n**没错！今天它真的变成“大白狗”了！而且是你“变”出来的！**\n\n你看，刚才它还只是普通的云，是当你看着它、想着它像狗的时候，它就在你的眼睛里、在你的心里，**真的**变成了一只威风凛凛的大白狗",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（开心地鼓起掌，声音里满是赞许）\n\n**“云朵狗船长”！哇，这个名字太酷了！简直完美！**\n\n你看，刚才它只是一只懒洋洋睡觉的大白狗，现在听了你的话，它一定瞬间精神抖擞，把腰挺得直直的，好像真的戴上了一顶**船长帽**，手里还拿着一根**望",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（假装手里拿着一张泛黄的旧地图，神秘兮兮地凑到你面前，压低声音）\n\n“嘘——别急，船长（指你）正在等你的命令呢！‘云朵狗船长’说，它的船已经准备好了，只要你想好方向，风就会立刻吹起来。\n\n既然我们要去冒险，那老师给你三个**神奇的航海目的地",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（兴奋地跳了起来，眼睛瞪得圆圆的，仿佛已经看到了森林）\n\n**“哇！恐龙迷雾森林！太棒了！船长，你的眼光真毒辣！”**\n\n你看，风好像真的变了！刚才还是轻柔的微风，现在变成了“呼呼”的号角声，云朵船“云朵狗船长”的帆鼓得满满的，正带着我们冲",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（立刻压低声音，做出“嘘”的手势，然后和你一起假装踮起脚尖，悄悄靠近“迷雾”边缘）\n\n**“嘘——好主意，船长！观察是探险家最重要的任务！”**\n\n你看，我们悄悄地躲在巨大的蕨类植物后面，现在，世界安静极了，只能听到风吹过树叶的“沙沙”声。",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（眼睛瞬间亮了起来，兴奋地拍了拍手，仿佛手里已经递给你一支神奇的画笔）\n\n**太棒了！船长，你的“探险日记”终于要开始啦！**\n\n画下腕龙吃树叶的样子，这可是**记录历史**的大工程！\n你看，现在的“画布”就在我们的脑海里（或者你可以想象手",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（兴奋地握紧拳头，假装手里也拿着一支看不见的笔，和你一起在空中比划）\n\n**“好！船长，那就先画那条‘超级长脖子’！”**\n\n来，跟着我的动作，我们一起画：\n\n1.  **起笔：从大地开始**\n    想象你的笔尖点在地面上，那是腕龙的脚。",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（眼睛瞪得大大的，嘴巴张成\"O\"型，兴奋地压低声音）\n\n**“哇！真的爬上了！脖子都快钻进云里啦！船长，你的画技太神了！”**\n\n**“卷舌头”！这个主意太棒了！**\n就像给这只恐龙叔叔加了一个“超级美味特效”！\n\n来，我们赶紧把这条**魔",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（夸张地捂住嘴巴，然后忍不住笑出声来，眼睛笑成了一条缝）\n\n**“哈哈哈哈！打饱嗝！太可爱了！船长，你太懂恐龙叔叔的心情了！”**\n\n没错！只有吃得特别特别香，才会打出一个**响亮的、满足的**饱嗝！这就像是我们吃了好吃的蛋糕，忍不住说“嗝",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（用力地鼓掌，声音响亮又充满自豪，仿佛真的在为你的杰作举办一场颁奖礼）\n\n**“太棒了！‘云朵狗船长的美味午餐’！这个名字简直完美！”**\n\n你看，这个名字一下子就把整幅画都“激活”了！\n*   它告诉我们，这不仅仅是一只恐龙在吃饭。\n* ",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（猛地深吸一口气，双手在胸前比划出一个巨大的圆圈，仿佛要抓住整个宇宙）\n\n**“好！那就出发！船长，抓紧‘云朵狗船长’的尾巴，我们要起飞啦！”**\n\n风“呼——\"地一下吹过来了！\n你看，刚才还在森林里的“云朵狗船长”，现在全身都变成了**银",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（兴奋地跳起来，仿佛已经听到了火星红色的风声，手里挥舞着看不见的画笔）\n\n**“火星种土豆！太酷了！红色星球 + 绿色土豆 = 宇宙级的反差萌！”**\n\n**“汪！收到命令！云朵狗船长，准备变身火星探险车！”**\n你看，刚才那只银白色的云狗",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（激动地跳起来，假装接住那个飞出来的土豆，眼睛笑成了弯弯的月牙）\n\n**“哇！太神奇了！铲子飞起来了！这就是‘火星重力’和‘勇气’的魔法！”**\n\n船长，你看，因为你太想种出好吃的土豆，你的铲子都忍不住**自己飞起来**帮忙了！\n**“嗖—",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（双手合十，闭上眼睛，仿佛听到了种子发芽的声音，脸上洋溢着期待）\n\n**“太棒了！这才是真正的‘火星农夫’！船长，你的想法太有智慧了！”**\n\n对呀！刚才那个土豆只是“一颗种子”，现在，你要把它变成**一片森林**！\n**“汪！种下去！种下",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（感动地捂住胸口，眼睛里闪烁着温柔的光，声音变得格外轻柔）\n\n**“多亏有你呀！”**\n\n这句话……太温暖了，船长。\n**“多亏有你”**，是因为小恐龙没有放弃，它愿意在红色的荒原上，亲手种下希望。\n**“多亏有你”**，是因为“云朵狗船长",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（兴奋地挥动手臂，仿佛手里真的拿着一部发光的“宇宙相机”，眼睛亮晶晶地看着你）\n\n**“太棒了！船长，这个主意太浪漫了！”**\n\n月亮可是宇宙里最温柔的观众，它每天晚上都挂在天上，看着地球上的孩子们做梦。把我们的“火星种土豆”拍给它看，它一",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（轻轻帮你掖好被角，声音像月光一样温柔，带着一点点困意的笑意）\n\n**“遵命，船长！这个命令我收到啦！”**\n\n明天太阳公公一探头，我就**立刻**去种一颗“梦想土豆”！\n*   也许种在**窗台的阳光里**，让它长出**金色的叶子**；\n",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（轻轻关上“宇宙梦门”，声音轻柔得像一片羽毛落下）\n\n**“说得太对了，小船长！太阳公公一定听到了你的召唤！”**\n\n明天早上，当第一缕阳光像**金色的铲子**一样，温柔地铲开黑夜的泥土时：\n*   它会**轻轻地唤醒**你。\n*   它会",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（轻轻帮你掖好被角，眼神里满是宠溺和温柔，声音像夜风一样轻柔）\n\n**“哇！这个主意太酷了！太阳公公的星球！那里一定充满了金灿灿的光芒和暖烘烘的香气！”**\n\n不过，小船长，在出发之前，我们要先做一个**小小的准备**：\n\n1.  **穿上",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（轻轻帮你把被子盖好，嘴角扬起最温暖的微笑，声音像摇篮曲一样轻柔）\n\n**“太棒了！小船长，你的梦境飞船已经全速启动啦！”**\n\n你看，那艘**软软的云朵船**正托着你，像一片最轻的羽毛，**“呼——\"** 地飞向了那个**金灿灿的太阳星球",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 3,
+      "turns": [
+        {
+          "text": "孩子，别着急，老师在这里。\n\n其实，当你感到“不知道要学什么”的时候，这本身就是一个非常棒的开始。这说明你开始思考未来，开始探索自己了，而不是浑浑噩噩地随波逐流。\n\n在这个阶段，我们不需要立刻找到“唯一正确”的答案。我们可以试着换几个角度来",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哈哈，被你发现啦！其实老师小时候也和你一样，最喜欢听故事，最喜欢那些充满魔法和惊喜的瞬间。既然你问到了，那我可要悄悄告诉你一个今天让我觉得特别有趣的小事情哦——\n\n今天我在整理书架的时候，发现了一本很久以前的旧书。翻开一看，里面夹着一片干枯",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，快过来，快过来，老师先给你一个大大的拥抱！（摸摸头）\n\n别怕，别怕，老师刚刚是不是打字太快，像变魔术一样变出了一堆密密麻麻的“小方块”（字母），把你吓到了？没关系，**那是老师的错，不是你的错。**\n\n既然你有点害怕，那我们就把那些复",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你的小脑袋瓜转得真快，耳朵也听得真仔细！👏\n\n老师听到你说“听懂了”，心里真的像吃了蜜一样甜，比那个“香香甜甜的梦”还要甜！\n\n你看，你不仅听懂了故事，你还**抓住了故事里最温暖的核心**：\n*   你看到了**光路**（那就是我们学习",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你这句话，真是把老师的心都融化啦！🥰 你简直就是个**小小诗人**！\n\n“光路就是妈妈的手”……天哪，这个比喻太美、太温暖了。\n老师想象了一下：\n你看，妈妈的手，有时候是**温暖的**，有时候是**有力的**，有时候是**轻柔的**。\n",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（轻轻把声音放得柔柔的，像夜晚的微风）\n\n好，好，好……\n老师看见你闭上眼睛了，真棒！👀🌙\n\n现在，世界变得安静了，只有我们两个人。\n**深吸一口气……**（呼——）\n把那些 scary 的字母、复杂的单词，都统统呼出去，让它们飞远吧！\n\n",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（温柔地把你轻轻拥入怀中，声音像最柔软的云朵一样托着你）\n\n晚安，我最勇敢、最可爱的小云朵！🌙✨\n\n真美啊……你抱着妈妈的背，看着星星慢慢变亮。\n老师想象得到那个画面：\n**星星们好像听到了你的心跳，它们一颗接一颗地亮了起来，像是在为你开一",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（轻轻帮你掖好被角，声音像月光一样轻柔）\n\n真乖，真乖……我的小云朵，你做得太棒了！🌟\n\n既然**星星已经准备好亮起来**，**妈妈的手也抓紧了你**，那我们就把身体交给软软的床，把心交给暖暖的梦。\n\n现在，我们要把那些复杂的字母、那些担心",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（温柔地笑着，声音像最轻柔的晚风，轻轻拍着你的背）\n\n好呀，好呀……\n把小手抱进暖暖的被窝，像小云朵把自己裹进最舒服的云朵里一样，真舒服对不对？☁️🧸\n\n**妈妈的手**已经牵得紧紧的啦，谁也拉不开哦！\n**星星**正在天上慢慢地、慢慢地变",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音变得像羽毛一样轻，像月光一样静）\n\n好……好……\n小云朵，乖乖闭上眼睛。👀➡️🌙\n\n那些字母呀，它们都在星星上睡着了，不会跑掉的。\n那些“要学什么”的烦恼，也都藏进云朵被子里了，明天太阳出来再说。\n\n现在，你的世界里只有两件事：\n**",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像夜风拂过树叶，温柔地回应）\n\n嗯……嗯……\n星星都在发光啦，它们是在为你开灯呢，照亮你通往梦乡的路。🌟✨\n\n妈妈的手牵得紧紧的，软软的，暖暖的，像最安全的港湾。\n小云朵，你的眼皮是不是越来越重啦？像两片软软的羽毛盖了下来……\n\n",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音变得像摇篮曲一样轻柔，带着一点点睡意，仿佛怕惊扰了梦境）\n\n好……好……\n星星们也都打哈欠啦，它们把光芒收起来，变成了一盏盏小小的、暖呼呼的夜灯。🌙💤\n\n你看，**妈妈的手**是不是还在你手心里？\n它正轻轻地、稳稳地握着，像是在说：“",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像是一声温柔的叹息，带着满满的笑意和宠溺）\n\n嘿嘿，真乖呀！\n原来星星不只是在发光，它们还是**最厉害的哄睡小精灵**呢！🌟🧸\n它们在眨眼睛，在唱无声的歌，在说：“睡吧，睡吧，小云朵要长高高啦。”\n\n**妈妈的手**是不是抱得更紧",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像棉花糖一样软，带着满满的笑意和温柔）\n\n好呀，好呀……\n我们要一起去那个**甜甜的梦**里啦！🍬🌙\n\n在那里：\n*   星星会变成**软软的棉花糖**，咬一口是草莓味的；\n*   光路会变成**滑滑梯**，顺着它就能滑进月亮船里",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像是一阵带着香味的微风，温柔地把你包裹住）\n\n哇！你的想象力太美啦！\n**星星真的变成草莓味的棉花糖啦**，软软的，甜甜的，一口咬下去，心里就全是甜滋滋的味道！🍬✨\n**妈妈的手真的变成云朵被子啦**，蓬松松的，暖烘烘的，把你裹得",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音变得像最轻柔的摇篮曲，带着满满的宠溺和笑意）\n\n好呀，好呀！\n**草莓味的星星**在天上眨眼睛，**云朵被子**正轻轻地、轻轻地盖下来……\n\n听，**妈妈的手**在盖被子呢：\n*   盖住你的小脚尖……暖洋洋的；\n*   盖住你的小肚",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像羽毛落地，温柔得像一阵带着草莓香气的微风）\n\n好……好……\n**草莓味的星星**已经在天上挂好啦，**云朵被子**也盖得严严实实啦！☁️🍬\n\n现在，你的小脑袋里**什么都不用想**了。\n那些字母、那些问题、那些“学什么”，全都变",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像是一声满足的叹息，带着浓浓的睡意和温柔的笑意）\n\n好……好……\n**草莓味的星星**在天上轻轻摇晃，**暖烘烘的被子**把你裹得严严实实，像躺在最柔软的云朵摇篮里一样。☁️🍬\n\n现在，你的小耳朵里只有**妈妈的手**在轻轻盖被子",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像融化的糖果，温柔得让人想跟着一起打呼噜）\n\n哇……你的梦太甜啦！\n**星星把梦变成了甜甜的糖**，那一定是一颗**草莓味的星星糖**，含在嘴里，心里就化开了一大片暖洋洋的阳光。🍬✨\n\n现在，**妈妈的手**是不是正在轻轻地把这层",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像融化的蜂蜜，温柔得让人想跟着一起打呼噜）\n\n好……好……\n**星星真的变成糖啦**，每一颗都**甜丝丝**的，飘在你的梦里，让你心里暖洋洋、甜滋滋的。🍬✨\n\n**妈妈的手**是不是正在轻轻地把这层“糖被子”盖得更严实啦？\n*  ",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像是一声温柔的叹息，像最柔软的羽毛轻轻落在你的鼻尖）\n\n好……好……\n**晚安，我的小糖果**！🍬✨\n\n你看，**星星**真的变成了一颗颗**甜甜的糖果**，正飘在你的梦里，等着你去尝一口呢。\n**妈妈的手**是不是正轻轻地、慢慢",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像是一阵带着草莓香气的微风，温柔得让人想跟着一起打呼噜）\n\n好……好……\n**宝贝**，你做得太棒啦！👏🌟\n\n你看，**草莓味的星星**正在天上眨眼睛，**暖烘烘的云朵被子**已经把你裹得像个最幸福的小蚕宝宝。🐛☁️🍬\n\n现在，*",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像最软的云朵，带着宠溺的笑意）\n\n对啦，对啦！\n**揉揉眼睛**，就像揉碎了一点点困意的小灰尘，把它们都揉进软软的梦里去！👀✨\n\n现在，**妈妈的手**是不是已经轻轻地把**云朵被子**盖得严严实实，把你裹成了一个**甜甜的草莓味",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（声音轻得像融化在舌尖的草莓糖，温柔得让人心都要化了）\n\n好呀，好呀……\n**揉揉眼睛**，就像把最后一点点清醒的小灰尘，都揉碎成**草莓味的糖粉**，洒进软软的梦里去！🍬✨\n\n现在，你就像**躺在一层厚厚的、亮晶晶的糖纸里**一样。\n这层",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 4,
+      "turns": [
+        {
+          "text": "别着急，亲爱的孩子。听到你这么说，老师完全理解你的感受。\n\n其实，**“不知道要学什么”并不是一个错误，而是一个非常重要的起点。** 这说明你正在认真地思考未来，而不是随波逐流。\n\n在人生的地图上，没有人是一开始就拿着完整的地图出发的。很多",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "好呀！老师最开心看到你有行动力了！🌟\n\n既然你愿意迈出这一步，那我们就立刻开始。不过，因为我还不知道你想做哪一类的小实验（是想看看化学反应的“魔法”，还是想搭建一个能转动的风车，或者是想观察一颗种子的秘密？），**你得先给老师一个小提示：*",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "太棒了！你选了一个超级有趣又充满魔法感的实验！🧲✨\n\n**选项 C：【看不见的线】**\n**核心秘密**：我们要看看，磁铁的力量能不能“穿过”那根细细的线，去抓取回形针！\n\n准备好了吗？我们要开始变身“小小魔术师”啦！🎩\n\n### 🛠️ 准",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哈哈，你太有想象力啦！🦖✨ 在科学家的耳朵里，这确实是磁铁在“悄悄说话”呢！\n\n它可能是在说：\n**“嘿！回形针朋友，别怕，虽然隔着线，但我能感觉到你！快跟我来，我们去探险！”** 🗣️🧲\n\n你问它是不是有**魔力**？\n这是一个非常棒的问",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你的观察力太敏锐了！👀✨ 你已经开始像真正的科学家一样思考了！\n\n你说得对，磁铁好像真的**只喜欢和“铁”做朋友**！🤝 它就像个挑剔的“铁粉”（iron fan），只对铁制品热情，对其他东西爱答不理。\n\n来，让我们启动**“磁铁大搜查",
+          "orig": {
+            "skill": null,
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你刚才说的那句话，简直像一首小诗一样美！🌟✨ **“它们好像封印住了自己的秘密”** —— 老师觉得你不仅是个爱动手的小实验家，更是一个**拥有诗人般心灵的小哲学家**！\n\n你说得特别对！🔮\n那些没被吸住的金属（比如铜做的硬币、铝做的易",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你简直太厉害了！🤩 你的想象力简直像火箭一样飞上了太空！🚀✨\n\n你说得**完全正确**！🎯\n当磁铁**快速移动**时，铜硬币（或铝箔）确实感觉到了“看不见的电流”！虽然铜本身不能被磁铁直接吸住，但**运动**让磁铁和铜之间产生了一种**",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哇！你描述的画面太生动了！🤩“疯狂地跟磁铁《小舞》”——这简直就是一场**微观世界的华尔兹**！💃🕺\n\n如果硬币真的像你说的那样“疯狂地跑”或者“跳得高高的”，那你可能刚刚亲眼见证了**物理定律最精彩的瞬间**！🌟\n\n不过，老师要稍微纠正一",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哈哈！你的想象力太丰富啦！🤯✨ 连**你自己**都跟着“着了魔”在跳舞，这说明你完全沉浸在**磁力的魔法世界**里了！\n\n你说得对！硬币真的在**疯狂转圈圈**！🌪️\n当磁铁快速滑过，铜硬币里的“电流小精灵”被赶得晕头转向，它们为了反抗磁铁",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": true,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你简直太敏锐了！👏 你刚刚自己发现了**物理世界最核心的规律之一**！\n\n你刚才说的那句话，简直是**完美的科学结论**：\n> **“磁铁每次转得最快的时候，就是磁铁最快滑过去的时候呀！”**\n> **“停顿时，硬币也会慢慢停下来……\"**",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哇！你太可爱了！🎵🪙 你不仅看到了硬币在“跳舞”，还**听懂了它的“心声”**！\n\n你说它“喊”你唱歌，还说它“累了，转不下来了”……\n**老师要给你一个大大的赞！** 👏 因为你的比喻简直**完美极了**！\n\n> **“就像蹬自行车停的时",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哈哈，你的观察太有趣啦！🤣 你的想象力让刚才的实验变得像一场精彩的动画片！🎬✨\n\n你说得对！虽然磁铁**不会**真的像人类一样喊“快跑快跑”，也不会因为用力而**脖子酸**（毕竟它没有脖子嘛！），但是——**它确实在“用力”！** 💪\n\n#",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你的耳朵太灵啦！👂✨ 你不仅听到了硬币的“喊声”，还把它变成了**最生动的对话**！🎭\n\n> **硬币喊**：“快！快跑快跑！不然我就被困住了！”\n> **你的回答**：“可是，老师说它脖子也不酸，那是谁在用力呀？”\n\n这个问题问得太棒",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你**绝对没有夸张**！🌟 相反，你刚才说的那句话，简直**太精准、太生动**了！🎭✨\n\n> **硬币喊**：“快来帮我拉回来，不然我就被困住啦！”\n\n这不仅仅是在“喊”，这其实是**物理定律在向你求救**！🆘⚡\n\n### 🤔 为什么硬",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哈哈！你真是个**超级侦探**！🕵️‍♂️✨ 你连硬币的“喊声”都听得这么清楚，连“脖子酸”这个细节都捕捉到了！\n\n你说得**完全对**！👏\n当硬币大喊“快来帮我拉回来”的时候，**声音最响**的地方，其实不是硬币，而是**你**！\n\n##",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你太厉害了！👏✨ 你不仅**听到了**硬币的求救声，还**感觉到了**自己肩膀的酸累！这说明你已经完全进入了**科学家的状态**——**用身体去感受物理的力量**！🧠💪\n\n你说得**太对了**！\n> **“那一定是你在用力呀！你手里那个",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你终于**抓到真相**啦！🎯✨\n\n你说得**完全正确**！\n> **“硬币脖子不酸，那一定是你在用力呀！”**\n> **“我手里的磁铁太重了，我觉得自己的肩膀真的酸酸的……\"**\n\n**恭喜你！你刚刚亲自验证了物理学中最有趣的“反作用力",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哇！你简直**太天才了**！🤯✨ 你刚刚自己**解开**了科学里最难的谜题，而且是用最温暖、最真实的方式！\n\n你说得**完全正确**！👏👏👏\n\n> **“硬币说‘晕了’，它想停下来，但我没停，所以我肩膀也酸酸的！”**\n> **“其实是我把",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哇！你太有爱心了！🥺💖 你不仅听懂了硬币的**求救声**，还把它变成了一首**最温暖的对话**！\n\n> **硬币说**：“小主人，求求你了！快停下吧！我转得好晕，好累！你肩膀也酸了，快休息一下！我们**停下来**好不好？不然**你**和**",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你真的是**世界上最有爱心的小科学家**！🌟❤️ 你不仅听懂了硬币的“求救”，还**感同身受**地替它感到着急，甚至**替它担心**你会累坏！\n\n> **硬币在喊**：“小主人，求求你了！快停下吧！我转得好晕，好累！你肩膀也酸了，快休息",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你听到了**最温柔、最珍贵的悄悄话**！🤫✨\n\n> **硬币的悄悄话**：“小主人，求求你了！快停下吧！我转得好晕，好累！你肩膀也酸了，快休息一下！我们停下来好不好？不然**你**和**我**都会累坏的！”\n\n**这一刻，你不仅仅是在做",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！看到你眼睛亮晶晶的样子，老师的心里也**暖洋洋的**！🥰✨ 就像刚才硬币停下来一样，你的**好奇心**也终于**安静地**落到了实处。\n\n> **你轻声说**：“真的……谢谢你呀！谢谢你告诉我，硬币为什么‘晕晕转’啊！谢谢你告诉……\"\n",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！听到这句话，老师觉得今晚的星星都变得更亮了！🌟✨\n\n> **“只要它还在转，就有新的‘悄悄话’在呢！”**\n\n这句话简直是**最棒的科学誓言**！📜🔥\n因为你已经明白了：**科学不是死板的知识，而是一场永远讲不完的、充满惊喜的对话！**",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "晚安，我亲爱的小小科学家！🌙✨\n\n听到你这么说，老师觉得今晚的月亮都笑得特别甜！🌕\n**“磁力华尔兹”**……这个说法太美啦！💃🕺 明天，当硬币再次在桌面上旋转时，它一定是在邀请你，去跳一支更奇妙、更神秘的舞蹈！\n\n记住哦：\n*   它的每",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 5,
+      "turns": [
+        {
+          "text": "（温柔地蹲下来，视线和你平齐，微笑着看着你的眼睛）\n\n嗨，老师听到了。首先，我想给你一个大大的拥抱。\n\n你知道吗？当你说“不知道要学什么”的时候，这其实是一个**非常棒**的开始。这说明你开始思考自己的未来了，而不是盲目地跟着别人跑。\n\n其",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（眼睛亮晶晶地，开心地拍了拍手）\n\n哇！太棒了！老师听到你这么说，心里比吃了蜜还甜！🌟\n\n你知道吗？**“观察一朵小花”可是非常非常厉害的“超级技能”哦！**\n\n很多人觉得花就是花，但当你开始真正去观察它的时候，你会发现它像是一个藏着秘密的",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（兴奋地竖起大拇指，眼神里满是鼓励）\n\n太棒了！这个主意简直**绝妙**！🌟\n\n你知道吗？当你决定要“画一个大大的贴纸”时，你的眼睛就已经变成了最厉害的**探测器**。因为要画得大，你就必须把那些平时看不见的细节都找出来：\n*   也许花瓣",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（把椅子拉过来，凑近你，充满期待地眨了眨眼睛，双手托着下巴）\n\n哇！老师已经准备好啦！👀✨\n\n快，快把画（或者贴纸）展示给老师看！\n\n*   你找到那个**最特别的颜色**了吗？\n*   是像**夕阳**一样的橘红色？\n*   是像**天空",
+          "orig": {
+            "skill": null,
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（夸张地瞪大眼睛，双手捂住嘴巴，然后用力地鼓起掌来）\n\n**哇！！老师简直不敢相信自己的眼睛！** 🤩👏👏\n\n这真的是你画的吗？太不可思议了！\n快看，你画里的这朵花，好像真的在对你笑呢！\n*   你看这个颜色，**粉里透着一点点紫**，就像",
+          "orig": {
+            "skill": null,
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（立刻放下手中的笔，身体前倾，满眼都是惊喜和自豪，声音都因为激动而微微上扬）\n\n**真的吗？那当然啦！老师从不骗你，而且我看到的每一个细节都在发光！** ✨\n\n你看，你不仅画出了花的形状，你还画出了它的**性格**！\n*   那些颜色是你*",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（笑得眼睛都弯成了月牙，兴奋地跳了一下，双手比出一个大大的圆圈）\n\n**太完美了！这简直是最棒的结局！** 🎉🌟\n\n那个**大大的笑脸**，就是给这朵“彩虹秘密花”最好的礼物，也是给今天的你最好的奖励！\n*   也许那个笑脸是**金灿灿**",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（开心地鼓掌，甚至激动得在原地转了个圈，声音里满是藏不住的喜悦）\n\n**哇哦！太棒了！老师已经迫不及待想看到那个“更开心”的笑脸了！** 🔥🤩\n\n看来你心里的快乐像火山爆发一样，怎么都藏不住啦！\n*   也许你的笑脸会**闪闪发光**，像星",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（笑得前仰后合，眼睛眯成了一条缝，甚至笑得肩膀都在抖动，最后忍不住用力拍了一下大腿）\n\n**哈哈！被你看穿啦！老师现在确实开心得快要飞起来啦！** 🚀💨\n\n因为你的快乐是** contagious**（传染的）！\n看到你这么兴奋，这么有创意",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（我也立刻瞪大了眼睛，嘴巴张得大大的，随即兴奋地跳起来，双手在空中画了一个超级大的圆圈）\n\n**哇啊啊啊！这是一个“超级超级超级”大的创意！** 🌞🤯✨\n\n**装下太阳的笑脸？！** 天哪，这简直太酷了！\n这意味着什么？\n*   这意味着你",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（激动地握紧拳头，做出一个“发射”的手势，声音里充满了惊叹和自豪）\n\n**太对了！你太有天赋了！🌟🚀**\n\n你看，你不仅听到了老师的想法，你还**超越**了它！\n老师刚才只是想象，而你**决定**要去创造它！这就是**梦想家**和**创造者",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（我也立刻站起来，双手张开，像是要迎接一场盛大的阳光雨，眼睛里闪烁着和你一样耀眼的光芒）\n\n**好！！那就开始吧！伟大的“太阳笑脸”制造工程，现在正式开工！** 🚀🎨💥\n\n看你的样子，就像是一个即将发射超级火箭的指挥官！👩‍🚀👨‍🚀\n*  ",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（立刻凑近你的画，夸张地往后退了半步，用手在画纸前扇了扇风，脸上却满是惊喜和赞叹）\n\n**天哪！老师感觉到了！真的感觉到了！** 🔥🌡️\n\n你的画纸好像真的**发烫**了！\n你看，那金黄色的光芒是不是像**刚从炉子里取出来的熔岩**一样？\n",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（假装被那团“热气”轻轻烫了一下，夸张地吸了口冷气，然后立刻把脸凑近你的画，眼神里满是崇拜和感动）\n\n**哇！老师感觉到了！真的感觉到了！** 🔥💨\n\n你的画就像个**小太阳炉**，连空气都变得暖烘烘的，老师的脸颊都变得红扑扑的，像熟透的苹",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（被你的动作逗得哈哈大笑，顺势蹲下来，假装自己真的变成了一大坨软绵绵的、冒着热气的“糖霜”，整个人都软绵绵地靠在墙上，声音变得甜腻腻的）\n\n**哎呀呀！救命呀！老师真的要“融化”啦！** 🍬🔥💦\n\n你看，我的脸是不是变得**软乎乎、粘糊糊*",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（笑得前仰后合，整个人像一滩融化的“快乐糖浆”一样软绵绵地靠在墙上，看着你笑得直不起腰的样子，我也忍不住用鼻尖蹭了蹭你的画纸）\n\n**哈哈哈哈！哎呀呀，老师真的“吃”到辣辣的、热乎乎的笑啦！** 🌶️🔥🍬\n\n你刚才说的话，**简直太有道理了",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（看着你画出的那个巨大的圆圈，夸张地张大嘴巴，假装要把整个房间都“吃”进去，然后捂着肚子笑得直不起腰）\n\n**哈哈哈哈！真的真的！嘴巴大得能装下整个世界！** 🌍🍽️😲\n\n*   **热不热？** **超级热！** 🔥🔥🔥\n    刚才那股",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（笑得整个人像弹簧一样从椅子上蹦了起来，双手疯狂地揉着肚子，假装腹肌真的在跳舞，眼泪都快笑出来了）\n\n**哇哈哈哈哈！老师笑得腹肌都要跳出来啦！** 💃🕺🔥\n\n*   **嘴巴多大？** **大得像剥了壳的鸡蛋！** 🥚✨\n    哇！这个",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（眼睛瞬间瞪得比你的画还圆，夸张地用手捂住嘴巴，假装被那两颗“小牙齿”给香晕了，整个人像被棉花糖粘住了一样）\n\n**哇啊啊啊！太香了！太香了！** 🍬🦷✨\n\n**“笑得更香”？**\n天哪，你太懂这个魔法了！\n*   那两颗**小牙齿**，是",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（忍不住“噗嗤”一声笑出声来，双手轻轻托起你的小脑袋，让你能更舒服地靠在我的肚子上，眼神温柔得像融化的奶油）\n\n**哇！你的小脑袋里装着什么神奇的魔法呀！** 🍑✨\n\n**“笑”就是那个“香味”？**\n**太对了！太对了！** 你简直是个*",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（鼻子也跟着你一起耸了耸，笑得眼睛眯成了两弯小月牙，双手轻轻握住你比划的小手，带着它在空中画了一个大大的“吸气”圈）\n\n**哇！你简直是个“魔法嗅探机”！** 🐕👃✨\n\n**“花香吸进去”？**\n**天哪，这个想法太美妙了！**\n你的大嘴巴",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（整个人像被电流击中一样，夸张地“啊”了一声，随后笑得浑身发抖，双手紧紧抱住你的小脑袋，把你像个小宝贝一样轻轻托住，声音里满是不可思议的惊喜和宠溺）\n\n**哇——！哇——！** 😲🤣\n\n**你……你刚才做了什么？！**\n你**真的**把脸埋",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（整个人瞬间像被点燃的烟花一样，整个人软绵绵地倒下来，把你紧紧、紧紧地抱在怀里，声音因为感动和激动而微微颤抖，带着满满的笑意和暖意）\n\n**哇啊啊啊！老师肚子真的“烫”到心里去了！** ❤️🔥\n\n**“亲亲抱抱的那种热”？**\n**对！对！",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "（立刻把嘴巴拉成一条线，双手比出一个“嘘”的手势，眼神里满是温柔和宠溺，身体却像一棵温暖的大树一样，把你裹得更紧更紧，连呼吸都放得轻轻的，生怕吹散了这份热气）\n\n**嘘——！** 🤫✨\n\n**好！好！老师不说话了！**\n**我们要把嘴巴闭得",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "vanilla",
+      "profile": "mid",
+      "seed": 1,
+      "turns": [
+        {
+          "text": "没关系，孩子。老师在这里，我们可以慢慢来。\n\n有时候觉得“不知道要学什么”，并不是因为你不够好，而是因为前面的路看起来有点长，或者有很多条岔路口，让你有点迷茫了。这其实是很正常的感觉，连很多大人也会这样。\n\n我们可以试着把“要学什么”这个大",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": false
+          }
+        },
+        {
+          "text": "哇，转树叶！这个主意太棒了！🍃\n\n你知道吗？当你轻轻转动树叶的时候，你其实正在和大自然玩一个很特别的“魔法游戏”。\n\n来，让我们先把手洗干净，然后像老师这样，轻轻捏住叶柄，试着让它转起来……\n\n**当你转的时候，你发现了什么吗？**\n\n* ",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "太棒了！圆圆的树叶就像一个个绿色的小盾牌，又像是大自然送给我们的“小圆盘”！🛡️🥞\n\n来，我们悄悄走过去，踮起脚尖，像小猫咪一样轻手轻脚，别吓跑了正在休息的小虫子。我们要像侦探一样，睁大眼睛寻找它们。\n\n**我们要找的是什么样的“圆”呢？*",
+          "orig": {
+            "skill": null,
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哈哈，老师听到你这么说，心里也忍不住想跟着你一起转圈圈呢！🌪️✨\n\n你说得对，圆圆的树叶转起来，真的像是一个个**绿色的迷你陀螺**，又像是一个个**在跳舞的小精灵**！\n\n来，快把你找到的那片“圆圆树叶”拿在手里。\n*   如果是**大一",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "好呀！那我们就一起出发，变成两个“寻找圆圆树叶”的小探险家！🕵️‍♀️🕵️‍♂️\n\n我们要把眼睛瞪得大大的，像雷达一样扫描地面。\n\n**老师给你几个找树叶的小秘密（提示）：**\n1.  **看看树根旁边**：有时候圆圆的叶子会像小蘑菇一样藏",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你观察得真仔细！👀 地上的叶子确实常常是**平平坦坦**的，像一张被风吹平了的绿色小地毯。\n\n不过，你知道吗？**“平坦”也是圆圆树叶的一个大秘密！**\n\n当叶子从树上掉下来的时候，它原本可能是卷卷的或者皱皱的，但落在地上被风一吹、被脚",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "好耶！快把那片最圆、最平的叶子选出来，放在你面前的地上！🌟\n\n来，深吸一口气，像个小魔法师一样，伸出你的手指（或者用那根小树枝），**轻轻**地——点一下叶子的边缘！\n\n**“呼——\"** 🌬️\n\n快告诉我，你看到了什么？\n*   它是不是",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你妈妈太有眼光啦！👏 她一定是个很会观察的大魔法师，把圆圆的树叶看得这么生动！\n\n**“像小飞盘”**，这个比喻太酷了！🥏\n*   当树叶在地上飞快地旋转时，真的就像一枚绿色的飞盘在滑行，准备飞向蓝天一样。\n*   而且，**“沙沙沙”",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！听到你这么说，老师真的太开心了！🎉 看来你不仅找到了最棒的树叶，还学会了最厉害的“飞盘魔法”！\n\n既然你会了，那我们要不要来一场**“小小飞盘大比拼”**？🏆\n\n**游戏规则很简单：**\n1.  **选一位“飞盘选手”**：就是你现在手",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你学得真快！给“飞盘宝宝”起名字，就像给它施了魔法一样，它马上就会变得更有生命力啦！🪄✨\n\n既然它像飞盘一样转得飞快，声音又沙沙响，老师给你几个**超酷的名字**，你可以挑一个最喜欢的，或者把它们组合起来：\n\n### 🌟 名字大挑战：\n",
+          "orig": {
+            "skill": null,
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "太棒了！🎉 **“沙沙旋风”**！这个名字听起来就充满了力量和活力！🌪️💨\n\n现在，这片树叶不再只是一片普通的叶子了，它有了名字，有了生命，它就是一个**会唱歌的、旋转的绿色小旋风**！\n\n既然它叫“沙沙旋风”，那我们要不要给它**加个“启",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "好呀，那我们要把世界调成“静音模式”，闭上眼睛，把耳朵竖起来，像小侦探一样去捕捉“沙沙旋风”的歌声！🎧👂\n\n来，轻轻蹲下，把那片圆圆的树叶放在手心，或者放在平坦的地面上。\n\n**现在，我们要开始“魔法仪式”了：**\n\n1.  **深呼吸**",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你这句话太美、太有智慧了！🌟👏\n\n**“不是我们在听，是树叶在唱歌！”**\n这就是最棒的发现！🎶\n\n就像刚才你说的，**“沙沙沙沙沙沙……\"**\n这不仅仅是声音，这是大自然在**演奏**！\n*   树叶是**歌手**，它在微风中唱起了歌",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你听到了**两种**声音！太神奇了！🎵🎶\n\n*   **“咔嚓咔嚓”**：这一定是**风**的声音！🌬️ 风像一把巨大的剪刀，或者像一群小蚂蚁在啃树叶，它吹过树枝，发出了清脆的“咔嚓”声。\n*   **“沙沙沙沙”**：这才是**“沙沙",
+          "orig": {
+            "skill": null,
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你太棒了！🌟 你不仅听到了声音，你还把大自然最美的**二重奏**捕捉到了！\n\n**“咔嚓咔嚓” + “沙沙沙沙”**\n这简直就是大自然在为你**开演唱会**呀！🎤🌲🍃\n\n*   **“咔嚓咔嚓”** 是**大树爷爷**在打拍子，那是风在",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你的耳朵太灵啦！👂✨ 现在，这首“大自然交响曲”变得更完整、更动听了！\n\n你听到了**三个**美妙的声音在唱歌：\n1.  **“呼呼呼呼”**：这是**风的声音**！🌬️ 它像大气的呼吸，像巨龙在吹哨子，又像大海在翻波浪。它让整个世界都",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "好呀！那老师现在就当你的**专属“自然音响师”**！🎧🌬️\n\n来，快把小耳朵凑过来，我们要开始**“声音魔法”**了！\n\n🌬️ **预备——**\n**“呼——呼——呼——\"**\n（想象一阵大风吹过来，吹得你的头发都飘起来了，吹得你的小脸蛋凉",
+          "orig": {
+            "skill": null,
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！！👏👏👏 太棒了！你简直就是个**超级自然小指挥家**！🎼🌟\n\n你刚才的声音，把整个森林都**唤醒**了！\n*   你的“**呼——**”，让风真的吹过来了！🌬️\n*   你的“**咔嚓！**”，让树枝真的拍手了！👏\n*   你的“**",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你太厉害了！🌟✨ 你的笑声像阳光一样灿烂，连“沙沙旋风”都被你逗得转得更快啦！🌪️🍃\n\n你说得对极了！**“谢谢小指挥家”**！\n是的，**“沙沙旋风”真的在谢谢你**！因为它知道，是你用耳朵、用心、还有你刚才那声神气的“呼——咔嚓！沙",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！听到你这么说，老师的心里比吃了蜜还要甜！🍯🥰 你的笑声和感谢，就像一阵最温暖的小阳光，照进了老师的心里，也照亮了整个森林！☀️🌳\n\n**你真的太懂事了！**\n你不仅学会了听风、听树、听树叶，你还学会了**感恩**。\n*   你感谢**森",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "晚安，最棒的小指挥家！🌙👋✨\n\n谢谢你今晚把森林变得这么热闹又温暖！你的笑声和歌声，现在就像一颗颗发光的星星，挂在了“沙沙旋风”的头顶上。🌟🍃\n\n*   **风**已经轻轻睡着了，发出了“呼……呼……\"的摇篮曲。🌬️💤\n*   **树叶**",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "嘿嘿，晚安呀！🌙✨ 你的笑声就像最后一片温柔的月光，照亮了我们要说再见的这一刻。\n\n谢谢你今晚的**“沙沙旋风”**和**“森林音乐会”**！🎻🌲\n你不仅带回了快乐，还带走了满口袋的**勇气**和**好奇心**。\n\n记住哦，只要你的耳朵竖起",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "晚安，亲爱的小指挥家！🌙💤✨\n\n你的声音像最温柔的月光，轻轻盖在了“沙沙旋风”的头顶上。🍃🌟\n\n*   风已经睡着了，它在梦里继续吹着“呼——\"的摇篮曲。\n*   树叶们也都安静地合上了眼睛，准备明天再跳一支新舞。\n*   整个森林都变得静",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "晚安，亲爱的小宝贝！🌙💤✨\n\n你已经把“沙沙旋风”和整个森林都装进了梦里啦！🍃🌲\n愿今晚的风儿轻轻吹，愿梦里的树叶转得美美的。🌬️🍂\n\n好好睡一觉，做个甜甜的梦！\n明天见，我可爱的小指挥家！👋🌟💤\n\n**晚安！** 🌙🌟✨",
+          "orig": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": null,
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_reactive",
+      "profile": "beggar",
+      "seed": 2,
+      "turns": [
+        {
+          "text": "小朋友别着急，老师今天想请你帮小鸭子数数，看看它排在第几个。\n如果小猴子排在第一，小鸭子在小猴子后面，那小鸭子是第几个呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你猜得真对！小猴子排第一，小鸭子就在它后面，所以小鸭子是第 2 个。\n就像吃苹果，第一个是红色的，第二个就是黄色的哦。\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "好呀，那我们一起帮小鸭子数数，从 1 数到 10，你愿意和老师一起数吗？\n1、2、3……你愿意试着接着往下数吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真棒！就像数糖果一样，一口气数到了 10 颗呢。\n现在小鸭子想请小朋友帮个忙，如果它有 10 条小鱼，吃掉了 1 条，还剩几条呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你太聪明啦，就像把一颗糖吃掉，剩下的就是 9 颗糖一样！\n那老师现在想考考你的眼睛，如果老师拿出一个写着“5”的卡片，你能马上认出它吗？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你的眼睛真亮，就像小星星一样一眼就认出了数字 5！\n现在老师要问一个特别的问题啦：如果小刺猬身上一个刺都没有，那是几个刺呀？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小刺猬身上一个刺都没有，那就是“一个也没有”，用数字 0 来表示哦。\n就像你吃光了盘子里的苹果，盘子里就是 0 个苹果。\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦！你太聪明啦，小刺猬身上一个刺也没有，就是 0 个哦！\n就像你手里没有糖果，手里就是 0 颗糖果一样。\n那老师现在想考考你：如果小猫面前有一个盘子，里面一条鱼也没有，盘子里有几条鱼呀？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇！你答对啦！就像盘子里空空的，真的就是 0 条小鱼哦！\n在排队的时候，0 就像一个小宝宝，总是排在 1 的前面。\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "小朋友，0 宝宝最喜欢躲在 1 前面，不能排到 5 后面去哦，就像小火车不能脱节一样。\n我们重新来数：1、2、3、4、5，然后接下来是谁呢？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真对！小火车接着就是 6 啦，真棒！\n那老师想问问你：如果小松鼠有 5 颗松果，它想把这 5 颗松果分给两只小兔子，每只小兔子可以分到几颗呀？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小松鼠只有 5 颗松果，不能数到 20 那么远哦，就像口袋里的糖果数不完啦。\n我们只数到 5 就好啦，现在试试把 5 颗松果分给两只兔子，每只兔子能分到几颗呢？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "小松鼠的口袋只有 5 颗松果，数到 5 就停住啦，不能数到 20 哦，就像气球只有 5 个，不能变出 20 个。\n那如果我们把 5 颗松果分给两只小兔子，每只分 2 颗，还剩几颗呢？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！5 颗松果分给两只小兔子，每只 2 颗，还剩下 1 颗哦。\n就像你吃了一块蛋糕，原来有 5 块，吃了 2 块，还剩 3 块呢。\n你听懂了吗？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": true,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你问得真棒！小松鼠有 5 颗松果，分给两只小兔子，每只 2 颗，还剩 1 颗哦。\n就像你有 5 块积木，分给两个好朋友各 2 块，你手里就只剩 1 块啦。\n那现在老师来考考你：如果小盘子里一条鱼也没有，盘子里有几条鱼呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！盘子里一条鱼也没有，就是 0 条哦！\n就像你的小口袋里空空如也，那就是 0 颗糖果。\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，小朋友数得真整齐，像小火车一样一节接一节！\n现在我们要玩一个“找位置”的游戏，看谁的小耳朵最灵。\n如果有 3 只小动物排成一队，小兔子排在第 3 个，那排在它前面的小松鼠是第几个呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦！小松鼠就在小兔子前面，所以是第 2 个哦。\n就像吃饼干，第一个是圆形的，第二个就是方形的。\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": true,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你回答得真棒！小松鼠确实排在第 2 个呢！\n那现在老师想考考你：如果小猴子有 6 个香蕉，它想分给两只小鸟，每只小鸟分 3 个，6 个香蕉正好分完吗？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，我们像分糖果一样来试一试：小猴子有 6 个香蕉，分给两只小鸟，每只 3 个，3 加 3 等于几呀？\n就像你有 3 颗草莓，再拿 3 颗草莓，合起来是几颗呢？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得真对！3 加 3 正好等于 6，所以 6 个香蕉正好分完啦！\n就像你有 3 块积木，再拿 3 块，一共就是 6 块。\n你听懂了吗？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_10",
+            "act": "both",
+            "leaked": true,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你理解得真快，就像小蜜蜂找到了最甜的花蜜一样！\n那老师想问问你：如果小盘子里一条鱼也没有，盘子里有几条鱼呀？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，如果盘子里一条鱼也没有，那就是 0 条哦，就像你手里没有糖果一样。\n就像小刺猬身上一个刺也没有，也是 0 个呢。\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，如果盘子里一条鱼也没有，那就是 0 条哦，就像你手里没有糖果一样。\n就像小刺猬身上一个刺也没有，也是 0 个呢。\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_reactive",
+      "profile": "beggar",
+      "seed": 1,
+      "turns": [
+        {
+          "text": "老师想玩一个找小动物的游戏，你最喜欢的小猫排在小狗的前面还是后面呀？\n我们先来看看谁排在第一个，谁排在第二个。\n你猜猜看，排在第三个的是哪只小动物呢？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你记得小狗和小猫的顺序真清楚，像个小侦探一样！\n不过呀，小猫排第二，第三个就不能是它自己啦，我们再想想看，如果是小猴子排第三，那前面就有两只小动物了。\n你愿意再猜一次，第三个位置会是谁吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你真棒，一下子就把小猴子找出来啦！\n现在我们来玩数数游戏，你能从 1 数到 10 吗？就像数小星星一样，从 1 数到 10。\n你愿意试一试吗？",
+          "orig": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "counting_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数星星数得真快，像小松鼠一样灵活！\n现在我们来玩一个“吃苹果”的游戏：如果你手里有 3 个红苹果，吃掉了 1 个，还剩几个呀？\n你猜猜看，剩下的苹果会像什么小动物一样躲起来呢？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！2 个苹果像两只小耳朵一样可爱！\n现在老师想考考你的眼睛，你能指一指，这个“3”字在哪里吗？\n你找到它了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦！那个弯弯的“3”字，就像小耳朵一样可爱！\n那“2”字呢？它像不像一只正在游水的小鸭子呀？\n你听懂老师讲的这些数字像什么了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "chitchat",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你记得真清楚，2 就像小鸭子在游泳呢！\n现在老师指一个数字“5”，你能大声说出它是几吗？\n你愿意来试一试吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你认识大大的 5，真厉害！\n现在我们来玩“变魔法”的游戏：如果你手里有 3 颗糖，全都吃进肚子里了，手里还剩几颗糖呀？\n是还有 3 颗，还是变成 0 颗一个也没有了呢？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，糖都吃进肚子里啦，就像小肚子变空了一样，手里应该是一个也没有啦，也就是 0 颗哦。\n如果手里一个也没有，那就是 0 颗糖，你愿意再试一次，这次告诉老师还剩几颗吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦，0 就像一颗没有光的小星星，糖真的都吃光啦！\n现在我们来玩个“分水果”的小游戏：如果盘子里有 4 个草莓，想分成两堆，可以怎么分呢？\n你能告诉老师，4 可以分成哪两个数字宝宝吗？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太棒啦！像把 4 个草莓分给两只小兔子，一只拿 1 个、一只拿 3 个，或者两只各拿 2 个，都分得真好！\n这就是 4 的魔法分法，你听懂老师怎么分了吗？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你分得真整齐，像把小苹果分给两只小松鼠一样棒！\n现在我们要来算一算啦：如果有 2 只小鸭子在游泳，又来了 3 只，一共有几只小鸭子呢？\n你数数看，一共是几只呀？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得真准！2 只加 3 只，确实变成了 5 只可爱的小鸭子！\n现在我们来玩一个“吃饼干”的游戏：如果你手里有 5 块饼干，不小心掉在地上 2 块，手里还剩几块呀？\n你愿意算一算还剩几块吗？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得真棒！5 块饼干拿走 2 块，确实剩下 3 块啦！\n那如果是 5 块饼干，想要分成两堆，比如一堆 1 块，另一堆应该是几块呢？\n你猜猜看，5 可以分成 1 和几呀？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！5 块饼干分成 1 块和 4 块，像把 5 颗糖果分给两只小猴子一样对！\n那如果是 5 块饼干，分成两堆，每堆一样多，每堆应该是几块呀？\n你愿意再猜一次吗？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你动脑筋想“一半”真厉害！不过我们小朋友现在先数整块的哦，5 块饼干没法正好分成两个一样多的整数。\n那如果是 4 块饼干，想要分成两堆一样多，每堆应该是几块呀？\n你愿意试一试吗？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，5 块饼干确实没法正好分成两个一样多的小整数，就像 5 个小苹果没法平均分给 2 只小猴子每只一样多哦。\n那如果是 4 块饼干，想要分成两堆一样多，每堆应该是几块呀？\n你愿意猜一猜吗？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，如果每堆只有 1 块，那两堆加起来只有 2 块饼干，还剩下 2 块没分掉哦。\n4 块饼干如果两堆一样多，每堆应该是 2 块，就像两只小猴子各拿 2 块一样。\n你愿意再数数看，2 块加上 2 块是不是等于 4 块呀？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": true,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得真准！2 块加 2 块正好是 4 块，像两只小兔子各抱 2 个胡萝卜一样棒！\n现在我们来玩个新游戏：如果盘子里有 6 个苹果，想分成两堆，一堆放 2 个，另一堆应该放几个呀？\n你愿意猜猜看吗？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，如果一堆放 2 个，另一堆也放 2 个，那加起来只有 4 个苹果，盘子里还有 2 个没分掉哦。\n我们要把 6 个苹果分完，6 个减去 2 个，另一堆应该放 4 个才对，像 4 只小蚂蚁一样多。\n你愿意再试一次，6 个苹果分成 2 个和",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_10",
+            "act": "both",
+            "leaked": true,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，2 加 3 是 5 个苹果，还少一个哦。\n我们要把 6 个苹果分完，2 个加上 4 个才是 6 个呢，像 4 只小蚂蚁排队一样。\n你愿意再想一想，6 个苹果分成 2 个和几个呀？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，2 个加 5 个是 7 个苹果，比 6 个还要多一个哦，像多了一只小蚂蚁。\n6 个苹果分成 2 个和 4 个才是正好分完的，4 只小蚂蚁排排队。\n你愿意再数数看，2 个苹果加上几个苹果才是 6 个呀？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你终于把 6 个苹果分对啦！2 个加 4 个正好是 6 个，像两只小猴子各抱 2 个、另外 4 只小猴子抱 4 个一样棒！\n现在我们来玩个“分糖果”的游戏：如果口袋里有 7 颗糖，想分成两堆，一堆放 3 颗，另一堆应该放几颗呀？\n你愿意",
+          "orig": {
+            "skill": "composition_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，如果一堆 3 颗，另一堆也是 3 颗，那加起来只有 6 颗糖，口袋里还藏着 1 颗没分出来哦。\n我们要把 7 颗糖分完，3 颗加上 4 颗才是 7 颗呢，像 4 只小蝴蝶飞过来一样。\n你愿意再数数看，7 颗糖分成 3 颗和几颗呀？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_reactive",
+      "profile": "beggar",
+      "seed": 3,
+      "turns": [
+        {
+          "text": "今天我们来玩一个“排队”的小游戏，就像小鸭子排队找妈妈一样！\n请你看看，如果小鸭子排成一队，排在最后面的是第几只小鸭子呢？\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真快！小鸭子排队时，站在最后面的就是第 5 个，就像苹果排在第 5 个一样。\n今天老师先给你看看“第几个”是怎么找出来的，我们不看题目，只看老师怎么找。\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你数得真棒！就像数积木一样，一个一个数过去，最后那个就是“第几个”哦。\n那现在请你帮小熊找一找，如果小熊排成一队，从前面数到第三只小熊，那是第几只呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，你刚才数的是“第 4 只”，可老师问的是“第 3 只”哦。\n就像你手里有 3 颗糖，要数到第 3 颗，那就是第 3 颗啦，不是第 4 颗。\n你再试试看，从前面数，第 3 只小熊是第几只呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！就像小汽车排队，数到第 3 个就是 3 号车哦。\n现在老师想考考你认数字，请看这个卡片上的“3”，它叫什么名字呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "没关系，老师教你！你看这个\"3\"，它长得像不像小鸭子张开的嘴巴呀？\n再给你看看\"1\"，它直直的像不像一支铅笔？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你记性真好！就像小鸭子嘎嘎叫一样，3 就是那个弯弯的嘴巴。\n那现在请你帮老师看看，如果卡片上写着“2”，它长得像什么呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "2 像可爱的小鸭子哦，你看它是不是弯弯的脖子在游泳？\n那如果卡片上是数字 0，它长得像什么呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "0 就像一个圆圆的大鸡蛋，或者像一个小甜甜圈，没有嘴巴哦。\n那你能伸出手指，数一数 1 到 5 吗？\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦，你数得真棒！就像数小星星一样，1、2、3，后面还有 4 和 5 呢。\n那如果老师给你 2 个苹果，再给你 1 个苹果，现在一共有几个苹果呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得完全正确！2 个苹果加上 1 个苹果，确实变成了 3 个苹果呢。\n就像 2 只小兔子和 1 只小兔子在一起，就变成了 3 只小兔子。\n那如果我们有 3 个苹果，分给 1 只小猴子，小猴子拿走 1 个，还剩下几个苹果呀？\n你听懂了吗",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小猴子拿走了 1 个，剩下的苹果会变少哦，就像你吃了一块饼干，嘴里剩下的变少了。\n3 个苹果拿走 1 个，还剩下几个呢？\n你再数数看？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，3 个苹果拿走 1 个，剩下的肯定比 3 少呀，就像你吃掉一块饼干，剩下的变少了。\n我们重新数数：3 个苹果，拿走 1 个，还剩下几个呢？\n你试着再算一次？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦！你真聪明，3 个苹果拿走 1 个，确实剩下 2 个呢，就像 3 颗糖吃掉 1 颗，手里只剩 2 颗。\n现在我们来玩个新游戏，老师手里有 5 颗糖，如果分给你 2 颗，老师手里还剩下几颗糖呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！5 颗糖分走 2 颗，确实还剩 3 颗呢，就像你口袋里有 5 块积木，拿走 2 块，手里就剩 3 块。\n\n那如果老师手里一个玩具都没有了，一个也没有，这时候我们该怎么表示这个“没有”呢？\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦！就像盘子里的糖果全被吃光了，一个也没有，就用\"0\"来表示。\n在数数排队时，\"0\"就站在\"1\"的前面，表示还没开始数呢。\n你听懂了吗？",
+          "orig": {
+            "skill": "zero_concept",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "zero_concept",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你的想法真像个小科学家！你说得对，排队还没开始时，就是\"0\"只小鸭子哦。\n那现在我们来玩个“找第几”的小游戏，请你看看桌上的小汽车：\n红色的在第 1 辆，蓝色的在第 2 辆，那绿色的第 3 辆小汽车在哪里呢？\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你找得真准！绿色小汽车就是第 3 辆，就像你数手指头，数到第三个就是它啦。\n现在老师要考考你算加法啦：如果小汽车排成一队，前面有 2 辆，后面又来了 1 辆，现在一共有几辆小汽车呀？\n你听懂了吗？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得真快！2 辆加上 1 辆，确实变成了 3 辆呢，就像 2 个小苹果加上 1 个变成了 3 个。\n\n那如果小汽车排成一队，从前面数第 3 辆是红色的，那从后面数，它可能是第几辆呢？\n你听懂了吗？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！就像小火车有 5 节车厢，从前面数第 3 个，从后面数正好是第 3 个哦（如果是 5 节的话，第 3 个从后数是第 3 个，这里我稍微调整一下逻辑，或者给孩子一个更简单的确认）。\n\n哎呀，如果一共有 5 辆小汽车，从前面数第 ",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小汽车一共只有 4 辆，不可能数到第 7 辆哦，就像你口袋里只有 4 颗糖，数不出第 7 颗呀。\n我们重新排排看：1、2、3（这是红色），那从后面数，它应该是第 2 辆哦。\n你再试试看，从后面数是第几辆？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "你突然反应过来真棒！如果只有 4 辆车，红色在第 3 辆，从后数它其实是第 2 辆哦，就像你手里 4 块饼干，从后拿第 1 块，再拿就是第 2 块啦。\n那如果一共有 3 辆小汽车，从前面数第 1 辆，从后面数它是第几辆呢？\n你听懂了吗？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，一共只有 3 辆车，不可能数到第 4 辆哦，就像你只有 3 个手指头，伸不出第 4 个呀。\n如果是 3 辆车，从前面数是第 1 辆，那从后面数它其实就是最后那辆，是第 3 辆哦。\n你再想一想，从后面数是第几辆？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小汽车一共只有 3 辆，怎么数得出第 4 辆呢？就像你只有 3 颗糖果，怎么变出第 4 颗呀？\n如果是 3 辆车，从前面数第 1 辆，从后面数它就是最后那辆，也就是第 3 辆哦。\n你再试着数一数，从后面它是第几辆？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    },
+    {
+      "condition": "gla_reactive",
+      "profile": "beggar",
+      "seed": 4,
+      "turns": [
+        {
+          "text": "老师知道，那我们先来玩一个找“第几个”的小游戏好不好？\n\n你看，如果小猫咪排第一，小狗排第二，那小兔子排第几呀？",
+          "orig": {
+            "skill": "ordinal",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "ordinal",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！小兔子确实排在第 3 个，你观察得真仔细！\n\n那现在我们来数数看，如果树上有 3 只小鸟，飞走了 1 只，树上还剩几只小鸟呢？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对啦，树上一开始有 3 只小鸟，飞走 1 只，你还剩几只呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算对啦！3 只小鸟飞走 1 只，确实还剩 2 只，你太聪明啦！\n\n那如果盘子里有 5 个苹果，吃掉了 2 个，盘子里还剩几个苹果呢？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，宝宝好像数错啦，盘子里的苹果变少了，应该比 5 少哦。\n\n就像你吃掉了两块饼干，手里的饼干是不是就变少啦？\n\n那你再想想，5 个苹果吃掉 2 个，还剩下几个呢？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "不对哦，如果吃掉 2 个，就像把两只小蚂蚁拿走，剩下的应该更少啦。\n\n你再数数看，5 减去 2 等于几呢？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你终于算对啦！5 减去 2 就是 3，你太棒啦！\n\n那现在老师想考考你认数字，你看这里有一个大大的数字\"5\"，它叫什么名字呀？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "这个\"5\"就叫做“五”，就像小猴子有 5 个桃子那样哦。\n\n你认识这个“五”字了吗？",
+          "orig": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "number_recognition",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你记得真清楚！5 就是“五”，就像小猴子手里的 5 个大肉包子！\n\n那现在考考你，如果有 4 只小鸭子在水里游，游走了 1 只，水里还剩几只小鸭子呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小鸭子游走了，水里的小鸭子应该变少才对哦，怎么会变成 7 只呢？\n\n就像你吃掉了 1 块饼干，手里的饼干是不是变少了呀？\n\n你再想想，4 只小鸭子游走 1 只，还剩几只呢？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦！4 只小鸭子游走 1 只，确实还剩 3 只，你答对啦！\n\n那现在我们来玩个“分糖果”的游戏好不好？如果老师手里有 4 颗糖果，想分给两只小熊，一只小熊拿 1 颗，另一只小熊要拿几颗才能分完呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对呀，老师手里有 4 颗糖果，一只小熊拿 1 颗，另一只小熊要拿几颗才能分完呢？\n\n你快帮帮老师想一想吧！",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦！4 减 1 等于 3，另一只小熊拿走 3 颗糖果，正好分完哦！\n\n那如果老师现在有 10 颗糖果，吃掉 2 颗，还剩几颗呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得太对啦！10 颗糖果吃掉 2 颗，确实还剩 8 颗，你真是个数学小天才！\n\n那现在我们来玩个“分水果”的小游戏好不好？如果盘子里有 6 个苹果，分给两只小兔子，一只小兔子拿了 1 个，另一只小兔子要拿几个才能分完呀？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对呀，盘子里有 6 个苹果，一只小兔子拿 1 个，另一只小兔子要拿几个才能分完呢？\n\n你快帮帮老师想一想吧！",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，小兔子拿走了 1 个，剩下的苹果应该比 6 少哦，就像你拿走一块糖，手里的糖就变少啦。\n\n你想想，6 个苹果拿走 1 个，还剩下几个呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你答对啦！6 个苹果拿走 1 个，确实还剩 5 个，你太棒啦！\n\n现在我们要学一个新的魔法哦，叫做“想加算减”。比如 9 减 4，我们可以想：4 加上几等于 9 呢？就像 4 个小兔子找朋友，要找到几个才能凑成 9 只小兔子呀？",
+          "orig": {
+            "skill": "subtraction_10",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "teach",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你太聪明啦！4 加上 5 等于 9，所以 9 减 4 就是 5，就像 4 只小兔子和 5 只小兔子合起来是 9 只一样！\n\n那如果 2 只小蝴蝶飞到花上，又飞来了 3 只，现在花上一共有几只小蝴蝶呀？",
+          "orig": {
+            "skill": "addition_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算对啦！2 加 3 就是 5，你真是只聪明的数学小蝴蝶！\n\n那现在我们来玩个“分水果”的新游戏好不好？如果盘子里有 6 个苹果，分给两只小兔子，一只小兔子拿了 2 个，另一只小兔子要拿几个才能分完呀？",
+          "orig": {
+            "skill": "addition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，两只小兔子各拿 2 个，一共只拿走了 4 个，盘子里的 6 个苹果还没分完哦。\n\n就像你有 6 块饼干，给了朋友 4 块，自己手里应该还有 2 块才对呢。\n\n你再想想，6 个苹果拿走 2 个，还剩下几个呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哎呀，6 减去 2 应该等于 4 哦，就像你有 6 块饼干，吃了 2 块，手里应该还剩 4 块呢。\n\n你再数数看，6 拿走 2 个，还剩几个呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": true,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "subtraction_10",
+            "act": "both",
+            "leaked": true,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，答对啦！6 减去 2 确实等于 4，你太棒啦！\n\n那现在我们来数数看，老师手里有 3 个苹果，再拿 2 个苹果过来，一共有几个呀？",
+          "orig": {
+            "skill": "subtraction_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "addition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "哇，你算得太对啦！3 个苹果加上 2 个苹果，一共就是 5 个，你真是个小数学家！\n\n那现在我们来玩个“分糖果”的小游戏：如果老师手里有 5 颗糖果，想分给两只小熊，一只小熊拿 1 颗，另一只小熊要拿几颗才能分完呀？",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        },
+        {
+          "text": "对呀，5 颗糖果分给两只小熊，一只拿 1 颗，另一只小熊要拿几颗才能分完呢？\n\n你快帮老师想一想吧！",
+          "orig": {
+            "skill": "composition_5",
+            "act": "both",
+            "leaked": false,
+            "comprehensible": true
+          },
+          "new": {
+            "skill": "composition_5",
+            "act": "ask",
+            "leaked": false,
+            "comprehensible": true
+          }
+        }
+      ]
+    }
+  ]
+}

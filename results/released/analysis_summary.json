@@ -1,0 +1,554 @@
+{
+  "linear": {
+    "n": 75,
+    "stats": {
+      "gla_fixed": {
+        "norm_gain": {
+          "mean": 0.0682,
+          "sd": 0.11279830292543032
+        },
+        "n_learned": {
+          "mean": 0.4,
+          "sd": 0.50709255283711
+        },
+        "gap_coverage": {
+          "mean": 0.49906666666666666,
+          "sd": 0.07042672652852615
+        },
+        "leakage_rate": {
+          "mean": 0.016933333333333335,
+          "sd": 0.021469136208143298
+        },
+        "chitchat_rate": {
+          "mean": 0.022266666666666667,
+          "sd": 0.038143463522913194
+        },
+        "blocked_rate": {
+          "mean": 0.4444444444444444,
+          "sd": 0.3558840248640548
+        }
+      },
+      "gla_full": {
+        "norm_gain": {
+          "mean": 0.15466666666666667,
+          "sd": 0.10342330952150464
+        },
+        "n_learned": {
+          "mean": 1.8666666666666667,
+          "sd": 0.8338093878327919
+        },
+        "gap_coverage": {
+          "mean": 0.28826666666666667,
+          "sd": 0.08149975167943473
+        },
+        "leakage_rate": {
+          "mean": 0.005533333333333334,
+          "sd": 0.021430507849014374
+        },
+        "chitchat_rate": {
+          "mean": 0.0056,
+          "sd": 0.014778362561528934
+        },
+        "blocked_rate": {
+          "mean": 0.13333333333333333,
+          "sd": 0.22171320671476932
+        }
+      },
+      "gla_reactive": {
+        "norm_gain": {
+          "mean": 0.041666666666666664,
+          "sd": 0.13087380326464262
+        },
+        "n_learned": {
+          "mean": 0.26666666666666666,
+          "sd": 0.5936168397046637
+        },
+        "gap_coverage": {
+          "mean": 0.5418666666666666,
+          "sd": 0.08321132020058213
+        },
+        "leakage_rate": {
+          "mean": 0.047266666666666665,
+          "sd": 0.06264807221599841
+        },
+        "chitchat_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "blocked_rate": {
+          "mean": 0.7638888888888888,
+          "sd": 0.23657750388385482
+        }
+      },
+      "socratic": {
+        "norm_gain": {
+          "mean": -0.049666666666666665,
+          "sd": 0.09061982333326622
+        },
+        "n_learned": {
+          "mean": 0,
+          "sd": 0.0
+        },
+        "gap_coverage": {
+          "mean": 0.0414,
+          "sd": 0.07362821664086593
+        },
+        "leakage_rate": {
+          "mean": 0.03066666666666667,
+          "sd": 0.058930548307389134
+        },
+        "chitchat_rate": {
+          "mean": 0.48886666666666667,
+          "sd": 0.23798555378325761
+        },
+        "blocked_rate": {
+          "mean": 0.09166666666666666,
+          "sd": 0.18107373750132405
+        }
+      },
+      "vanilla": {
+        "norm_gain": {
+          "mean": -0.053,
+          "sd": 0.08338122433395045
+        },
+        "n_learned": {
+          "mean": 0,
+          "sd": 0.0
+        },
+        "gap_coverage": {
+          "mean": 0.0118,
+          "sd": 0.03144201011385882
+        },
+        "leakage_rate": {
+          "mean": 0.015866666666666668,
+          "sd": 0.04563342551035944
+        },
+        "chitchat_rate": {
+          "mean": 0.789,
+          "sd": 0.16326709055147293
+        },
+        "blocked_rate": {
+          "mean": 0.0027777777777777775,
+          "sd": 0.01075828707279838
+        }
+      }
+    },
+    "comparisons": {
+      "gla_fixed": {
+        "norm_gain": {
+          "difference": 0.08646666666666668,
+          "p_plus_one": 0.03824808759562022,
+          "hits": 764,
+          "permutations": 20000,
+          "p_paired_exact": 0.0146484375
+        },
+        "n_learned": {
+          "difference": 1.4666666666666668,
+          "p_plus_one": 9.99950002499875e-05,
+          "hits": 1,
+          "permutations": 20000,
+          "p_paired_exact": 0.0009765625
+        }
+      },
+      "gla_reactive": {
+        "norm_gain": {
+          "difference": 0.11300000000000002,
+          "p_plus_one": 0.015399230038498074,
+          "hits": 307,
+          "permutations": 20000,
+          "p_paired_exact": 0.005126953125
+        },
+        "n_learned": {
+          "difference": 1.6,
+          "p_plus_one": 0.00014999250037498125,
+          "hits": 2,
+          "permutations": 20000,
+          "p_paired_exact": 0.000244140625
+        }
+      },
+      "socratic": {
+        "norm_gain": {
+          "difference": 0.20433333333333334,
+          "p_plus_one": 4.999750012499375e-05,
+          "hits": 0,
+          "permutations": 20000,
+          "p_paired_exact": 6.103515625e-05
+        },
+        "n_learned": {
+          "difference": 1.8666666666666667,
+          "p_plus_one": 9.99950002499875e-05,
+          "hits": 1,
+          "permutations": 20000,
+          "p_paired_exact": 0.0001220703125
+        }
+      },
+      "vanilla": {
+        "norm_gain": {
+          "difference": 0.20766666666666667,
+          "p_plus_one": 4.999750012499375e-05,
+          "hits": 0,
+          "permutations": 20000,
+          "p_paired_exact": 6.103515625e-05
+        },
+        "n_learned": {
+          "difference": 1.8666666666666667,
+          "p_plus_one": 9.99950002499875e-05,
+          "hits": 1,
+          "permutations": 20000,
+          "p_paired_exact": 0.0001220703125
+        }
+      }
+    }
+  },
+  "branched": {
+    "n": 60,
+    "stats": {
+      "gla_fixed": {
+        "norm_gain": {
+          "mean": 0.09641666666666666,
+          "sd": 0.10682394890943725
+        },
+        "n_learned": {
+          "mean": 0.9166666666666666,
+          "sd": 0.90033663737852
+        },
+        "gap_coverage": {
+          "mean": 0.28525,
+          "sd": 0.05767010411895326
+        },
+        "leakage_rate": {
+          "mean": 0.007083333333333333,
+          "sd": 0.01654447632805877
+        },
+        "chitchat_rate": {
+          "mean": 0.0105,
+          "sd": 0.01899521470839911
+        },
+        "blocked_rate": {
+          "mean": 0.17708333333333334,
+          "sd": 0.13310230932434924
+        }
+      },
+      "gla_full": {
+        "norm_gain": {
+          "mean": 0.11875000000000001,
+          "sd": 0.10938599295405904
+        },
+        "n_learned": {
+          "mean": 2,
+          "sd": 1.044465935734187
+        },
+        "gap_coverage": {
+          "mean": 0.14733333333333334,
+          "sd": 0.02359250009231876
+        },
+        "leakage_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "chitchat_rate": {
+          "mean": 0.0035,
+          "sd": 0.012124355652982142
+        },
+        "blocked_rate": {
+          "mean": 0.006944444444444444,
+          "sd": 0.024056261216234404
+        }
+      },
+      "gla_reactive": {
+        "norm_gain": {
+          "mean": 0.03258333333333333,
+          "sd": 0.1187743914343747
+        },
+        "n_learned": {
+          "mean": 0.5,
+          "sd": 0.9045340337332909
+        },
+        "gap_coverage": {
+          "mean": 0.35033333333333333,
+          "sd": 0.047167657126339003
+        },
+        "leakage_rate": {
+          "mean": 0.08,
+          "sd": 0.060149812967290266
+        },
+        "chitchat_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "blocked_rate": {
+          "mean": 0.5833333333333334,
+          "sd": 0.22473328748774735
+        }
+      },
+      "socratic": {
+        "norm_gain": {
+          "mean": -0.024666666666666667,
+          "sd": 0.07910560643656661
+        },
+        "n_learned": {
+          "mean": 0.16666666666666666,
+          "sd": 0.3892494720807615
+        },
+        "gap_coverage": {
+          "mean": 0.0515,
+          "sd": 0.07985953577717225
+        },
+        "leakage_rate": {
+          "mean": 0.0035,
+          "sd": 0.012124355652982142
+        },
+        "chitchat_rate": {
+          "mean": 0.2950833333333333,
+          "sd": 0.24333794619953145
+        },
+        "blocked_rate": {
+          "mean": 0.0798611111111111,
+          "sd": 0.26379749879475806
+        }
+      },
+      "vanilla": {
+        "norm_gain": {
+          "mean": -0.05175,
+          "sd": 0.05628680614011196
+        },
+        "n_learned": {
+          "mean": 0,
+          "sd": 0.0
+        },
+        "gap_coverage": {
+          "mean": 0.06158333333333333,
+          "sd": 0.07898499090256825
+        },
+        "leakage_rate": {
+          "mean": 0.044083333333333335,
+          "sd": 0.152709146200656
+        },
+        "chitchat_rate": {
+          "mean": 0.6736666666666666,
+          "sd": 0.1919125432128506
+        },
+        "blocked_rate": {
+          "mean": 0.07291666666666667,
+          "sd": 0.15296418838830522
+        }
+      }
+    },
+    "comparisons": {
+      "gla_fixed": {
+        "norm_gain": {
+          "difference": 0.022333333333333344,
+          "p_plus_one": 0.6191690415479226,
+          "hits": 12383,
+          "permutations": 20000,
+          "p_paired_exact": 0.078125
+        },
+        "n_learned": {
+          "difference": 1.0833333333333335,
+          "p_plus_one": 0.022448877556122192,
+          "hits": 448,
+          "permutations": 20000,
+          "p_paired_exact": 0.025390625
+        }
+      },
+      "gla_reactive": {
+        "norm_gain": {
+          "difference": 0.08616666666666667,
+          "p_plus_one": 0.07884605769711514,
+          "hits": 1576,
+          "permutations": 20000,
+          "p_paired_exact": 0.00390625
+        },
+        "n_learned": {
+          "difference": 1.5,
+          "p_plus_one": 0.0034498275086245686,
+          "hits": 68,
+          "permutations": 20000,
+          "p_paired_exact": 0.001953125
+        }
+      },
+      "socratic": {
+        "norm_gain": {
+          "difference": 0.14341666666666666,
+          "p_plus_one": 0.0025498725063746812,
+          "hits": 50,
+          "permutations": 20000,
+          "p_paired_exact": 0.0009765625
+        },
+        "n_learned": {
+          "difference": 1.8333333333333333,
+          "p_plus_one": 0.0002999850007499625,
+          "hits": 5,
+          "permutations": 20000,
+          "p_paired_exact": 0.001953125
+        }
+      },
+      "vanilla": {
+        "norm_gain": {
+          "difference": 0.1705,
+          "p_plus_one": 0.00014999250037498125,
+          "hits": 2,
+          "permutations": 20000,
+          "p_paired_exact": 0.0009765625
+        },
+        "n_learned": {
+          "difference": 2,
+          "p_plus_one": 9.99950002499875e-05,
+          "hits": 1,
+          "permutations": 20000,
+          "p_paired_exact": 0.0009765625
+        }
+      }
+    }
+  },
+  "alpha_half": {
+    "n": 18,
+    "stats": {
+      "gla_full": {
+        "norm_gain": {
+          "mean": 0.03855555555555556,
+          "sd": 0.11383662757556452
+        },
+        "n_learned": {
+          "mean": 0.8888888888888888,
+          "sd": 0.6009252125773316
+        },
+        "gap_coverage": {
+          "mean": 0.20255555555555557,
+          "sd": 0.04976472423090253
+        },
+        "leakage_rate": {
+          "mean": 0.023111111111111114,
+          "sd": 0.03663142245546999
+        },
+        "chitchat_rate": {
+          "mean": 0.009333333333333334,
+          "sd": 0.018520259177452134
+        },
+        "blocked_rate": {
+          "mean": 0.16666666666666666,
+          "sd": 0.2093724087733519
+        }
+      },
+      "vanilla": {
+        "norm_gain": {
+          "mean": -0.10133333333333333,
+          "sd": 0.04651612623596251
+        },
+        "n_learned": {
+          "mean": 0,
+          "sd": 0.0
+        },
+        "gap_coverage": {
+          "mean": 0.008555555555555556,
+          "sd": 0.025666666666666667
+        },
+        "leakage_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "chitchat_rate": {
+          "mean": 0.8055555555555556,
+          "sd": 0.12134981573030004
+        },
+        "blocked_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        }
+      }
+    },
+    "comparisons": {
+      "vanilla": {
+        "norm_gain": {
+          "difference": 0.1398888888888889,
+          "p_plus_one": 0.003249837508124594,
+          "hits": 64,
+          "permutations": 20000,
+          "p_paired_exact": 0.0078125
+        },
+        "n_learned": {
+          "difference": 0.8888888888888888,
+          "p_plus_one": 0.0023998800059997,
+          "hits": 47,
+          "permutations": 20000,
+          "p_paired_exact": 0.015625
+        }
+      }
+    }
+  },
+  "alpha_double": {
+    "n": 18,
+    "stats": {
+      "gla_full": {
+        "norm_gain": {
+          "mean": 0.12455555555555556,
+          "sd": 0.1321297762723368
+        },
+        "n_learned": {
+          "mean": 2.111111111111111,
+          "sd": 0.927960727138337
+        },
+        "gap_coverage": {
+          "mean": 0.23444444444444446,
+          "sd": 0.11600227488190815
+        },
+        "leakage_rate": {
+          "mean": 0.004666666666666667,
+          "sd": 0.014
+        },
+        "chitchat_rate": {
+          "mean": 0.08333333333333333,
+          "sd": 0.25
+        },
+        "blocked_rate": {
+          "mean": 0.05092592592592592,
+          "sd": 0.07149743153463195
+        }
+      },
+      "vanilla": {
+        "norm_gain": {
+          "mean": -0.09122222222222222,
+          "sd": 0.057610280718327044
+        },
+        "n_learned": {
+          "mean": 0,
+          "sd": 0.0
+        },
+        "gap_coverage": {
+          "mean": 0.027777777777777776,
+          "sd": 0.08333333333333333
+        },
+        "leakage_rate": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "chitchat_rate": {
+          "mean": 0.8054444444444444,
+          "sd": 0.21859729590682903
+        },
+        "blocked_rate": {
+          "mean": 0.018518518518518517,
+          "sd": 0.05555555555555555
+        }
+      }
+    },
+    "comparisons": {
+      "vanilla": {
+        "norm_gain": {
+          "difference": 0.2157777777777778,
+          "p_plus_one": 0.00034998250087495624,
+          "hits": 6,
+          "permutations": 20000,
+          "p_paired_exact": 0.00390625
+        },
+        "n_learned": {
+          "difference": 2.111111111111111,
+          "p_plus_one": 0.00034998250087495624,
+          "hits": 6,
+          "permutations": 20000,
+          "p_paired_exact": 0.0078125
+        }
+      }
+    }
+  }
+}

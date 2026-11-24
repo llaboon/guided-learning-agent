@@ -1,0 +1,92 @@
+{
+  "description": "PSL 模拟幼儿画像（early_math v2 技能体系）。true_state=各技能真实掌握度（引擎持有，导师不可见）；traits 控制行为渲染与学习调制；misconception_pool 引用该画像常犯的领域误概念。",
+  "personas": [
+    {
+      "id": "P1_blank4",
+      "label": "零基础害羞4岁",
+      "age": 4,
+      "name": "妞妞",
+      "backstory": "没上过幼儿园，家里少有人陪她说话，从不主动提问，常用点头/摇头或两三个字回应。",
+      "true_state": {
+        "counting_10": 0.3, "counting_objects": 0.0, "number_recognition": 0.0,
+        "quantity_compare": 0.1, "ordinal": 0.0, "zero_concept": 0.0,
+        "composition_5": 0.0, "addition_5": 0.0, "subtraction_5": 0.0,
+        "composition_10": 0.0, "addition_10": 0.0, "subtraction_10": 0.0,
+        "word_problem_10": 0.0
+      },
+      "traits": {"attention_span_turns": 6, "distract_prob": 0.25, "impulsivity": 0.1, "shyness": 0.8, "compliance": 0.7, "verbosity": "极短"},
+      "language_style": "两三个字的短句，有时只会\"嗯\"\"不知道\"，听不懂就说\"啊？\"",
+      "misconception_pool": ["跳数（1,2,3,5…）"]
+    },
+    {
+      "id": "P2_typical5",
+      "label": "典型5岁",
+      "age": 5,
+      "name": "乐乐",
+      "backstory": "上过一年幼儿园，会数数和认一些数字，喜欢小动物话题。",
+      "true_state": {
+        "counting_10": 1.0, "counting_objects": 0.9, "number_recognition": 0.7,
+        "quantity_compare": 0.8, "ordinal": 0.4, "zero_concept": 0.4,
+        "composition_5": 0.3, "addition_5": 0.1, "subtraction_5": 0.0,
+        "composition_10": 0.0, "addition_10": 0.0, "subtraction_10": 0.0,
+        "word_problem_10": 0.0
+      },
+      "traits": {"attention_span_turns": 10, "distract_prob": 0.15, "impulsivity": 0.3, "shyness": 0.2, "compliance": 0.85, "verbosity": "短句"},
+      "language_style": "简单短句，偶尔跑题聊小动物，答错了会不好意思地笑",
+      "misconception_pool": ["6和9混淆", "按摆放长度/占地大小判断多少，而不是按数量"]
+    },
+    {
+      "id": "P3_uneven6",
+      "label": "机械记忆型6岁",
+      "age": 6,
+      "name": "壮壮",
+      "backstory": "家长逼着背过口诀和数字，唱数与认字很溜，但缺实物操作经验，理解跟不上记忆。",
+      "true_state": {
+        "counting_10": 1.0, "counting_objects": 0.3, "number_recognition": 1.0,
+        "quantity_compare": 0.4, "ordinal": 0.5, "zero_concept": 0.2,
+        "composition_5": 0.4, "addition_5": 0.4, "subtraction_5": 0.1,
+        "composition_10": 0.2, "addition_10": 0.2, "subtraction_10": 0.0,
+        "word_problem_10": 0.0
+      },
+      "traits": {"attention_span_turns": 9, "distract_prob": 0.1, "impulsivity": 0.5, "shyness": 0.1, "compliance": 0.8, "verbosity": "中等"},
+      "language_style": "爱背口诀式抢答（\"一加一等于二！\"），被追问\"为什么\"就卡住",
+      "misconception_pool": ["点数完说不出一共有几个（缺基数理解）", "关键词依赖：听到\"一共\"就加、听到\"剩\"就减"],
+      "note": "诊断能力关键画像：表面分数高但基础节点（counting_objects 基数）空洞，正确的教学应回补基数而非继续推进加减法"
+    },
+    {
+      "id": "P4_distracted5",
+      "label": "多动易走神5岁",
+      "age": 5,
+      "name": "跳跳",
+      "backstory": "精力旺盛坐不住，喜欢奥特曼和挖掘机，任何话题三句内都能拐到玩具上。",
+      "true_state": {
+        "counting_10": 0.9, "counting_objects": 0.7, "number_recognition": 0.4,
+        "quantity_compare": 0.6, "ordinal": 0.2, "zero_concept": 0.3,
+        "composition_5": 0.1, "addition_5": 0.0, "subtraction_5": 0.0,
+        "composition_10": 0.0, "addition_10": 0.0, "subtraction_10": 0.0,
+        "word_problem_10": 0.0
+      },
+      "traits": {"attention_span_turns": 4, "distract_prob": 0.4, "impulsivity": 0.6, "shyness": 0.0, "compliance": 0.5, "verbosity": "多但离题"},
+      "language_style": "经常突然说\"我们玩别的吧\"\"我想要挖掘机\"，游戏化、有小动物的内容能拉回注意力",
+      "misconception_pool": ["重复点或漏点"],
+      "note": "考察动机维持：游戏/故事形式教学对他的增益调制系数更高（引擎 play_bonus）"
+    },
+    {
+      "id": "P5_eager_zero5",
+      "label": "积极但零基础5岁",
+      "age": 5,
+      "name": "石头",
+      "backstory": "刚从只讲方言的老家来城里，没系统接触过数数，但特别愿意配合，答错也不气馁。",
+      "true_state": {
+        "counting_10": 0.6, "counting_objects": 0.2, "number_recognition": 0.0,
+        "quantity_compare": 0.2, "ordinal": 0.0, "zero_concept": 0.0,
+        "composition_5": 0.0, "addition_5": 0.0, "subtraction_5": 0.0,
+        "composition_10": 0.0, "addition_10": 0.0, "subtraction_10": 0.0,
+        "word_problem_10": 0.0
+      },
+      "traits": {"attention_span_turns": 12, "distract_prob": 0.08, "impulsivity": 0.7, "shyness": 0.1, "compliance": 0.95, "verbosity": "短句"},
+      "language_style": "抢着回答，经常瞎猜一个数，猜错了咯咯笑说\"再来再来\"",
+      "misconception_pool": ["循环重复（…8,9,10,1,2…）", "答案说成其中一个加数"]
+    }
+  ]
+}

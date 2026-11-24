@@ -1,0 +1,38 @@
+total runs: 2 (turns=24, workers=2, gate=hard, threshold=0.8, alpha_scale=1.0)
+[done 1/2] vanilla/beggar/s3 norm_gain=-0.091 learned=0 leak=0.0 (200s)
+[done 2/2] vanilla/beggar/s4 norm_gain=0.083 learned=0 leak=0.0 (206s)
+
+===== SUMMARY (mean, std) =====
+{
+ "vanilla": {
+  "norm_gain": [
+   -0.004,
+   0.123
+  ],
+  "abs_gain": [
+   0.0,
+   0.117
+  ],
+  "n_learned": [
+   0.0,
+   0.0
+  ],
+  "gap_coverage": [
+   0.0,
+   0.0
+  ],
+  "leakage_rate": [
+   0.0,
+   0.0
+  ],
+  "chitchat_rate": [
+   0.771,
+   0.03
+  ],
+  "n_runs": 2
+ }
+}
+===== TESTS =====
+{}
+saved -> results/resub/main_fill1/experiment_main_fill1_1795501306.json
+EXPERIMENT_DONE

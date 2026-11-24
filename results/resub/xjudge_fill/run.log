@@ -1,0 +1,37 @@
+total runs: 1 (turns=24, workers=1, gate=hard, threshold=0.8, alpha_scale=1.0)
+[done 1/1] vanilla/zero/s1 norm_gain=-0.091 learned=0 leak=0.0 (82s)
+
+===== SUMMARY (mean, std) =====
+{
+ "vanilla": {
+  "norm_gain": [
+   -0.091,
+   0.0
+  ],
+  "abs_gain": [
+   -0.077,
+   0.0
+  ],
+  "n_learned": [
+   0.0,
+   0.0
+  ],
+  "gap_coverage": [
+   0.0,
+   0.0
+  ],
+  "leakage_rate": [
+   0.0,
+   0.0
+  ],
+  "chitchat_rate": [
+   0.75,
+   0.0
+  ],
+  "n_runs": 1
+ }
+}
+===== TESTS =====
+{}
+saved -> results/resub/xjudge_fill/experiment_xjudge_fill_1795501454.json
+EXPERIMENT_DONE

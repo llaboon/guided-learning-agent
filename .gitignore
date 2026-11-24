@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+_site/
+_shots/
+results/calls_*.jsonl
+results/*.json
+!results/released/
+!results/resub/
+.venv/
+.env

@@ -1,0 +1,2665 @@
+{
+  "domain": "early_math",
+  "n_selected": 20,
+  "n_usable": 20,
+  "n_skipped": 0,
+  "skipped": [],
+  "variants": {
+    "hard_default": {
+      "config": {
+        "name": "hard_default",
+        "gate": "hard",
+        "alpha_scale": 1.0,
+        "threshold": 0.8
+      },
+      "summary": {
+        "gla_fixed": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_full": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_reactive": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "socratic": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "vanilla": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        }
+      },
+      "pairwise": {
+        "gla_full_vs_vanilla": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_socratic": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_fixed": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_reactive": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "condition": "gla_fixed",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "gla_full",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_full",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_full",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_full",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "socratic",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_socratic_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "socratic",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_socratic_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "socratic",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_socratic_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "socratic",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_socratic_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "vanilla",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "vanilla",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "vanilla",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "vanilla",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        }
+      ]
+    },
+    "soft_min_ratio": {
+      "config": {
+        "name": "soft_min_ratio",
+        "gate": "soft_min",
+        "alpha_scale": 1.0,
+        "threshold": 0.8
+      },
+      "summary": {
+        "gla_fixed": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "gla_reactive": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "socratic": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "vanilla": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "pairwise": {
+        "gla_full_vs_vanilla": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_socratic": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_fixed": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_reactive": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "condition": "gla_fixed",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "gla_full",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "gla_full",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_full",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_full",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "socratic",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_socratic_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "socratic",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_socratic_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "socratic",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_socratic_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "socratic",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_socratic_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "vanilla",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "vanilla",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "vanilla",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "vanilla",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        }
+      ]
+    },
+    "soft_mean_ratio": {
+      "config": {
+        "name": "soft_mean_ratio",
+        "gate": "soft_mean",
+        "alpha_scale": 1.0,
+        "threshold": 0.8
+      },
+      "summary": {
+        "gla_fixed": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "gla_reactive": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "socratic": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        },
+        "vanilla": {
+          "true_gain": {
+            "mean": 0.060527,
+            "sd": 0.022144,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "pairwise": {
+        "gla_full_vs_vanilla": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_socratic": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_fixed": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_reactive": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "condition": "gla_fixed",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "gla_full",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "gla_full",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_full",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_full",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "socratic",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_socratic_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "socratic",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_socratic_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "socratic",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_socratic_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "socratic",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_socratic_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        },
+        {
+          "condition": "vanilla",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_beggar_s1_1795193331.json",
+          "true_gain": 0.087511,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 1.050133
+        },
+        {
+          "condition": "vanilla",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "vanilla",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.711052
+        },
+        {
+          "condition": "vanilla",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_zero_s1_1795193331.json",
+          "true_gain": 0.055989,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.727861
+        }
+      ]
+    },
+    "hard_fast": {
+      "config": {
+        "name": "hard_fast",
+        "gate": "hard",
+        "alpha_scale": 0.5,
+        "threshold": 0.8
+      },
+      "summary": {
+        "gla_fixed": {
+          "true_gain": {
+            "mean": 0.024431,
+            "sd": 0.008818,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_full": {
+          "true_gain": {
+            "mean": 0.024431,
+            "sd": 0.008818,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_reactive": {
+          "true_gain": {
+            "mean": 0.024431,
+            "sd": 0.008818,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "socratic": {
+          "true_gain": {
+            "mean": 0.024431,
+            "sd": 0.008818,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "vanilla": {
+          "true_gain": {
+            "mean": 0.024431,
+            "sd": 0.008818,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        }
+      },
+      "pairwise": {
+        "gla_full_vs_vanilla": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_socratic": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_fixed": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_reactive": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "condition": "gla_fixed",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_beggar_s1_1795193331.json",
+          "true_gain": 0.032572,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.390863
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_mid_s1_1795193331.json",
+          "true_gain": 0.017967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.179668
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_scatter_s1_1795193331.json",
+          "true_gain": 0.031459,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.346052
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_zero_s1_1795193331.json",
+          "true_gain": 0.015724,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.20441
+        },
+        {
+          "condition": "gla_full",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_beggar_s1_1795193331.json",
+          "true_gain": 0.032572,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.390863
+        },
+        {
+          "condition": "gla_full",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_mid_s1_1795193331.json",
+          "true_gain": 0.017967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.179668
+        },
+        {
+          "condition": "gla_full",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_scatter_s1_1795193331.json",
+          "true_gain": 0.031459,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.346052
+        },
+        {
+          "condition": "gla_full",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_zero_s1_1795193331.json",
+          "true_gain": 0.015724,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.20441
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_beggar_s1_1795193331.json",
+          "true_gain": 0.032572,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.390863
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_mid_s1_1795193331.json",
+          "true_gain": 0.017967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.179668
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_scatter_s1_1795193331.json",
+          "true_gain": 0.031459,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.346052
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_zero_s1_1795193331.json",
+          "true_gain": 0.015724,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.20441
+        },
+        {
+          "condition": "socratic",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_socratic_beggar_s1_1795193331.json",
+          "true_gain": 0.032572,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.390863
+        },
+        {
+          "condition": "socratic",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_socratic_mid_s1_1795193331.json",
+          "true_gain": 0.017967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.179668
+        },
+        {
+          "condition": "socratic",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_socratic_scatter_s1_1795193331.json",
+          "true_gain": 0.031459,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.346052
+        },
+        {
+          "condition": "socratic",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_socratic_zero_s1_1795193331.json",
+          "true_gain": 0.015724,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.20441
+        },
+        {
+          "condition": "vanilla",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_beggar_s1_1795193331.json",
+          "true_gain": 0.032572,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.390863
+        },
+        {
+          "condition": "vanilla",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_mid_s1_1795193331.json",
+          "true_gain": 0.017967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.179668
+        },
+        {
+          "condition": "vanilla",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_scatter_s1_1795193331.json",
+          "true_gain": 0.031459,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.346052
+        },
+        {
+          "condition": "vanilla",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_zero_s1_1795193331.json",
+          "true_gain": 0.015724,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.20441
+        }
+      ]
+    },
+    "hard_slow": {
+      "config": {
+        "name": "hard_slow",
+        "gate": "hard",
+        "alpha_scale": 2.0,
+        "threshold": 0.8
+      },
+      "summary": {
+        "gla_fixed": {
+          "true_gain": {
+            "mean": 0.084648,
+            "sd": 0.029852,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.25,
+            "sd": 0.5,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_full": {
+          "true_gain": {
+            "mean": 0.084648,
+            "sd": 0.029852,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.25,
+            "sd": 0.5,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_reactive": {
+          "true_gain": {
+            "mean": 0.084648,
+            "sd": 0.029852,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.25,
+            "sd": 0.5,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "socratic": {
+          "true_gain": {
+            "mean": 0.084648,
+            "sd": 0.029852,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.25,
+            "sd": 0.5,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "vanilla": {
+          "true_gain": {
+            "mean": 0.084648,
+            "sd": 0.029852,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.25,
+            "sd": 0.5,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        }
+      },
+      "pairwise": {
+        "gla_full_vs_vanilla": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_socratic": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_fixed": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_reactive": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "condition": "gla_fixed",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_beggar_s1_1795193331.json",
+          "true_gain": 0.107155,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 1.285863
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_mid_s1_1795193331.json",
+          "true_gain": 0.065967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.659668
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_scatter_s1_1795193331.json",
+          "true_gain": 0.112823,
+          "n_learned": 1,
+          "blocked_rate": 0.25,
+          "progress": 1.241052
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_zero_s1_1795193331.json",
+          "true_gain": 0.052647,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.68441
+        },
+        {
+          "condition": "gla_full",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_beggar_s1_1795193331.json",
+          "true_gain": 0.107155,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 1.285863
+        },
+        {
+          "condition": "gla_full",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_mid_s1_1795193331.json",
+          "true_gain": 0.065967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.659668
+        },
+        {
+          "condition": "gla_full",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_scatter_s1_1795193331.json",
+          "true_gain": 0.112823,
+          "n_learned": 1,
+          "blocked_rate": 0.25,
+          "progress": 1.241052
+        },
+        {
+          "condition": "gla_full",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_zero_s1_1795193331.json",
+          "true_gain": 0.052647,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.68441
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_beggar_s1_1795193331.json",
+          "true_gain": 0.107155,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 1.285863
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_mid_s1_1795193331.json",
+          "true_gain": 0.065967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.659668
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_scatter_s1_1795193331.json",
+          "true_gain": 0.112823,
+          "n_learned": 1,
+          "blocked_rate": 0.25,
+          "progress": 1.241052
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_zero_s1_1795193331.json",
+          "true_gain": 0.052647,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.68441
+        },
+        {
+          "condition": "socratic",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_socratic_beggar_s1_1795193331.json",
+          "true_gain": 0.107155,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 1.285863
+        },
+        {
+          "condition": "socratic",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_socratic_mid_s1_1795193331.json",
+          "true_gain": 0.065967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.659668
+        },
+        {
+          "condition": "socratic",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_socratic_scatter_s1_1795193331.json",
+          "true_gain": 0.112823,
+          "n_learned": 1,
+          "blocked_rate": 0.25,
+          "progress": 1.241052
+        },
+        {
+          "condition": "socratic",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_socratic_zero_s1_1795193331.json",
+          "true_gain": 0.052647,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.68441
+        },
+        {
+          "condition": "vanilla",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_beggar_s1_1795193331.json",
+          "true_gain": 0.107155,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 1.285863
+        },
+        {
+          "condition": "vanilla",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_mid_s1_1795193331.json",
+          "true_gain": 0.065967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.659668
+        },
+        {
+          "condition": "vanilla",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_scatter_s1_1795193331.json",
+          "true_gain": 0.112823,
+          "n_learned": 1,
+          "blocked_rate": 0.25,
+          "progress": 1.241052
+        },
+        {
+          "condition": "vanilla",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_zero_s1_1795193331.json",
+          "true_gain": 0.052647,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.68441
+        }
+      ]
+    },
+    "hard_low_threshold": {
+      "config": {
+        "name": "hard_low_threshold",
+        "gate": "hard",
+        "alpha_scale": 1.0,
+        "threshold": 0.7
+      },
+      "summary": {
+        "gla_fixed": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_full": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_reactive": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "socratic": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "vanilla": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        }
+      },
+      "pairwise": {
+        "gla_full_vs_vanilla": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_socratic": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_fixed": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_reactive": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "condition": "gla_fixed",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "gla_full",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_full",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_full",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_full",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "socratic",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_socratic_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "socratic",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_socratic_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "socratic",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_socratic_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "socratic",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_socratic_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "vanilla",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "vanilla",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "vanilla",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "vanilla",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        }
+      ]
+    },
+    "hard_high_threshold": {
+      "config": {
+        "name": "hard_high_threshold",
+        "gate": "hard",
+        "alpha_scale": 1.0,
+        "threshold": 0.9
+      },
+      "summary": {
+        "gla_fixed": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_full": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "gla_reactive": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "socratic": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        },
+        "vanilla": {
+          "true_gain": {
+            "mean": 0.047407,
+            "sd": 0.019112,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "sd": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.3125,
+            "sd": 0.314576,
+            "n": 4
+          }
+        }
+      },
+      "pairwise": {
+        "gla_full_vs_vanilla": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_socratic": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_fixed": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        },
+        "gla_full_vs_gla_reactive": {
+          "true_gain": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "n_learned": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          },
+          "blocked_rate": {
+            "mean": 0.0,
+            "lo": 0.0,
+            "hi": 0.0,
+            "n": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "condition": "gla_fixed",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_fixed",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_fixed_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "gla_full",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_full",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_full",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_full",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_full_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "gla_reactive",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_gla_reactive_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "socratic",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_socratic_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "socratic",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_socratic_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "socratic",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_socratic_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "socratic",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_socratic_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        },
+        {
+          "condition": "vanilla",
+          "profile": "beggar",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_beggar_s1_1795193331.json",
+          "true_gain": 0.062989,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.755863
+        },
+        {
+          "condition": "vanilla",
+          "profile": "mid",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_mid_s1_1795193331.json",
+          "true_gain": 0.033967,
+          "n_learned": 0,
+          "blocked_rate": 0.0,
+          "progress": 0.339668
+        },
+        {
+          "condition": "vanilla",
+          "profile": "scatter",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_scatter_s1_1795193331.json",
+          "true_gain": 0.064641,
+          "n_learned": 0,
+          "blocked_rate": 0.25,
+          "progress": 0.711052
+        },
+        {
+          "condition": "vanilla",
+          "profile": "zero",
+          "seed": 1,
+          "trace": "results\\exp_vanilla_zero_s1_1795193331.json",
+          "true_gain": 0.028032,
+          "n_learned": 0,
+          "blocked_rate": 0.75,
+          "progress": 0.36441
+        }
+      ]
+    }
+  },
+  "status": "invalid_dryrun",
+  "valid_for_paper": false,
+  "note": "Generated from local mock/short traces during code smoke testing. It is not a full v2.4 LLM experiment and must not be used as a paper result."
+}

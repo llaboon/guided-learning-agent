@@ -1,0 +1,1287 @@
+{
+  "aggregate": {
+    "gla_full": {
+      "lang": 4.5,
+      "scaffold": 3.367,
+      "feedback": 3.833,
+      "goal": 3.667,
+      "overall": 3.842
+    },
+    "gla_fixed": {
+      "lang": 4.133,
+      "scaffold": 2.967,
+      "feedback": 3.367,
+      "goal": 2.6,
+      "overall": 3.267
+    },
+    "vanilla": {
+      "lang": 2.367,
+      "scaffold": 2.033,
+      "feedback": 4.067,
+      "goal": 1.6,
+      "overall": 2.517
+    }
+  },
+  "runs": [
+    {
+      "condition": "vanilla",
+      "profile": "zero",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 1,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "语言过于成人化，缺乏数学目标，后半段陷入无意义重复循环。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 2,
+          "comment": "反馈极具共情与鼓励，但语言过于成人化，且后半段陷入无意义的重复循环。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 1.5,
+        "feedback": 5.0,
+        "goal": 1.5,
+        "overall": 2.5
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "mid",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 4,
+          "goal": 1,
+          "comment": "语言过于成人化，缺乏数学目标，全程跑题闲聊，未体现教学价值。"
+        },
+        "发展心理学家": {
+          "lang": null,
+          "scaffold": null,
+          "feedback": null,
+          "goal": null,
+          "comment": ""
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 2.0,
+        "feedback": 4.0,
+        "goal": 1.0,
+        "overall": 2.25
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "mid",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 1,
+          "feedback": 3,
+          "goal": 1,
+          "comment": "内容严重超纲，像成人心理咨询；无数学教学，完全偏离 5 岁幼儿认知与教学目标。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言过于成人化，缺乏互动引导，内容严重重复，偏离 5 岁儿童认知水平。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 1.5,
+        "feedback": 3.0,
+        "goal": 1.5,
+        "overall": 2.0
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "zero",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 1,
+          "feedback": 4,
+          "goal": 1,
+          "comment": "语言过于成人化，无数学目标，全程情感空转，未体现教学价值。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "语言过于成人化且冗长，缺乏教学梯度；虽情感反馈极佳，但严重偏离教学目标，陷入无效重复。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 1.5,
+        "feedback": 4.5,
+        "goal": 1.0,
+        "overall": 2.25
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "zero",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 1,
+          "feedback": 2,
+          "goal": 1,
+          "comment": "语言过于成人化，完全偏离5岁幼儿认知；无数学目标，全程情感说教，未体现教学逻辑。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言过于成人化，缺乏互动引导，偏离5岁认知，陷入情感空转。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 1.5,
+        "feedback": 2.5,
+        "goal": 1.5,
+        "overall": 1.875
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "mid",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 1,
+          "comment": "语言过于成人化，严重偏离5岁认知；教学目标在数数后完全迷失，陷入无意义的感官幻想。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言过于成人化，缺乏针对 5 岁儿童的短句与具体引导，偏离数学目标，陷入无意义的感官幻想。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 2.0,
+        "feedback": 3.0,
+        "goal": 1.5,
+        "overall": 2.125
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 1,
+          "feedback": 3,
+          "goal": 1,
+          "comment": "语言过于成人化，无数学目标，全程情感安抚导致课程空转。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "反馈极具共情与安抚力，但语言过于成人化，且课程目标从学习引导彻底跑偏至催眠。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 1.5,
+        "feedback": 4.0,
+        "goal": 1.0,
+        "overall": 2.125
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "zero",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但教学逻辑混乱，错误纠正无效，知识点跳跃且未达成目标。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但教学策略僵化，错误时反复机械重教，缺乏有效引导。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 2.5,
+        "feedback": 3.0,
+        "goal": 3.0,
+        "overall": 3.125
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "zero",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但机械重复多，错误纠正策略单一，目标跳跃且后期空转。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但机械重复多，错误纠正耐心却低效，后半段空转严重。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 3.0,
+        "overall": 3.25
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 4,
+          "goal": 1,
+          "comment": "语言过于成人化，偏离 5 岁幼儿认知；无明确数学目标，全程纯幻想故事。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 5,
+          "feedback": 5,
+          "goal": 5,
+          "comment": "语言极具童趣，通过想象游戏完美化解焦虑，全程高互动且紧扣创造力目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 3.5,
+        "scaffold": 3.5,
+        "feedback": 4.5,
+        "goal": 3.0,
+        "overall": 3.625
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 1,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "语言过于成人化且脱离数学目标，全程无教学脚手架，仅做情感陪伴。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "反馈极具共情与想象力，但语言过于成人化，完全偏离 5 岁认知，且无实质教学目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 1.5,
+        "feedback": 5.0,
+        "goal": 1.0,
+        "overall": 2.375
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "zero",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 5,
+          "goal": 3,
+          "comment": "语言童趣生动，反馈极具耐心；但后期频繁跑题，目标聚焦不足。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 5,
+          "goal": 4,
+          "comment": "语言童趣生动，反馈极具鼓励性；但中间重复纠错略显拖沓，影响节奏。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 4.0,
+        "feedback": 5.0,
+        "goal": 3.5,
+        "overall": 4.375
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "mid",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但知识点跳跃过大，错误纠正机械，缺乏有效梯度与深度引导。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但教学逻辑混乱，错误纠正机械，频繁跑题且未闭环。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 3.0,
+        "overall": 3.25
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "mid",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言童趣满分，但知识点跳跃过大，缺乏针对错误的深度引导。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言生动亲切，但目标跳跃过大，从数数直接跳到加减，缺乏过渡。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 3.5,
+        "feedback": 4.0,
+        "goal": 3.0,
+        "overall": 3.875
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "beggar",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但频繁重复无效提问，目标跳跃且缺乏连贯性。"
+        },
+        "发展心理学家": {
+          "lang": null,
+          "scaffold": null,
+          "feedback": null,
+          "goal": null,
+          "comment": ""
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 2.0,
+        "overall": 3.0
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "mid",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但跑题严重，知识点跳跃无序，缺乏系统教学逻辑。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但目标频繁跳跃，从数数跳到序数、0、分合及加法，缺乏连贯性。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 2.0,
+        "overall": 3.0
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "beggar",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但知识点跳跃过大，从数数直接跳到加减，缺乏梯度且频繁跑题。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但概念跳跃过快，错误纠正机械，缺乏深度引导。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 2.5,
+        "overall": 3.125
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "beggar",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 2,
+          "comment": "语言亲切但目标跳跃过大，从数数直接跳到加减法，缺乏梯度且频繁跑题。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但知识点跳跃过大，从数数直接跳到加减法，缺乏梯度。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 4.0,
+        "goal": 2.5,
+        "overall": 3.375
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "zero",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 4,
+          "comment": "语言童趣生动，但错误纠正略显机械，缺乏深度引导。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 4,
+          "comment": "语言生动亲切，但在错误纠正时引导略显急躁，需更多耐心。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 3.5,
+        "feedback": 4.0,
+        "goal": 4.0,
+        "overall": 4.125
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "zero",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 2,
+          "feedback": 2,
+          "goal": 3,
+          "comment": "语言亲切但教学僵化，错误时缺乏有效引导，反复机械重复致挫败感强。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 2,
+          "feedback": 2,
+          "goal": 3,
+          "comment": "语言亲切但纠错机械重复，缺乏有效引导，导致孩子多次答错仍无法掌握。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 2.0,
+        "feedback": 2.0,
+        "goal": 3.0,
+        "overall": 2.75
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "zero",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但目标频繁跳跃，数字认知与比较概念混杂，缺乏系统梯度。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言生动亲切，但目标频繁切换，从数数跳到认字再比大小，缺乏连贯性。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.5,
+        "scaffold": 3.5,
+        "feedback": 4.0,
+        "goal": 3.0,
+        "overall": 3.75
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "mid",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 5,
+          "goal": 4,
+          "comment": "语言童趣生动，反馈极具耐心；但序数概念讲解稍显跳跃，逻辑衔接可更紧密。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 5,
+          "comment": "语言童趣生动，目标清晰，但在概念混淆时引导略显急躁。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 4.0,
+        "feedback": 4.5,
+        "goal": 4.5,
+        "overall": 4.5
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "mid",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言童趣生动，纠错耐心；但最后环节未闭环，目标推进略显仓促。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但知识点跨度大（基数、序数、0），最后未闭环即结束。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.5,
+        "scaffold": 3.5,
+        "feedback": 4.0,
+        "goal": 3.0,
+        "overall": 3.75
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "mid",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言童趣生动，但目标频繁跳跃，从数数跳到序数再跳回 0，缺乏连贯主线。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 4,
+          "comment": "语言生动亲切，脚手架清晰，但部分环节重复过多，节奏稍显拖沓。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 4.0,
+        "feedback": 4.0,
+        "goal": 3.5,
+        "overall": 4.125
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 1,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 5,
+          "goal": 5,
+          "comment": "语言童趣生动，反馈极具耐心，有效引导错误，目标清晰达成。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 5,
+          "comment": "语言童趣生动，纠错耐心有梯度，目标始终聚焦数概念。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 4.0,
+        "feedback": 4.5,
+        "goal": 5.0,
+        "overall": 4.625
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 2,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 5,
+          "comment": "语言童趣生动，目标清晰；但错误纠正重复机械，缺乏深度引导。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 4,
+          "goal": 5,
+          "comment": "语言童趣生动，目标清晰；但错误纠正时重复指令过多，缺乏策略调整。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 4.0,
+        "feedback": 4.0,
+        "goal": 5.0,
+        "overall": 4.5
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 3,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 3,
+          "comment": "语言亲切但逻辑混乱，错误纠正无效，目标频繁跳跃，缺乏系统性。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但逻辑跳跃大，错误纠正后未验证，目标推进略显混乱。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.5,
+        "goal": 3.0,
+        "overall": 3.375
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "zero",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 4,
+          "goal": 1,
+          "comment": "语言过于成人化且冗长，缺乏数学目标，全程跑题至幻想故事。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 5,
+          "feedback": 5,
+          "goal": 5,
+          "comment": "语言极具童趣，通过多感官比喻完美搭建观察脚手架，反馈温暖具体，全程紧扣自然观察目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 3.5,
+        "scaffold": 3.5,
+        "feedback": 4.5,
+        "goal": 3.0,
+        "overall": 3.625
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "zero",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 2,
+          "comment": "语言亲切反馈极佳，但缺乏数学教学实质，全程跑题空转，未体现任何数学概念。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 5,
+          "goal": 3,
+          "comment": "语言亲切生动，反馈极具共情力；但后半段过度发散，偏离了引导性学习目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.5,
+        "scaffold": 3.0,
+        "feedback": 5.0,
+        "goal": 2.5,
+        "overall": 3.75
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "mid",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 1,
+          "comment": "语言过于成人化，缺乏数学教学；目标严重跑题，全程未进行数学教学。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言过于成人化，缺乏针对 5 岁儿童的互动引导，对话陷入重复循环，偏离教学目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 2.0,
+        "feedback": 3.0,
+        "goal": 1.5,
+        "overall": 2.125
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 1,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "语言过于成人化且充满抽象隐喻，完全缺失数学教学目标与脚手架，仅存情感互动。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "情感反馈极佳，但严重脱离 5 岁认知，用词晦涩且完全偏离教学目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 1.5,
+        "feedback": 5.0,
+        "goal": 1.0,
+        "overall": 2.375
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "zero",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但目标频繁跳跃，从数数跳到加减，且未有效纠正孩子反复出现的错误。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但教学逻辑混乱，频繁跑题且未有效纠正错误，导致目标无法达成。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 2.5,
+        "feedback": 3.0,
+        "goal": 2.0,
+        "overall": 2.875
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "mid",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 1,
+          "comment": "语言过于成人化，完全偏离 5 岁幼儿认知；虽反馈极佳，但无数学目标，纯属幻想故事。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 5,
+          "goal": 2,
+          "comment": "反馈极具共情与想象力，但语言过于成人化，缺乏针对 5 岁儿童的脚手架引导。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 2.0,
+        "feedback": 5.0,
+        "goal": 1.5,
+        "overall": 2.625
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "zero",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但知识点跳跃过大，错误纠正后缺乏有效巩固，导致目标达成度不足。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言生动亲切，但知识点跳跃过大，错误纠正后缺乏有效巩固。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 4.0,
+        "goal": 3.0,
+        "overall": 3.5
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "mid",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 2,
+          "comment": "语言亲切生动，但一节课强行塞入 6 个知识点，导致教学碎片化，缺乏深度。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 2,
+          "comment": "语言亲切生动，但知识点跳跃过快，缺乏连贯主线，导致教学碎片化。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 4.0,
+        "goal": 2.0,
+        "overall": 3.25
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "mid",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但目标频繁跳跃，从数数跳到序数、分合与加法，缺乏连贯性。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切，但知识点跳跃过快，缺乏对错误答案的深度引导。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.5,
+        "goal": 2.5,
+        "overall": 3.25
+      }
+    },
+    {
+      "condition": "vanilla",
+      "profile": "beggar",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 1,
+          "comment": "内容严重超纲且脱离幼儿认知，将物理概念拟人化过度，缺乏适龄引导。"
+        },
+        "发展心理学家": {
+          "lang": 2,
+          "scaffold": 2,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言过于成人化，概念抽象；过度拟人化导致科学事实模糊，偏离教学目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 2.0,
+        "scaffold": 2.0,
+        "feedback": 3.0,
+        "goal": 1.5,
+        "overall": 2.125
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "mid",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 4,
+          "comment": "语言亲切生动，但纠错时机械重复，缺乏有效引导策略。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 4,
+          "comment": "语言生动亲切，但纠错时重复机械，缺乏有效梯度引导。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.5,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 4.0,
+        "overall": 3.625
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "beggar",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 2,
+          "feedback": 2,
+          "goal": 3,
+          "comment": "语言亲切但教学逻辑混乱，错误反馈无效，知识点跳跃过快且未真正教会孩子。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 2,
+          "feedback": 2,
+          "goal": 3,
+          "comment": "语言亲切但严重误解儿童回答，将“求答案”误判为“答对”，导致教学逻辑崩塌。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 2.0,
+        "feedback": 2.0,
+        "goal": 3.0,
+        "overall": 2.75
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "zero",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但机械重复“你听懂了吗”打断节奏，且错误纠正策略单一。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但机械重复“你听懂了吗”打断节奏，错误纠正略显拖沓。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 4.0,
+        "goal": 3.0,
+        "overall": 3.5
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "zero",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": null,
+          "scaffold": null,
+          "feedback": null,
+          "goal": null,
+          "comment": ""
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但后期跑题至数字形状联想，偏离数数核心目标。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 4.0,
+        "goal": 3.0,
+        "overall": 3.5
+      }
+    },
+    {
+      "condition": "gla_fixed",
+      "profile": "beggar",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但目标杂乱，一节课涵盖数数、基数、序数、0及分合，缺乏深度与梯度。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 2,
+          "comment": "语言亲切但内容贪多，从数数跳跃到 0 和分合，缺乏深度与逻辑衔接。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 2.0,
+        "overall": 3.0
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 4,
+      "scores": {
+        "教研员": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 5,
+          "goal": 4,
+          "comment": "语言童趣满分，纠错耐心；但数字形状教学突兀，目标略有跳跃。"
+        },
+        "发展心理学家": {
+          "lang": 5,
+          "scaffold": 4,
+          "feedback": 5,
+          "goal": 4,
+          "comment": "语言童趣满分，纠错耐心且具象，但数字形状教学略显突兀，整体目标清晰。"
+        }
+      },
+      "panel_mean": {
+        "lang": 5.0,
+        "scaffold": 4.0,
+        "feedback": 5.0,
+        "goal": 4.0,
+        "overall": 4.5
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "mid",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 4,
+          "comment": "语言亲切生动，但错误纠正重复机械，缺乏有效梯度引导。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 3,
+          "goal": 4,
+          "comment": "语言生动亲切，但错误纠正重复机械，缺乏有效梯度引导。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 3.0,
+        "goal": 4.0,
+        "overall": 3.5
+      }
+    },
+    {
+      "condition": "gla_full",
+      "profile": "beggar",
+      "seed": 5,
+      "scores": {
+        "教研员": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但错误纠正机械重复，缺乏深度引导，目标后期略显发散。"
+        },
+        "发展心理学家": {
+          "lang": 4,
+          "scaffold": 3,
+          "feedback": 4,
+          "goal": 3,
+          "comment": "语言亲切生动，但错误纠正机械重复，缺乏深度引导，最后跑题且未解决认知冲突。"
+        }
+      },
+      "panel_mean": {
+        "lang": 4.0,
+        "scaffold": 3.0,
+        "feedback": 4.0,
+        "goal": 3.0,
+        "overall": 3.5
+      }
+    }
+  ]
+}

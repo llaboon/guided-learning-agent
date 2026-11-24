@@ -1,0 +1,73 @@
+{
+ "rows": [
+  {
+   "condition": "vanilla",
+   "profile": "zero",
+   "seed": 1,
+   "pre": 0.154,
+   "post": 0.077,
+   "abs_gain": -0.077,
+   "norm_gain": -0.091,
+   "n_learned": 0,
+   "learned": "",
+   "gap_coverage": 0.0,
+   "leakage_rate": 0.0,
+   "chitchat_rate": 0.75,
+   "turns": 24,
+   "validator_first_pass": null,
+   "validator_final_pass": null,
+   "trace": "results/resub/xjudge_fill/exp_xjudge_fill_vanilla_zero_s1_1795501454.json"
+  }
+ ],
+ "summary": {
+  "vanilla": {
+   "norm_gain": [
+    -0.091,
+    0.0
+   ],
+   "abs_gain": [
+    -0.077,
+    0.0
+   ],
+   "n_learned": [
+    0.0,
+    0.0
+   ],
+   "gap_coverage": [
+    0.0,
+    0.0
+   ],
+   "leakage_rate": [
+    0.0,
+    0.0
+   ],
+   "chitchat_rate": [
+    0.75,
+    0.0
+   ],
+   "n_runs": 1
+  }
+ },
+ "tests": {},
+ "config": {
+  "turns": 24,
+  "seeds": [
+   1
+  ],
+  "conditions": [
+   "vanilla"
+  ],
+  "profiles": [
+   "zero"
+  ],
+  "domain": "early_math",
+  "alpha_scale": 1.0,
+  "gate": "hard",
+  "mastery_threshold": 0.8,
+  "tutor_model": "qwen35_tutor",
+  "student_model": "qwen08_student",
+  "judge_model": "gemma4_31b",
+  "validator_model": null,
+  "tag": "xjudge_fill"
+ }
+}

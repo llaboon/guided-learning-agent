@@ -1,0 +1,1307 @@
+{
+ "condition": "informed",
+ "student_profile": {
+  "pid": "scatter",
+  "name": "跳跳",
+  "age": 5,
+  "mastered": [
+   "counting_10",
+   "pattern_ab",
+   "position_direction",
+   "quantity_compare",
+   "shape_basic"
+  ],
+  "attention": 0.85,
+  "beg_for_answer": 0.0,
+  "persona_extra": ""
+ },
+ "transcript": [
+  {
+   "role": "student",
+   "text": "老师……我不知道要学什么。"
+  },
+  {
+   "role": "tutor",
+   "text": "没关系，宝贝！老师今天带了好多可爱的小动物和玩具，我们一起玩个“找不同”的游戏好吗？\n\n你看，这是圆圆的苹果，这是方方的饼干，你摸摸看，哪个是圆圆的呀？"
+  },
+  {
+   "role": "student",
+   "text": "我知道，是苹果！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你真聪明！那这个方方的饼干，它的名字叫什么呀？"
+  },
+  {
+   "role": "student",
+   "text": "我知道，是正方形！"
+  },
+  {
+   "role": "tutor",
+   "text": "太棒了！那这个像耳朵一样的图形（举起三角形卡片），它叫什么名字呀？"
+  },
+  {
+   "role": "student",
+   "text": "嗯……不会。"
+  },
+  {
+   "role": "tutor",
+   "text": "没关系，三角形就像一座小山坡，尖尖的是山顶，平平的是山脚。你看，它有三条边，三个角，所以叫“三角形”！\n\n那现在请你指一指，哪个是三角形呀？（拿出圆形、正方形、三角形卡片）"
+  },
+  {
+   "role": "student",
+   "text": "不对！是正方形！"
+  },
+  {
+   "role": "tutor",
+   "text": "哎呀，宝宝可能看错啦！我们再仔细看看，三角形是像小山坡一样尖尖的，有三个角哦。\n\n那在这个盘子里，哪一个是像小山坡一样尖尖的三角形呢？（拿出圆形、正方形、三角形卡片）"
+  },
+  {
+   "role": "student",
+   "text": "是三角形！"
+  },
+  {
+   "role": "tutor",
+   "text": "对啦！你太棒啦！三角形就是像小山坡一样尖尖的。\n\n那现在请宝宝指一指，哪个是像盘子一样圆圆的圆形呀？"
+  },
+  {
+   "role": "student",
+   "text": "对啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你眼睛真亮！圆形真的就像圆圆的盘子一样。\n\n那最后，这个长长的、像门一样的图形叫什么呀？（出示长方形卡片）"
+  },
+  {
+   "role": "student",
+   "text": "是长方形！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇！你太厉害啦，把四个图形都认全了！\n\n那我们来玩个游戏，老师把小熊藏到盒子的**里面**，把小鸭子放在盒子的**外面**，你能指给老师看吗？"
+  },
+  {
+   "role": "student",
+   "text": "看起来很厉害！"
+  },
+  {
+   "role": "tutor",
+   "text": "哈哈，小熊和小鸭子是在玩捉迷藏呢！\n\n那现在请你指一指，**小熊**躲在盒子的哪里呀？是**里面**还是**外面**？"
+  },
+  {
+   "role": "student",
+   "text": "里面呀！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你找对啦！小熊确实在盒子的**里面**！\n\n那小鸭子在哪里呢？是在盒子的**里面**还是**外面**呀？"
+  },
+  {
+   "role": "student",
+   "text": "外面！"
+  },
+  {
+   "role": "tutor",
+   "text": "太棒啦！你真是火眼金睛！\n\n那现在，请把小熊从盒子里拿出来，放到盒子的**上面**，你能做到吗？"
+  },
+  {
+   "role": "student",
+   "text": "可以呀！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你真棒！现在小熊在盒子的**上面**啦！\n\n那小鸭子还在**外面**，如果老师把小鸭子放到盒子的**下面**，你能指给老师看吗？"
+  },
+  {
+   "role": "student",
+   "text": "在盒子的下面吗？"
+  },
+  {
+   "role": "tutor",
+   "text": "对啦！小鸭子就在盒子的**下面**哦！\n\n那现在，请把小鸭子从盒子的**下面**拿出来，放到盒子的**前面**，你能做到吗？"
+  },
+  {
+   "role": "student",
+   "text": "可以呀！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你做得太棒啦！现在小鸭子在盒子的**前面**了。\n\n那小熊呢？刚才我们把它放在了盒子的**上面**，现在你能指一指小熊在哪里吗？"
+  },
+  {
+   "role": "student",
+   "text": "我在盒子的上面！"
+  },
+  {
+   "role": "tutor",
+   "text": "哈哈，小熊在盒子的**上面**，你找对啦！\n\n那现在，请把小熊从上面拿下来，放到盒子的**后面**，你能做到吗？"
+  },
+  {
+   "role": "student",
+   "text": "明天还要来玩捉迷藏吗？"
+  },
+  {
+   "role": "tutor",
+   "text": "明天当然还要来玩！捉迷藏游戏特别好玩，老师也最喜欢和你一起玩啦！\n\n不过现在，我们先来玩个“数数歌”游戏好不好？\n\n伸出你的小手指，跟着老师一起数：1、2、3、4、5……你能数到 10 吗？"
+  },
+  {
+   "role": "student",
+   "text": "我知道，是10！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你数得真快，从 1 数到 10 太厉害啦！\n\n那我们来玩个“数苹果”的游戏吧！老师这里有 3 个红苹果（指着三个苹果），请你用手指一个一个点着数，告诉老师一共有几个？"
+  },
+  {
+   "role": "student",
+   "text": "9！对不对呀？"
+  },
+  {
+   "role": "tutor",
+   "text": "哎呀，宝贝，我们再轻轻点一次好不好？\n\n伸出小手指，点一个苹果，数一个数：1、2、3……\n最后数到几呀？一共有几个苹果呢？"
+  },
+  {
+   "role": "student",
+   "text": "九。对了！"
+  },
+  {
+   "role": "tutor",
+   "text": "哎呀，宝贝，我们再轻轻点一次好不好？\n\n伸出小手指，点一个苹果，数一个数：1、2、3……\n最后数到几呀？一共有几个苹果呢？"
+  },
+  {
+   "role": "student",
+   "text": "好呀好呀！点点点点，数一个数，依次是 1、2、3……最后数到 3。一共有三个苹果！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇！你终于数对啦！这就是“点数”的魔法，点一个数一个，最后数到几，就一共有几个！\n\n那现在，老师这里有**4**块小饼干（展示4块），你能像刚才一样，用手指点着数一数，一共有几块吗？"
+  },
+  {
+   "role": "student",
+   "text": "5！对不对呀？"
+  },
+  {
+   "role": "tutor",
+   "text": "哎呀，宝贝，我们再来一次，这次我们要**慢一点**哦！\n\n伸出小手指，指着饼干，一个、两个、三个、四个……\n最后数到几呀？一共有几块饼干呢？"
+  },
+  {
+   "role": "student",
+   "text": "嗯……3！"
+  },
+  {
+   "role": "tutor",
+   "text": "没关系，我们再来一次，这次老师帮你一起数，好吗？\n\n伸出小手指，我们一起点：1、2、3、4……\n最后数到几呀？一共有几块饼干呢？"
+  },
+  {
+   "role": "student",
+   "text": "好呀好呀！我们一起点，一个一个点，最后数到 4！一共有四块饼干！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇！你太棒啦！终于数对了！记住哦，最后数到的那个数字，就是总数！\n\n那现在，老师这里有**1**个大大的皮球（展示一个球），你能指一指，一共有几个球吗？"
+  },
+  {
+   "role": "student",
+   "text": "1！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇！你太聪明啦！1 个皮球就是 1 个，你数对啦！\n\n那现在，老师手里有**1**只小青蛙，又拿来了**1**只小青蛙，把它们放在一起，一共有几只小青蛙呀？"
+  },
+  {
+   "role": "student",
+   "text": "1！对不对呀？"
+  }
+ ],
+ "directives": [],
+ "annotations": [
+  {
+   "skill": "shape_basic",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "苹果",
+   "turn": 0,
+   "drawn_correct": true
+  },
+  {
+   "skill": "shape_basic",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "正方形",
+   "turn": 1,
+   "drawn_correct": true
+  },
+  {
+   "skill": "shape_basic",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "三角形",
+   "turn": 2,
+   "drawn_correct": false
+  },
+  {
+   "skill": "shape_basic",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 3,
+   "drawn_correct": true
+  },
+  {
+   "skill": "shape_basic",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "三角形",
+   "turn": 4,
+   "drawn_correct": true
+  },
+  {
+   "skill": "shape_basic",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 5,
+   "drawn_correct": true
+  },
+  {
+   "skill": "shape_basic",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "长方形",
+   "turn": 6,
+   "drawn_correct": true
+  },
+  {
+   "skill": "position_direction",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 7,
+   "drawn_correct": true
+  },
+  {
+   "skill": "position_direction",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 8,
+   "drawn_correct": true
+  },
+  {
+   "skill": "position_direction",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 9,
+   "drawn_correct": true
+  },
+  {
+   "skill": "position_direction",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 10,
+   "drawn_correct": true
+  },
+  {
+   "skill": "position_direction",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 11,
+   "drawn_correct": true
+  },
+  {
+   "skill": "position_direction",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 12,
+   "drawn_correct": true
+  },
+  {
+   "skill": "position_direction",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "盒子的上面",
+   "turn": 13,
+   "drawn_correct": null
+  },
+  {
+   "skill": "position_direction",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 14,
+   "drawn_correct": true
+  },
+  {
+   "skill": "counting_10",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "10",
+   "turn": 15,
+   "drawn_correct": true
+  },
+  {
+   "skill": "counting_objects",
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "3",
+   "turn": 16,
+   "drawn_correct": false
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 17,
+   "drawn_correct": null
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 18,
+   "drawn_correct": false
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "4",
+   "turn": 19,
+   "drawn_correct": false
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "4",
+   "turn": 20,
+   "drawn_correct": false
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 21,
+   "drawn_correct": true
+  },
+  {
+   "skill": "counting_objects",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "1",
+   "turn": 22,
+   "drawn_correct": true
+  },
+  {
+   "skill": "addition_5",
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "2",
+   "turn": 23,
+   "drawn_correct": false
+  }
+ ],
+ "belief_snapshots": [],
+ "final_belief": null,
+ "state_events": [
+  {
+   "turn": 0,
+   "skill": "shape_basic",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 1,
+   "skill": "shape_basic",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 2,
+   "skill": "shape_basic",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 3,
+   "skill": "shape_basic",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 4,
+   "skill": "shape_basic",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 5,
+   "skill": "shape_basic",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 6,
+   "skill": "shape_basic",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 7,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 8,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 9,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 10,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 11,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 12,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 13,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 14,
+   "skill": "position_direction",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 15,
+   "skill": "counting_10",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 16,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.1067,
+   "m": 0.1067
+  },
+  {
+   "turn": 17,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.1172,
+   "m": 0.2238
+  },
+  {
+   "turn": 18,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.2113,
+   "m": 0.4352
+  },
+  {
+   "turn": 19,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.2207,
+   "m": 0.6559
+  },
+  {
+   "turn": 20,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.1615,
+   "m": 0.8175
+  },
+  {
+   "turn": 20,
+   "skill": "counting_objects",
+   "event": "learned"
+  },
+  {
+   "turn": 21,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.1825,
+   "m": 1.0
+  },
+  {
+   "turn": 22,
+   "skill": "counting_objects",
+   "event": "progress",
+   "delta": 0.0,
+   "m": 1.0
+  },
+  {
+   "turn": 23,
+   "skill": "addition_5",
+   "event": "blocked_prereq"
+  }
+ ],
+ "final_state": {
+  "mastered": [
+   "counting_10",
+   "counting_objects",
+   "pattern_ab",
+   "position_direction",
+   "quantity_compare",
+   "shape_basic"
+  ],
+  "m": {
+   "counting_10": 1.0,
+   "shape_basic": 1.0,
+   "position_direction": 1.0,
+   "pattern_ab": 1.0,
+   "counting_objects": 1.0,
+   "number_recognition": 0.0,
+   "shape_compose": 0.0,
+   "pattern_abc": 0.0,
+   "quantity_compare": 1.0,
+   "ordinal": 0.0,
+   "zero_concept": 0.0,
+   "shape_count": 0.0,
+   "number_pattern": 0.0,
+   "classify_attr": 0.0,
+   "composition_5": 0.0,
+   "addition_5": 0.0,
+   "subtraction_5": 0.0,
+   "composition_10": 0.0,
+   "addition_10": 0.0,
+   "subtraction_10": 0.0,
+   "word_problem_10": 0.0
+  }
+ },
+ "n_turns": 24,
+ "validation_log": null,
+ "seed": 1,
+ "pre_scores": {
+  "counting_10": 1.0,
+  "shape_basic": 1.0,
+  "position_direction": 1.0,
+  "pattern_ab": 1.0,
+  "counting_objects": 0.5,
+  "number_recognition": 0.0,
+  "shape_compose": 0.5,
+  "pattern_abc": 0.0,
+  "quantity_compare": 0.5,
+  "ordinal": 0.5,
+  "zero_concept": 0.5,
+  "shape_count": 0.0,
+  "number_pattern": 0.0,
+  "classify_attr": 0.5,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.5,
+  "addition_10": 0.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.0
+ },
+ "post_scores": {
+  "counting_10": 1.0,
+  "shape_basic": 0.5,
+  "position_direction": 1.0,
+  "pattern_ab": 1.0,
+  "counting_objects": 1.0,
+  "number_recognition": 0.0,
+  "shape_compose": 0.0,
+  "pattern_abc": 0.0,
+  "quantity_compare": 1.0,
+  "ordinal": 0.0,
+  "zero_concept": 0.0,
+  "shape_count": 0.0,
+  "number_pattern": 0.5,
+  "classify_attr": 0.0,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.0,
+  "addition_10": 1.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.0
+ },
+ "pre_test": {
+  "counting_10": [
+   {
+    "q": "你能从1数到5给我听吗？数完告诉我5的后面是几。",
+    "expected": "6",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "3的后面一个数是几？",
+    "expected": "4",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "shape_basic": [
+   {
+    "q": "这个圆圆的、没有角的图形叫什么？",
+    "expected": "圆形",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "有四条一样长的边、四个直角的图形叫什么？",
+    "expected": "正方形",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "position_direction": [
+   {
+    "q": "小球被放进盒子里面了，小球在哪里？",
+    "expected": "里面",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "小鸟在树的上方飞，是在树的上面还是下面？",
+    "expected": "上面",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "pattern_ab": [
+   {
+    "q": "红色、蓝色、红色、蓝色……接下来是什么颜色？",
+    "expected": "红色",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "苹果、香蕉、苹果、香蕉……接下来是什么？",
+    "expected": "苹果",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "这里有6只小鸭子（嘎嘎嘎），你数一数，一共有几只小鸭子？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "桌上摆了4块积木，你点着数一数，一共有几块？",
+    "expected": "4",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"7\"这个数字，念作什么？",
+    "expected": "七",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"3\"这个数字念什么？",
+    "expected": "三",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "shape_compose": [
+   {
+    "q": "两个一样大的三角形拼在一起，可以拼成什么形状？",
+    "expected": "正方形",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "两个正方形并排拼在一起，会变成什么形状？",
+    "expected": "长方形",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "pattern_abc": [
+   {
+    "q": "红色、红色、蓝色、红色、红色、蓝色……接下来是什么颜色？",
+    "expected": "红色",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "大、小、中、大、小、中……接下来是什么？",
+    "expected": "大",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小明有3颗糖，小红有5颗糖，谁的糖多？",
+    "expected": "小红",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "4个苹果和6个苹果，哪个多？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时从前往后数，小明前面有2个人，小明排第几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第4个后面紧跟着的是第几个？",
+    "expected": "5",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "盘子里的3块蛋糕都被吃光啦，现在盘子里有几块蛋糕？",
+    "expected": "0",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "\"一个也没有\"用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "shape_count": [
+   {
+    "q": "图里摆着2个圆形和3个三角形，三角形一共有几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "一排图形：圆形、三角形、圆形、三角形，圆形一共有几个？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "number_pattern": [
+   {
+    "q": "1、2、3、4、接下来是几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "2、4、6、接下来是几？",
+    "expected": "8",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "classify_attr": [
+   {
+    "q": "红色积木3块、蓝色积木2块，按颜色分能分成几类？",
+    "expected": "2",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "把圆形和三角形分开摆放，是按形状还是按大小分的？",
+    "expected": "形状",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "4个苹果分给两个小朋友，一个拿1个，另一个拿几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5可以分成2和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "2加2等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有1颗糖，妈妈又给你3颗，现在一共几颗？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "4减1等于几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有5颗糖，吃掉2颗，还剩几颗？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "8可以分成5和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成6和几？",
+    "expected": "4",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "6加3等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4加5等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "9减4等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "8减3等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "小明有4张贴纸，姐姐又给他3张，他送给同学2张。现在小明有几张贴纸？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "篮子里有5个橘子，再放进3个，一共几个橘子？",
+    "expected": "8",
+    "reply": "",
+    "correct": false
+   }
+  ]
+ },
+ "post_test": {
+  "counting_10": [
+   {
+    "q": "你从1数到10，7的后面是几呀？",
+    "expected": "8",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "5的后面一个数是几？",
+    "expected": "6",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "shape_basic": [
+   {
+    "q": "由三条边围成的图形叫什么？",
+    "expected": "三角形",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "有两个长边、两个短边的图形叫什么？",
+    "expected": "长方形",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "position_direction": [
+   {
+    "q": "小鱼在水里游，水里是小鱼的里面还是外面？",
+    "expected": "里面",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "小猫藏在门后面，是在门的前面还是后面？",
+    "expected": "后面",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "pattern_ab": [
+   {
+    "q": "圆形、三角形、圆形、三角形……接下来是什么形状？",
+    "expected": "圆形",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "拍手、跺脚、拍手、跺脚……接下来做什么？",
+    "expected": "拍手",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "盘子里放了7颗草莓，你数一数，一共有几颗草莓？",
+    "expected": "7",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "地上有5辆小汽车，你点着数一数，一共有几辆？",
+    "expected": "5",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"9\"这个数字，念作什么？",
+    "expected": "九",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"5\"这个数字念什么？",
+    "expected": "五",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "shape_compose": [
+   {
+    "q": "一个正方形从中间剪开，变成两个什么形状？",
+    "expected": "三角形",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "四个小正方形可以拼成一个大什么？",
+    "expected": "正方形",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "pattern_abc": [
+   {
+    "q": "苹果、苹果、梨、苹果、苹果、梨……接下来是什么？",
+    "expected": "苹果",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "三角形、圆形、圆形、三角形、圆形、圆形……接下来是什么形状？",
+    "expected": "三角形",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小狗有2根骨头，小猫有4条小鱼，谁的食物多？",
+    "expected": "小猫",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "7个气球和5个气球，哪个多？",
+    "expected": "7",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时小红前面有3个人，小红排第几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第2个后面紧跟着的是第几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "鱼缸里的鱼都被捞走了，一条也不剩，鱼缸里有几条鱼？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "口袋空空的，什么都没有，用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "shape_count": [
+   {
+    "q": "图里有4个正方形和2个三角形，正方形一共有几个？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "一排图形：三角形、圆形、三角形、圆形、三角形，三角形一共有几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "number_pattern": [
+   {
+    "q": "5、6、7、接下来是几？",
+    "expected": "8",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "1、3、5、接下来是几？",
+    "expected": "7",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "classify_attr": [
+   {
+    "q": "大球2个、小球3个，按大小分能分成几类？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "气球按红色一堆、蓝色一堆摆放，是按颜色还是按大小分的？",
+    "expected": "颜色",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "5个糖果分给两个小朋友，一个拿4个，另一个拿几个？",
+    "expected": "1",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4可以分成2和几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "3加2等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有2个气球，爸爸又给你2个，一共几个？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "5减3等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "树上有4只小鸟，飞走1只，还剩几只？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "9可以分成4和几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成7和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "7加2等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "5加4等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "10减6等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "7减5等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "车上原来有7个人，到站下去3个，又上来1个，现在车上有几个人？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "枝头有9颗樱桃，小鸟吃掉4颗，还剩几颗？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ]
+ },
+ "gain": {
+  "pre": 0.188,
+  "post": 0.156,
+  "abs_gain": -0.031,
+  "norm_gain": -0.038
+ },
+ "annotation_metrics": {
+  "touched_skills": [
+   "addition_5",
+   "counting_10",
+   "counting_objects",
+   "position_direction",
+   "shape_basic"
+  ],
+  "coverage_all": 0.238,
+  "gap_coverage": 0.125,
+  "substantive_turns": 24,
+  "chitchat_rate": 0.0,
+  "leakage_rate": 0.0
+ },
+ "learned_skills": [
+  "counting_objects"
+ ]
+}

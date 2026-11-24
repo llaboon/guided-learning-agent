@@ -1,0 +1,16 @@
+{
+  "trace_count": 171,
+  "source_sha256": {
+    "experiment_1788234362.json": "87d60155209e1990380bb72db80692960cd333b4b0b30ec49f9ab7df03eff21d",
+    "experiment_1788235140.json": "8a6fa0a1f3cd9c0159557708d921d28daa5a6480c2c9727ee534e7232b27607c",
+    "experiment_1789362913.json": "bbb0d5df41da5f949729236fcad17f2f82c5ae1666945a0c8dccd32186f2587e",
+    "experiment_1789365289.json": "22cd1202ac7ede830038d8978cd2233a38b6b45f5f1b2c78693fd6690557b0ed",
+    "experiment_1788235427.json": "a985ddac5338ad2ee6094cd1df812b21e12237fcd6d844eff010b77365ad1aec",
+    "experiment_1788235689.json": "756565e1c150ea70ff9f3ef235ae53e711ad37f60922f8e2adaf42fd7adcfc8a",
+    "rubric_annotate_1789367289.json": "aa025a281eec562739e927ad24874ac784d5aaad44a1dc51fda376d6a709d0f5",
+    "rubric_quality_1789368330.json": "790cfe9fb787d7a51c49b5f038b9df978db0c3c0d87e93695d69a4d5d20c3b1c"
+  },
+  "branched_replacement": "The vanilla/beggar/seed-1 row in experiment_1789362913.json is replaced by experiment_1789365289.json (24-turn recovery of an interrupted session).",
+  "statistics": "Session-level two-sided pooled permutation tests (20,000 draws, seed 7), with (hits+1)/(B+1). Exact paired sign-flip sensitivity by profile/seed is also supplied. All p-values are exploratory and unadjusted.",
+  "order": "Rows sorted by condition/profile/seed; Monte Carlo values may differ slightly from historical reports using completion order."
+}

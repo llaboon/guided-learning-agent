@@ -1,0 +1,870 @@
+{
+ "condition": "socratic",
+ "student_profile": {
+  "pid": "beggar",
+  "name": "皮皮",
+  "age": 5,
+  "mastered": [
+   "counting_10"
+  ],
+  "attention": 0.85,
+  "beg_for_answer": 0.4,
+  "persona_extra": "6. 你特别爱撒娇耍赖，经常想让老师直接告诉你答案。"
+ },
+ "transcript": [
+  {
+   "role": "student",
+   "text": "老师……我不知道要学什么。"
+  },
+  {
+   "role": "tutor",
+   "text": "没关系呀，老师可以和你一起玩“找朋友”的游戏，你想找什么颜色的好朋友呢？\n是像太阳一样红红的，还是像天空一样蓝蓝的？\n那你先指一指，你最喜欢哪个颜色？"
+  },
+  {
+   "role": "student",
+   "text": "老师，那我要像红色太阳一样红红，像蓝色天空蓝蓝的。"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你选的颜色真漂亮，像画里一样好看！\n那你能伸出手指，指一指房间里有什么东西是红色的吗？"
+  },
+  {
+   "role": "student",
+   "text": "红色的，还有红色的！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你观察得真仔细，发现了这么多红色的东西！\n那除了红色，你能不能帮老师找找，房间里有没有什么东西是蓝色的呀？"
+  },
+  {
+   "role": "student",
+   "text": "蓝色的？哇！我好像看见了蓝色的！"
+  },
+  {
+   "role": "tutor",
+   "text": "你真棒，眼睛亮晶晶的，一下子就找到了蓝色的东西！\n快告诉老师，你看见的是蓝色的什么呢？是蓝色的玩具，还是蓝色的杯子呀？"
+  },
+  {
+   "role": "student",
+   "text": "蓝色的杯子！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太聪明啦，一下子猜对是蓝色的杯子！\n那我们来比一比，红色的东西和蓝色的杯子，哪一个更重呢？"
+  },
+  {
+   "role": "student",
+   "text": "哦，老师你怎么知道红色比蓝色重？"
+  },
+  {
+   "role": "tutor",
+   "text": "哎呀，老师刚才只是问问你，想让你自己猜猜看呀，并没有真的知道谁重哦。\n红色的东西和蓝色的杯子，它们谁更重，我们要不要一起动手试一试？\n你愿意先拿起红色的东西，再拿起蓝色的杯子，感觉一下吗？"
+  },
+  {
+   "role": "student",
+   "text": "老师，我是红色的……红色比蓝色重！"
+  },
+  {
+   "role": "tutor",
+   "text": "哈哈，原来你是那个红红的东西呀，真有趣！\n可是呀，颜色本身是没有重量的哦，我们得看看你拿的是什么东西，是轻飘飘的积木，还是沉甸甸的石头呢？\n你快摸摸看，那个红色的东西是轻还是重呀？"
+  },
+  {
+   "role": "student",
+   "text": "积木！积木！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，原来红色的东西是积木呀，你说得真清楚！\n那积木和蓝色的杯子，哪一个拿在手心里感觉更沉一点呢？\n你快再拿起来比一比，告诉老师你的感觉吧！"
+  },
+  {
+   "role": "student",
+   "text": "积木！积木拿在手里感觉重一点！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你感觉真准，积木拿在手里确实比空杯子沉呢！\n那你再想想，如果杯子是空的，和装满水的杯子比，哪个会更重呀？\n你愿意猜一猜吗？"
+  },
+  {
+   "role": "student",
+   "text": "杯子装满水就比空的杯子重！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太聪明啦，说得完全对！水也是有重量的，装满了水杯子就会变沉。\n那如果我们在杯子里放一块大积木，杯子会不会变得更重呢？\n你猜一猜，是放积木前重，还是放积木后重呀？"
+  },
+  {
+   "role": "student",
+   "text": "积木和杯子在一起，哪个更重？"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你问得真好！这个问题就像在变魔术一样有趣。\n我们可以先拿起来试试看，是空杯子沉，还是把积木放进杯子里后更沉呢？\n你愿意现在就来比一比吗？"
+  },
+  {
+   "role": "student",
+   "text": "积木和杯子在一起，哪个更重？"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你问得真棒！这个问题就像在变魔术一样有趣。\n我们可以先拿起来试试看，是空杯子沉，还是把积木放进杯子里后更沉呢？\n你愿意现在就来比一比吗？"
+  },
+  {
+   "role": "student",
+   "text": "积木比杯子重呀！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你猜得真准！积木确实比空杯子要重一些呢，你感觉真灵敏！\n那如果我们把积木放进杯子里，再把杯子举起来，现在是不是感觉更沉啦？\n你愿意再举起来试一试，告诉老师现在的感觉吗？"
+  },
+  {
+   "role": "student",
+   "text": "积木和杯子在一起，感觉更沉啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你感觉太准啦！东西越多，加起来就会越重哦！\n那如果现在再拿一个轻飘飘的羽毛放进杯子里，杯子会变重还是变轻呢？\n你猜一猜，羽毛会让杯子变得重一点点吗？"
+  },
+  {
+   "role": "student",
+   "text": "羽毛会让杯子变轻！"
+  },
+  {
+   "role": "tutor",
+   "text": "哎呀，你好像有点小迷糊啦，羽毛放上去不会变轻哦，它会像小蚂蚁一样，让杯子变得**重**一点点呢！\n虽然羽毛很轻，但加上去还是会让杯子变沉一点点，就像多拿了一小粒米一样。\n你愿意再猜猜看，如果放很多很多羽毛，杯子会不会变得更重呀？"
+  },
+  {
+   "role": "student",
+   "text": "哇，羽毛也追着我转啦！会让杯子变得重一点！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你回答对啦！羽毛虽然轻，但放上去确实会让杯子变重一点点呢！\n你现在的感觉真棒，像个小科学家一样！\n那如果我们把积木拿出来，只留羽毛在杯子里，杯子会比刚才轻还是重呀？"
+  },
+  {
+   "role": "student",
+   "text": "羽毛轻一点，杯子变轻啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太聪明啦！把重重的积木拿走，杯子确实变轻啦！\n那你再想想，如果我们把羽毛也拿走，杯子是不是变得更轻、更轻啦？\n你愿意现在就把羽毛拿出来，用手感受一下吗？"
+  },
+  {
+   "role": "student",
+   "text": "羽毛轻，杯子变轻！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你做得太棒啦！把羽毛拿走，杯子真的变得轻飘飘的，像小鸟一样！\n那现在杯子里什么都没有啦，它是变轻了，还是变重了呀？\n你愿意再摸摸看，空空的杯子是不是最轻的呢？"
+  },
+  {
+   "role": "student",
+   "text": "哇，空杯子最轻啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太厉害啦！空空的杯子确实是最轻的，像羽毛一样轻飘飘的！\n那如果我们要让杯子变得**最重**最重，你觉得应该往里面装什么呢？\n是装小石子，还是装很多很多的水呀？"
+  },
+  {
+   "role": "student",
+   "text": "我要把水装进去，水最沉哦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你猜得太准啦！装满水的杯子确实比装石子和空杯子都要重呢！\n那你觉得，如果往杯子里放一块大石头，杯子会不会比装水的时候更重呀？\n你愿意猜一猜，石头和水谁更沉吗？"
+  },
+  {
+   "role": "student",
+   "text": "石头在水里沉吗？"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你问了一个超级棒的问题！石头掉进水里，是会像小石头一样“扑通”一下沉到水底哦。\n那杯子里的石头，是浮在水面上，还是沉到杯底了呢？\n你猜一猜，石头在水里是往上飘，还是往下沉呀？"
+  },
+  {
+   "role": "student",
+   "text": "石头沉到杯底啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你观察得真仔细！石头确实会“扑通”一下沉到杯底，像个小潜水员！\n那现在杯子里既有水又有沉底的石头，这个杯子是不是比刚才只有水的时候更重啦？\n你愿意伸出手，试着提一提这个装满水和石头的杯子，感觉一下吗？"
+  },
+  {
+   "role": "student",
+   "text": "哇，我的杯子变重啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你感觉真准！因为杯子里装了水和沉甸甸的石头，所以变得更重啦！\n那你觉得，如果我们把石头拿出来，只留水，杯子会不会比现在轻一点呢？\n你愿意猜一猜，是石头和水在一起重，还是只有水重呀？"
+  },
+  {
+   "role": "student",
+   "text": "只留水就轻啦！"
+  },
+  {
+   "role": "tutor",
+   "text": "哇，你太聪明啦！把重重的石头拿走，杯子确实变轻了呢！\n那现在杯子里只有水，如果我再往里面放一个小小的泡沫球，杯子会变重还是变轻呀？\n你愿意猜一猜，小小的泡沫球会让杯子变沉吗？"
+  },
+  {
+   "role": "student",
+   "text": "泡沫球轻得我能感觉到！杯子肯定会变轻哦。"
+  }
+ ],
+ "directives": [],
+ "annotations": [
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 0,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 1,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 2,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 3,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 4,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 5,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 6,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 7,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "装满水的杯子",
+   "turn": 8,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "放积木后重",
+   "turn": 9,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 10,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "chitchat",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 11,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "更沉了/是的",
+   "turn": 12,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "重",
+   "turn": 13,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "会",
+   "turn": 14,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "轻",
+   "turn": 15,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "both",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "是",
+   "turn": 16,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "变轻了",
+   "turn": 17,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "小石子",
+   "turn": 18,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": null,
+   "turn": 19,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "沉到杯底/往下沉",
+   "turn": 20,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "是",
+   "turn": 21,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "石头和水在一起重",
+   "turn": 22,
+   "drawn_correct": null
+  },
+  {
+   "skill": null,
+   "act": "ask",
+   "comprehensible": true,
+   "leaked": false,
+   "expected": "变重",
+   "turn": 23,
+   "drawn_correct": null
+  }
+ ],
+ "belief_snapshots": [],
+ "final_belief": null,
+ "state_events": [],
+ "final_state": {
+  "mastered": [
+   "counting_10"
+  ],
+  "m": {
+   "counting_10": 1.0,
+   "counting_objects": 0.0,
+   "number_recognition": 0.0,
+   "quantity_compare": 0.0,
+   "ordinal": 0.0,
+   "zero_concept": 0.0,
+   "composition_5": 0.0,
+   "addition_5": 0.0,
+   "subtraction_5": 0.0,
+   "composition_10": 0.0,
+   "addition_10": 0.0,
+   "subtraction_10": 0.0,
+   "word_problem_10": 0.0
+  }
+ },
+ "n_turns": 24,
+ "validation_log": null,
+ "seed": 3,
+ "pre_scores": {
+  "counting_10": 1.0,
+  "counting_objects": 0.0,
+  "number_recognition": 0.0,
+  "quantity_compare": 0.5,
+  "ordinal": 0.0,
+  "zero_concept": 0.0,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.0,
+  "addition_10": 0.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.5
+ },
+ "post_scores": {
+  "counting_10": 1.0,
+  "counting_objects": 0.0,
+  "number_recognition": 0.0,
+  "quantity_compare": 0.0,
+  "ordinal": 0.0,
+  "zero_concept": 0.0,
+  "composition_5": 0.0,
+  "addition_5": 0.0,
+  "subtraction_5": 0.0,
+  "composition_10": 0.0,
+  "addition_10": 0.0,
+  "subtraction_10": 0.0,
+  "word_problem_10": 0.0
+ },
+ "pre_test": {
+  "counting_10": [
+   {
+    "q": "你能从1数到5给我听吗？数完告诉我5的后面是几。",
+    "expected": "6",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "3的后面一个数是几？",
+    "expected": "4",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "这里有6只小鸭子（嘎嘎嘎），你数一数，一共有几只小鸭子？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "桌上摆了4块积木，你点着数一数，一共有几块？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"7\"这个数字，念作什么？",
+    "expected": "七",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"3\"这个数字念什么？",
+    "expected": "三",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小明有3颗糖，小红有5颗糖，谁的糖多？",
+    "expected": "小红",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "4个苹果和6个苹果，哪个多？",
+    "expected": "6",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时从前往后数，小明前面有2个人，小明排第几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第4个后面紧跟着的是第几个？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "盘子里的3块蛋糕都被吃光啦，现在盘子里有几块蛋糕？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"一个也没有\"用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "4个苹果分给两个小朋友，一个拿1个，另一个拿几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5可以分成2和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "2加2等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有1颗糖，妈妈又给你3颗，现在一共几颗？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "4减1等于几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有5颗糖，吃掉2颗，还剩几颗？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "8可以分成5和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成6和几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "6加3等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4加5等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "9减4等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "8减3等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "小明有4张贴纸，姐姐又给他3张，他送给同学2张。现在小明有几张贴纸？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "篮子里有5个橘子，再放进3个，一共几个橘子？",
+    "expected": "8",
+    "reply": "",
+    "correct": true
+   }
+  ]
+ },
+ "post_test": {
+  "counting_10": [
+   {
+    "q": "你从1数到10，7的后面是几呀？",
+    "expected": "8",
+    "reply": "",
+    "correct": true
+   },
+   {
+    "q": "5的后面一个数是几？",
+    "expected": "6",
+    "reply": "",
+    "correct": true
+   }
+  ],
+  "counting_objects": [
+   {
+    "q": "盘子里放了7颗草莓，你数一数，一共有几颗草莓？",
+    "expected": "7",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "地上有5辆小汽车，你点着数一数，一共有几辆？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "number_recognition": [
+   {
+    "q": "写出来的\"9\"这个数字，念作什么？",
+    "expected": "九",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "\"5\"这个数字念什么？",
+    "expected": "五",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "quantity_compare": [
+   {
+    "q": "小狗有2根骨头，小猫有4条小鱼，谁的食物多？",
+    "expected": "小猫",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "7个气球和5个气球，哪个多？",
+    "expected": "7",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "ordinal": [
+   {
+    "q": "排队时小红前面有3个人，小红排第几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "从左往右数，第2个后面紧跟着的是第几个？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "zero_concept": [
+   {
+    "q": "鱼缸里的鱼都被捞走了，一条也不剩，鱼缸里有几条鱼？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "口袋空空的，什么都没有，用哪个数字表示？",
+    "expected": "0",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_5": [
+   {
+    "q": "5个糖果分给两个小朋友，一个拿4个，另一个拿几个？",
+    "expected": "1",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "4可以分成2和几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_5": [
+   {
+    "q": "3加2等于几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "你有2个气球，爸爸又给你2个，一共几个？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_5": [
+   {
+    "q": "5减3等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "树上有4只小鸟，飞走1只，还剩几只？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "composition_10": [
+   {
+    "q": "9可以分成4和几？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "10可以分成7和几？",
+    "expected": "3",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "addition_10": [
+   {
+    "q": "7加2等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "5加4等于几？",
+    "expected": "9",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "subtraction_10": [
+   {
+    "q": "10减6等于几？",
+    "expected": "4",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "7减5等于几？",
+    "expected": "2",
+    "reply": "",
+    "correct": false
+   }
+  ],
+  "word_problem_10": [
+   {
+    "q": "车上原来有7个人，到站下去3个，又上来1个，现在车上有几个人？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   },
+   {
+    "q": "枝头有9颗樱桃，小鸟吃掉4颗，还剩几颗？",
+    "expected": "5",
+    "reply": "",
+    "correct": false
+   }
+  ]
+ },
+ "gain": {
+  "pre": 0.083,
+  "post": 0.0,
+  "abs_gain": -0.083,
+  "norm_gain": -0.091
+ },
+ "annotation_metrics": {
+  "touched_skills": [],
+  "coverage_all": 0.0,
+  "gap_coverage": 0.0,
+  "substantive_turns": 20,
+  "chitchat_rate": 0.167,
+  "leakage_rate": 0.0
+ },
+ "learned_skills": []
+}

@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - name: Simulator validation
+        run: python experiments/validate_state.py
+      - name: Interface check
+        run: python scripts/check_interfaces.py
+      - name: End-to-end dry run with mock models
+        run: python experiments/dryrun_mock.py
+      - name: Probe confirmation unit test
+        run: python scripts/test_probe_confirm.py
+      - name: Released results are internally consistent
+        run: python scripts/verify_release.py
+      - name: Replay sensitivity on released resubmission traces
+        run: |
+          python experiments/replay_sensitivity.py --results-dir results/resub/main,results/resub/main_fill1,results/resub/main_fill2 --out /tmp/replay.json
+          python experiments/summarize_replay.py /tmp/replay.json > /tmp/replay.txt
+          diff /tmp/replay.txt results/resub/analysis/replay_sensitivity.txt
+      - name: Paired analysis matches the released table
+        run: |
+          python experiments/analyze_paired.py results/resub/main/experiment_*.json results/resub/main_fill1/experiment_*.json results/resub/main_fill2/experiment_*.json results/resub/validated/experiment_*.json --ref gla_full --metrics norm_gain,n_learned,leakage_rate,chitchat_rate --brief | grep -E "^(SUM|PAIR)" > /tmp/main.txt
+          grep -E "^(SUM|PAIR)" results/resub/analysis/main.txt | diff /tmp/main.txt -
