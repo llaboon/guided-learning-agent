@@ -1,10 +1,10 @@
 import { h, icon, refreshIcons, CONDITIONS, condLabel, fmt, signed, actPill, utterance, masteryBars } from "./common.js";
 
 const PRESETS = [
-  { id: "openai", label: "OpenAI", url: "https://api.openai.com/v1", model: "gpt-4.1-mini" },
   { id: "openrouter", label: "OpenRouter", url: "https://openrouter.ai/api/v1", model: "qwen/qwen3-30b-a3b-instruct-2507" },
   { id: "deepseek", label: "DeepSeek", url: "https://api.deepseek.com/v1", model: "deepseek-chat" },
   { id: "dashscope", label: "Alibaba DashScope (compatible mode)", url: "https://dashscope.aliyuncs.com/compatible-mode/v1", model: "qwen-plus" },
+  { id: "openai", label: "OpenAI (needs a CORS proxy)", url: "https://api.openai.com/v1", model: "gpt-4.1-mini" },
   { id: "vllm", label: "Local vLLM (paper setup)", url: "http://localhost:8101/v1", model: "Qwen3.5-35B-A3B", nothink: true },
   { id: "custom", label: "Other OpenAI-compatible", url: "", model: "" },
 ];
@@ -218,7 +218,7 @@ export function initLive() {
   const sel = $("preset");
   for (const p of PRESETS) sel.append(h("option", { value: p.id }, p.label));
   sel.addEventListener("change", () => applyPreset(sel.value));
-  applyPreset("openai");
+  applyPreset("openrouter");
   const saved = sessionStorage.getItem(KEY_STORE);
   if (saved) { $("api-key").value = saved; $("remember-key").checked = true; }
 

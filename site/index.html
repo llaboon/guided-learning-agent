@@ -33,10 +33,10 @@
         <select id="preset"></select>
       </label>
       <label class="field"><span>Base URL</span>
-        <input type="url" id="base-url" placeholder="https://api.openai.com/v1" required>
+        <input type="url" id="base-url" placeholder="https://openrouter.ai/api/v1" required>
       </label>
       <label class="field"><span>Model</span>
-        <input type="text" id="model" placeholder="gpt-4.1-mini" required>
+        <input type="text" id="model" placeholder="qwen/qwen3-30b-a3b-instruct-2507" required>
       </label>
       <label class="field"><span>API key</span>
         <div class="row">
@@ -45,7 +45,7 @@
         </div>
       </label>
       <label class="row small"><input type="checkbox" id="remember-key"> Remember key in this browser tab</label>
-      <div class="notice">The key is sent only to the base URL above, from your browser. It is never sent to this site or written into traces.</div>
+      <div class="notice">The key is sent only to the base URL above, from your browser. It is never sent to this site or written into traces. The endpoint must allow browser (CORS) requests; OpenRouter, DeepSeek and DashScope do, OpenAI does not.</div>
 
       <details class="adv">
         <summary>Separate judge / child models</summary>
