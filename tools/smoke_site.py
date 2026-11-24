@@ -3,7 +3,10 @@
     python tools/smoke_site.py http://127.0.0.1:8765/ [--shots DIR]
 
 Runs an offline (mock-model) live session through Pyodide, opens the results
-and trace views, and fails on console errors or empty views.
+and trace views, and fails on console errors or empty views. With
+``--endpoint URL`` it also runs a short live session against that
+OpenAI-compatible endpoint with a dummy key and checks that the key never
+appears in the page.
 """
 
 import argparse
@@ -18,6 +21,7 @@ def main() -> int:
     ap.add_argument("url")
     ap.add_argument("--shots", default=None)
     ap.add_argument("--live-timeout", type=int, default=180)
+    ap.add_argument("--endpoint", default=None)
     args = ap.parse_args()
     shots = Path(args.shots) if args.shots else None
     if shots:
@@ -64,6 +68,29 @@ def main() -> int:
             over = page.evaluate("document.documentElement.scrollWidth - window.innerWidth")
             if over > 2:
                 errors.append(f"{name}: page overflows horizontally by {over}px")
+            page.close()
+        if args.endpoint:
+            page = browser.new_page()
+            page.on("pageerror", lambda e: errors.append(f"endpoint pageerror: {e}"))
+            page.goto(args.url + "#live")
+            page.wait_for_timeout(500)
+            page.select_option("#preset", "custom")
+            page.fill("#base-url", args.endpoint)
+            page.fill("#model", "stub-model")
+            page.fill("#api-key", "sk-smoke-NOTAREALKEY")
+            page.fill("#turns", "4")
+            page.click("#run-btn")
+            page.wait_for_function(
+                "() => /Finished/.test(document.getElementById('live-status').innerText)"
+                " || document.querySelector('#live-status .notice.bad')",
+                timeout=args.live_timeout * 1000)
+            status = page.inner_text("#live-status")
+            turns = page.locator(".session-card .turn").count()
+            print(f"[endpoint] status={status!r} turns={turns}")
+            if "Finished" not in status or turns < 1:
+                errors.append(f"endpoint session failed: {status}")
+            if "NOTAREALKEY" in page.content():
+                errors.append("API key visible in page DOM")
             page.close()
         browser.close()
     for e in errors:
